@@ -11,4 +11,4 @@ Tested in game on 2026-10-18: the new names show in the starting-age menu.
 
 To test locally, copy this folder's `Data` into `Rise of Nations/mods/Ages of Earth - Era Test/` and enable it under Tools & Extras > Steam Workshop.
 
-Rise of Animals: Ages of Earth was created under Microsoft's "Game Content Usage Rules" using assets from Rise of Nations, © Microsoft Corporation.
+Rise of Nations: Ages of Earth was created under Microsoft's "Game Content Usage Rules" using assets from Rise of Nations, © Microsoft Corporation.
