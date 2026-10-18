@@ -633,7 +633,9 @@ Obs.: El Dorado, Washington Monument e Lenin Statue estão desativadas (`disable
 - Ícones dos recursos (`icon_texs.xml`) também teriam que ser repintados.
 - A etapa visual dos prédios por era foi deduzida (AGE3 = Gunpowder, AGE5 = Industrial) e precisa ser confirmada numa partida.
 
-## Tecnologias v1 (18/10/2026, aguardando a Ana)
+## Tecnologias v1 (aprovadas pela Ana, 18/10/2026)
+
+> **Decisão:** v1 repete o mesmo nome do mod nas 8 entradas por era de `alternatenames.xml`.
 **Regra.** Cada tecnologia vira uma adaptação evolutiva real ligada à função dela:
 - Ciência = sentidos e cérebro.
 - Comércio = simbiose, forrageio e dispersão.
