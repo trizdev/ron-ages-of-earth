@@ -469,11 +469,166 @@ As 48 variantes regionais de gráfico (Sherman, T34, Panzer, ME109, Mig, versõe
 | Líderes de governo | The CEO | Jurássico (Industrial), textura única | Cetiosaurus | The CEO-tiosaurus |
 
 ### Grandes dinossauros reservados para unidades especiais (decisão da Ana, 18/10/2026)
-Não usar em unidades genéricas: Tyrannosaurus rex, Triceratops, Stegosaurus, Ankylosaurus, Brachiosaurus, Diplodocus, Apatosaurus/Brontosaurus, Argentinosaurus, Spinosaurus, Allosaurus, Velociraptor, Parasaurolophus, Iguanodon, Pachycephalosaurus, Compsognathus.
-Obs.: o Velociraptor continua como bicho da linhagem das Aves no Cretáceo e símbolo dos Mongols (não é unidade genérica).
+Não usar em unidades genéricas: Tyrannosaurus rex, Triceratops, Stegosaurus, Ankylosaurus, Brachiosaurus, Diplodocus, Apatosaurus/Brontosaurus, Argentinosaurus, Spinosaurus, Allosaurus, Parasaurolophus, Iguanodon, Pachycephalosaurus, Compsognathus.
+Velociraptor fica fora da reserva: continua símbolo dos Mongols e bicho do Cretáceo na linhagem das Aves (Ana, 18/10/2026).
 
 ### Pontos em aberto
 - ~~Tricerátops e outros dinossauros grandes nas genéricas?~~ Resolvido: grandes dinossauros reservados como especiais, decisão da Ana 18/10/2026. Trocados: Triceratops, Diplodocus, Brachiosaurus, Parasaurolophus, Argentinosaurus, Compsognathus, Iguanodon, Spinosaurus, Allosaurus.
 - Algumas genéricas coincidem com linhagens de nações (sem ser bicho-símbolo): Archelon (tartarugas), aves e morcegos do Cenozoico (aves e mamíferos), libélula (insetos), mamíferos do Cenozoico em terra.
 - Civis e líderes têm textura única o jogo todo, então ficam fora da época em parte da partida (fósseis vivos foram escolhidos para minimizar isso).
 - Líderes de governo: confirmar se a Ana quer bichos ou se eles seguem a nação.
+
+## Construções, maravilhas e recursos v1 (18/10/2026, aprovado)
+
+> **Decisão (18/10/2026):** v1 usa um visual único de prédios para todas as linhagens (3 fases visuais). Visual por linhagem (via `BUILD_CONTINENT`, 9 estilos) fica para a v2.
+**Regra.** Prédios viram habitats e estruturas naturais pré-históricas (poças de maré, estromatólitos, recifes, tocas, ninhos, cupinzeiros, leitos de fósseis), em estilo realista. As 3 etapas visuais de cada prédio contam a vida tomando a terra:
+- Etapa 1 (Pré-cambriano a Devoniano): rocha úmida, tapete de micróbios, poças e recifes.
+- Etapa 2 (Carbonífero e Triássico): samambaias, troncos, tocas na lama.
+- Etapa 3 (Jurássico a Cenozoico): ninhos, cupinzeiros, florestas de coníferas e de flores.
+Maravilhas viram formações geológicas e fenômenos pré-históricos genéricos, sem nomes de lugares reais. Recursos ganham equivalentes naturais; o Oil continua Oil.
+Fonte: `buildingrules.xml` (`PREQ0`/`PREQ1`, `FROM`), `building_graphics.xml`, `typenames.xml` (`<BUILDS>`, `<GOODS>`), `rules.xml`. Era da tecnologia exigida: The Art of War, Barter e Written Word = Ancient; Mathematics e Mercenaries = Classical; Chemistry = Medieval; Electronics = Industrial.
+
+### Visual por linhagem (o que o building_graphics.xml permite)
+- Cada prédio tem entradas `NOME-ESTILO-AGEn` para 9 estilos (DEFAULT, NEUROPE, ASIAN, KOREAN, AMERICAN, ARAB, EINDIAN, IROQUOIS, COLONIAL) e 3 etapas: AGE0, AGE3, AGE5. As torres e fortes têm AGE0/3/4/6.
+- AGE é o índice da era (0 = Ancient). AGE4 e AGE6 coincidem com Stockade (Enlightenment) e Bunker (Modern), então AGE3 = Gunpowder e AGE5 = Industrial. As etapas são Ancient–Medieval, Gunpowder–Enlightenment e Industrial–Information. Dedução, confirmar no jogo ❓.
+- O estilo vem de `BUILD_CONTINENT` em `tribes/<nação>.xml`, que é texto. Com 9 estilos e 8 linhagens, dá para dar um estilo para cada linhagem: troca-se o `BUILD_CONTINENT` das 3 nações e repinta-se o estilo. Não testado ❓.
+- Limites:
+  - Hoje os estilos dividem texturas (ex.: `barracks_0s.tga` em AMERICAN/ARAB/EINDIAN; `barracks_6.tga` em todos na AGE5). No mod, o `building_graphics.xml` teria que apontar cada estilo para um arquivo novo.
+  - Os prédios são sprites 2D pré-renderizados, então a forma fica a do estilo; só a pintura muda.
+  - Farm, Woodcutter's Camp, Mine, Oil, Airbase, Missile Silo, defesas antiaéreas e maravilhas têm arte única para todos.
+  - KOREAN usa ASIAN como reserva quando falta arte.
+- Volume: cerca de 30 prédios × 3 etapas × 8 estilos, ou seja, centenas de texturas. Sugestão: começar com um visual só para todos e deixar o visual por linhagem para uma versão 2.
+- Sugestão de estilo por linhagem: Aves = IROQUOIS, Mamíferos = EINDIAN, Crocodilos = ARAB, Tartarugas = ASIAN, Lagartos e cobras = AMERICAN, Anfíbios = NEUROPE, Insetos = DEFAULT, Aracnídeos = COLONIAL. KOREAN fica sem uso.
+
+### Prédios
+| Linha | Prédio original | Era | Visual (habitat) | Nome no jogo |
+|---|---|---|---|---|
+| Cidade | Small City | Pré-cambriano (Ancient) | colônia de estromatólitos e poças de maré | Hatch-ville |
+| Cidade | Large City | Devoniano (Medieval) | viveiro grande (rookery) na margem | Grand Rookery |
+| Cidade | Major City | Jurássico (Industrial) | megacolônia de ninhos e tocas | Megalo-polis |
+| Economia | Farm | Pré-cambriano (Ancient) | campo de samambaias e cavalinhas (textura única) | Fern-tile Field |
+| Economia | Woodcutter's Camp | Pré-cambriano (Ancient) | troncos de samambaia-arbórea roídos | Wood-chewer's Camp |
+| Economia | Mine | Cambriano (Classical) | afloramento de rocha escavado | Geo-dig |
+| Economia | Granary | Cambriano (Classical) | esconderijo de esporos e sementes | Spore-ary |
+| Economia | Lumber Mill | Cambriano (Classical) | tronco caído oco cheio de cupins | Timber Gnaw-mill |
+| Economia | Smelter | Devoniano (Medieval) | fonte hidrotermal | Lava-smelter |
+| Economia | Oil Well | Jurássico (Industrial) | poço de piche | Tar Pit |
+| Economia | Oil Platform | Jurássico (Industrial) | exsudação de piche no mar | Tar Seep Platform |
+| Economia | Refinery | Jurássico (Industrial) | turfeira fumegante | Bog-finery |
+| Comércio e saber | Market | Pré-cambriano (Ancient) | banco de conchas | Shell Exchange |
+| Comércio e saber | Library | Pré-cambriano (Ancient) | paredão de camadas com fósseis | Fossil Record |
+| Comércio e saber | Temple | Pré-cambriano (Ancient) | santuário de âmbar | Amber Shrine |
+| Comércio e saber | University | Cambriano (Classical) | caverna de cristais | Paleo-versity |
+| Comércio e saber | Senate | Cambriano (Classical) | clareira do conselho do bando | Herd Senate |
+| Militares | Barracks | Pré-cambriano (Ancient) | tocas de ninhada | Burrow-acks |
+| Militares | Stable | Cambriano (Classical) | bebedouro de manada | Stampede Pen |
+| Militares | Auto Plant | Jurássico (Industrial) | casulos de muda de carapaça | Armor Molt Plant |
+| Militares | Siege Factory | Cambriano (Classical) | pedreira de desmoronamento | Rockfall Works |
+| Militares | Factory | Jurássico (Industrial) | leito de fósseis industrial | Fossil Factory |
+| Militares | Dock | Pré-cambriano (Ancient) | poça de maré | Tide-dock |
+| Militares | Anchorage | Carbonífero (Gunpowder) | recife de coral | Reef Anchorage |
+| Militares | Shipyard | Jurássico (Industrial) | floresta de algas | Kelp-yard |
+| Militares | Airbase | Jurássico (Industrial) | penhasco de pouso de pterossauros | Cliff Roost |
+| Militares | Missile Silo | Cretáceo (Modern) | cratera de impacto | Impact Silo |
+| Defesas | Tower | Pré-cambriano (Ancient) | torre de estromatólito | Stroma-tower |
+| Defesas | Keep | Devoniano (Medieval) | cúpula de concha | Shell Keep |
+| Defesas | Stockade | Triássico (Enlightenment) | cerca de espinhos de cicadácea | Thorn Stockade |
+| Defesas | Bunker | Cretáceo (Modern) | toca blindada | Burrow Bunker |
+| Defesas | Fort | Cambriano (Classical) | fortaleza de recife | Reef Fort |
+| Defesas | Castle | Devoniano (Medieval) | castelo de coral | Coral Castle |
+| Defesas | Fortress | Triássico (Enlightenment) | muralha de rocha fossilífera | Fossil Fortress |
+| Defesas | Redoubt | Cretáceo (Modern) | bastião de basalto | Basalt Redoubt |
+| Defesas | Lookout | Pré-cambriano (Ancient) | afloramento rochoso | Look-out-crop |
+| Defesas | Observation Post | Carbonífero (Gunpowder) | poleiro no dossel | Canopy Perch |
+| Defesas | Air Defense Gun | Jurássico (Industrial) | ninho de mandíbulas | Sky Snapper |
+| Defesas | Radar Air Defense | Cretáceo (Modern) | colônia de ecolocalização | Echo-location Station |
+| Defesas | SAM Installation | Cenozoico (Information) | campo de gêiseres | Geyser Launcher |
+Obs.: casas, apartamentos, escritórios e a Courtyard Fountain são decoração das cidades e ficaram fora. "Capital" é texto de interface (`translated_strings.xml`); sugestão: **Alpha Nest**.
+
+### Maravilhas (arte única cada)
+| Maravilha original | Era | Visual | Nome no jogo |
+|---|---|---|---|
+| Pyramids | Cambriano (Classical) | recife de estromatólitos gigantes | Great Stroma-mids |
+| Colossus | Cambriano (Classical) | pilar de rocha no mar | Colossal Sea Stack |
+| Hanging Gardens | Cambriano (Classical) | primeiras plantas em penhascos úmidos | Hanging Moss Gardens |
+| Terra Cotta Army | Devoniano (Medieval) | leito de fósseis em massa | Terra Fossil Army |
+| Colosseum | Devoniano (Medieval) | anel de cratera | Crater Colosseum |
+| Forbidden City | Devoniano (Medieval) | atol fechado | Forbidden Reef |
+| Temple of Tikal | Carbonífero (Gunpowder) | pântano do primeiro tetrápode | Temple of Tiktaalik |
+| Porcelain Tower | Carbonífero (Gunpowder) | torre de madrepérola | Mother-of-Pearl Tower |
+| Red Fort | Carbonífero (Gunpowder) | camadas vermelhas | Red Rock Fort |
+| Angkor Wat | Triássico (Enlightenment) | floresta petrificada | Angkor Wood |
+| Versailles | Triássico (Enlightenment) | lagoa dos dorsos-de-vela | Ver-sails Lagoon |
+| Statue of Liberty | Jurássico (Industrial) | estalagmite gigante | Stalagmite of Liberty |
+| Taj Mahal | Jurássico (Industrial) | caverna de cristais gigantes | Crystal Mahal |
+| Kremlin | Cretáceo (Modern) | falésias de giz do Cretáceo | Chalk-remlin |
+| Eiffel Tower | Cretáceo (Modern) | cupinzeiro gigante | Eiffel Mound |
+| Supercollider | Cenozoico (Information) | cratera de asteroide | Super-collision Crater |
+| Space Program | Cenozoico (Information) | aurora e chuva de meteoros | Aurora Program |
+Obs.: El Dorado, Washington Monument e Lenin Statue estão desativadas (`disable`), são de cenário e ficaram fora.
+
+### Recursos básicos
+| Recurso original | Nome no jogo |
+|---|---|
+| Food | Grub |
+| Timber | Fernwood |
+| Metal | Minerals |
+| Wealth | Shells |
+| Knowledge | Instinct |
+| Oil | Oil (continua: é combustível fóssil) |
+| Fish (recurso do mar) | Plankton |
+| Relics | Fossils |
+
+### Recursos raros
+| Recurso original | Efeito (rules.xml) | Nome no jogo |
+|---|---|---|
+| Wine | melhoria de unidades | Fermented Fruit |
+| Papyrus | ciência militar | Horsetail Reeds |
+| Dye | comércio cívico | Ink Sacs |
+| Silk | comércio e caravanas | Spider Silk |
+| Spice | renda de caravana | Ginkgo Nuts |
+| Salt | Barracks mais barato | Salt Flats |
+| Horses | Stable mais barato | Wild Herds |
+| Rubber | Auto Plant mais barato | Resin |
+| Sulphur | cerco mais barato | Sulphur |
+| Amber | mercado | Amber |
+| Silver | custo de era | Pyrite |
+| Tobacco | velocidade de construção | Peat |
+| Marble | maravilhas mais baratas | Limestone |
+| Furs | militar e visão | Feathers |
+| Cotton | velocidade de criação | Moss |
+| Bison | Granary mais barato | Grazer Herds |
+| Copper | vida das fábricas | Native Copper |
+| Peacocks | população | Courtship Plumes |
+| Citrus | — | Wild Berries |
+| Sugar | comida mais barata | Nectar |
+| Diamonds | comércio | Diamonds |
+| Gems | bônus de território | Geodes |
+| Aluminum | aviões mais baratos e rápidos | Hollow Bones |
+| Whales | navios mais rápidos | Ichthyosaur Pods |
+| Obsidian | alcance e ataque de arqueiros | Obsidian |
+| Wool | Citizens mais baratos e rápidos | Down |
+| Coal | madeira mais barata | Coal |
+| Uranium | nukes mais baratas e rápidas | Iridium |
+| Titanium | atrito | Chitin |
+| Cattle ❓ | armadura de Citizen | Egg Clutches |
+| Dogs ❓ | visão de batedores | Scent Trails |
+| Incense ❓ | pesquisa no Temple | Copal |
+| Olive Oil ❓ | fazendas | Cycad Oil |
+| Gypsum ❓ | custo | Gypsum |
+| Beaver Pelts ❓ | batedor/mercador grátis | Giant Beaver Lodges |
+| Gold ❓ | riqueza mais barata | Gold Nuggets |
+| Rum ❓ | alcance naval | Fermented Sap |
+| Coffee ❓ | renda | Buzz Berries |
+| Bananas ❓ | vida das unidades | Cycad Fruit |
+| Salmon ❓ | navios mais baratos | Coelacanth Runs |
+| Iron Ore ❓ | metal mais barato | Bog Iron |
+| Maize ❓ | bônus crescente | Seed Ferns |
+| Huskies ❓ | sem regra em rules.xml | Snow Runners |
+❓ = aparece em `typenames.xml` e em `rules.xml` (menos Huskies), mas parece vir de campanha ou expansão; confirmar se aparece em partida normal.
+
+### Pontos em aberto
+- Visual por linhagem (9 estilos, não testado) ou um visual só para todos na v1?
+- Nomes de recurso dentro de textos: os textos de `help.xml` dizem "food", "timber" etc. e precisariam ser revisados.
+- Ícones dos recursos (`icon_texs.xml`) também teriam que ser repintados.
+- A etapa visual dos prédios por era foi deduzida (AGE3 = Gunpowder, AGE5 = Industrial) e precisa ser confirmada numa partida.
