@@ -314,3 +314,166 @@ Obs.: os tanques alemães usam besouro (bicho-símbolo, existe no Cretáceo e no
 - Elefantes com Deinotherium desde o Cambriano: anacronismo assumido como exceção.
 - Lancaster Bomber (pterossauro), Fluyt (Crassigyrinus) e Katyusha (Repenomamus como artilharia) são encaixes forçados.
 - Nomes com palavras de povos reais (Sunka Wakan, Mohawk, Xopilli, Inti): conferir se o tom fica respeitoso.
+
+## Unidades genéricas e navios v1 (aprovadas pela Ana, 18/10/2026)
+**Regra.** As unidades genéricas usam uma textura só para as 24 nações, então não seguem nenhuma linhagem.
+- Unidades de terra: nas 3 primeiras eras usam formas da raiz comum (verme, Pikaia, Tiktaalik/Acanthostega) e outros bichos de lodaçal e margem da época. Da era seguinte em diante, cada linha usa um bicho "comum" da era que não é símbolo de nenhuma nação: anfíbios e sinápsidos primitivos, Lystrosaurus e aetossauros, dinossauros ornitísquios e saurópodes, mamíferos do Cenozoico.
+- Navios: só aquáticos, por era (seres de Ediacara > Anomalocaris/Haikouichthys > placodermos e tubarões > ictiossauros > plesiossauros > mosassauros > baleias e megalodonte).
+- Aviões: voadores por era (pterossauros > aves e morcegos). Mísseis viram meteoros e asteroides.
+- Civis e comando: bichinhos pequenos e não ameaçadores, com textura única o jogo todo.
+- Uma linha tem um bicho diferente por era, para cada degrau ficar reconhecível.
+Fonte das eras: `PREQ0` em `unitrules.xml`. `none` = Ancient. General: tecnologia Mathematics (Classical). Spy: Mathematics + Medieval Age. Trireme e Bark: The Art of War (Ancient). Líderes: governo (Despotism/Republic = Classical, Monarchy/Democracy = Gunpowder, Socialism/Capitalism = Industrial).
+As 48 variantes regionais de gráfico (Sherman, T34, Panzer, ME109, Mig, versões coreanas, espanholas e alemãs etc.) recebem o mesmo bicho da unidade, uma textura para cada variante.
+
+### Infantaria de terra
+| Linha | Unidade original | Era | Bicho | Nome no jogo |
+|---|---|---|---|---|
+| Hoplitas → antitanque | Hoplites | Pré-cambriano (Ancient) | Ikaria (verme bilateral) | Worm-lites |
+| Hoplitas → antitanque | Phalanx | Cambriano (Classical) | Wiwaxia | Spine-alanx |
+| Hoplitas → antitanque | Pikemen | Devoniano (Medieval) | Ventastega | Venta-pikes |
+| Hoplitas → antitanque | Elite Pikemen | Carbonífero (Gunpowder) | Pholiderpeton | Elite Pike-erpetons |
+| Hoplitas → antitanque | Fusiliers | Triássico (Enlightenment) | Hyperodapedon (rincossauro) | Fusi-beaks |
+| Hoplitas → antitanque | Anti-tank Rifle | Jurássico (Industrial) | Kentrosaurus | Anti-tank Spike Rifle |
+| Hoplitas → antitanque | Bazooka | Cretáceo (Modern) | Styracosaurus | Styra-zooka |
+| Hoplitas → antitanque | Anti-Tank Missile | Cenozoico (Information) | Uintatherium | Anti-Tusk Missile |
+| Fundibulários → infantaria | Slingers | Pré-cambriano (Ancient) | Spriggina | Sprig-slingers |
+| Fundibulários → infantaria | Javelineers | Cambriano (Classical) | Pikaia | Pika-lineers |
+| Fundibulários → infantaria | Elite Javelineers | Devoniano (Medieval) | Elginerpeton | Elite Elgin-eers |
+| Fundibulários → infantaria | Arquebusiers | Carbonífero (Gunpowder) | Pederpes | Arque-pedes |
+| Fundibulários → infantaria | Musketeers | Triássico (Enlightenment) | Lystrosaurus | Tusk-eteers |
+| Fundibulários → infantaria | Riflemen | Jurássico (Industrial) | Dryosaurus | Dryo-Riflemen |
+| Fundibulários → infantaria | Infantry | Cretáceo (Modern) | Edmontosaurus (hadrossauro) | Duck-fantry |
+| Fundibulários → infantaria | Assault Infantry | Cenozoico (Information) | Entelodon | Assault Hog-fantry |
+| Arqueiros | Bowmen | Pré-cambriano (Ancient) | Kimberella | Bow-slugs |
+| Arqueiros | Archers | Cambriano (Classical) | Hallucigenia | Halluci-archers |
+| Arqueiros | Crossbowmen | Devoniano (Medieval) | Acanthostega | Crossbow-stegans |
+| Arqueiros | Heavy Archers (variante de 5 nações) | Devoniano (Medieval) | Acanthostega | Heavy Acantho-archers |
+| Milícia (Tower) | Militia | Cambriano (Classical) | Aysheaia | Lobo-militia |
+| Milícia (Tower) | Minuteman | Triássico (Enlightenment) | Procolophon | Minute-colophon |
+| Milícia (Tower) | Partisan | Cretáceo (Modern) | Psittacosaurus | Parrot-isans |
+| Metralhadoras | Machine Gun | Jurássico (Industrial) | Scutellosaurus | Machine Scute |
+| Metralhadoras | Heavy Machine Gun | Cretáceo (Modern) | Protoceratops | Heavy Proto-gun |
+| Metralhadoras | Advanced Machine Gun | Cenozoico (Information) | Hyaenodon | Advanced Hyaeno-gun |
+| Lança-chamas | Flamethrower | Jurássico (Industrial) | Heterodontosaurus | Flame-odont |
+| Batedores | Scout | Pré-cambriano (Ancient) | Yilingia (verme que deixava trilhas) | Trackworm |
+| Batedores | Explorer | Devoniano (Medieval) | Tiktaalik | Shore Explorer |
+| Batedores | Commando | Jurássico (Industrial) | Fruitadens (heterodontossaurídeo pequeno) | Fruit-mando |
+| Batedores | Special Forces | Cretáceo (Modern) | Thescelosaurus | Special Forest |
+| Batedores | Elite Special Forces | Cenozoico (Information) | Smilodon | Elite Special Fangs |
+
+### Cavalaria e blindados
+| Linha | Unidade original | Era | Bicho | Nome no jogo |
+|---|---|---|---|---|
+| Cavalaria pesada → tanques | Cataphract | Cambriano (Classical) | Olenoides (trilobita) | Trilo-phract |
+| Cavalaria pesada → tanques | Knight | Devoniano (Medieval) | Ichthyostega | Ichthy-knight |
+| Cavalaria pesada → tanques | Heavy Knight | Carbonífero (Gunpowder) | Arthropleura | Heavy Arthro-knight |
+| Cavalaria pesada → tanques | Cuirassier | Triássico (Enlightenment) | Desmatosuchus (aetossauro) | Cuirassaur |
+| Cavalaria pesada → tanques | Light Tank | Jurássico (Industrial) | Gargoyleosaurus | Light Gargoyle Tank |
+| Cavalaria pesada → tanques | Tank | Cretáceo (Modern) | Sauropelta (nodossauro) | Pelta Tank |
+| Cavalaria pesada → tanques | Main Battle Tank | Cenozoico (Information) | Glyptodon | Glypto-tank |
+| Arqueiros montados → carros blindados | Horse Archer | Cambriano (Classical) | Leanchoilia | Whip Archer |
+| Arqueiros montados → carros blindados | Heavy Horse Archer | Devoniano (Medieval) | Tulerpeton | Heavy Six-toe Archer |
+| Arqueiros montados → carros blindados | Dragoon | Carbonífero (Gunpowder) | Ophiacodon | Drag-odon |
+| Arqueiros montados → carros blindados | Carabineer | Triássico (Enlightenment) | Euparkeria | Euparki-neer |
+| Arqueiros montados → carros blindados | Armored Car | Jurássico (Industrial) | Scelidosaurus | Armored Scale Car |
+| Arqueiros montados → carros blindados | Armored Scout Car | Cretáceo (Modern) | Edmontonia (nodossauro) | Armored Scout Nodocar |
+| Arqueiros montados → carros blindados | Armored Cavalry | Cenozoico (Information) | Hipparion | Armored Hippa-valry |
+| Cavalaria leve | Light Horse | Cambriano (Classical) | Canadaspis | Light Horse-shrimp |
+| Cavalaria leve | Light Cavalry | Devoniano (Medieval) | Hynerpeton | Light Crawl-valry |
+| Cavalaria leve | Elite Light Cavalry | Carbonífero (Gunpowder) | Petrolacosaurus | Elite Light Scale-valry |
+| Cavalaria leve | Hussar | Triássico (Enlightenment) | Herrerasaurus | Hussaur |
+
+### Cerco, artilharia e antiaéreo
+| Linha | Unidade original | Era | Bicho | Nome no jogo |
+|---|---|---|---|---|
+| Cerco → artilharia | Catapult | Cambriano (Classical) | Sidneyia | Catapod |
+| Cerco → artilharia | Trebuchet | Devoniano (Medieval) | Eoarthropleura | Trebu-pede |
+| Cerco → artilharia | Bombard | Carbonífero (Gunpowder) | Edaphosaurus | Sail Bombard |
+| Cerco → artilharia | Cannon | Triássico (Enlightenment) | Placerias | Placer-cannon |
+| Cerco → artilharia | Artillery | Jurássico (Industrial) | Shunosaurus (saurópode com clava na cauda) | Club-tillery |
+| Cerco → artilharia | Howitzer | Cretáceo (Modern) | Corythosaurus (hadrossauro de crista) | Howl-itzer |
+| Cerco → artilharia | Rocket Artillery | Cenozoico (Information) | Megacerops (brontotério) | Rocket Thunder-tillery |
+| Antiaéreo | Anti-Aircraft Gun | Jurássico (Industrial) | Mamenchisaurus | Anti-Air Long-neck |
+| Antiaéreo | Anti-Aircraft Battery | Cretáceo (Modern) | Alamosaurus (titanossauro) | Anti-Air Titan Battery |
+| Antiaéreo | Anti-Aircraft Missile | Cenozoico (Information) | Sivatherium | Anti-Air Antler Missile |
+
+### Navios
+| Linha | Unidade original | Era | Bicho | Nome no jogo |
+|---|---|---|---|---|
+| Pesados (Trireme → Advanced Battleship) | Trireme | Pré-cambriano (Ancient) | Dickinsonia | Disc Trireme |
+| Pesados (Trireme → Advanced Battleship) | Galley | Cambriano (Classical) | Anomalocaris | Anomalo-galley |
+| Pesados (Trireme → Advanced Battleship) | Carrack | Devoniano (Medieval) | Dunkleosteus | Dunkle-carrack |
+| Pesados (Trireme → Advanced Battleship) | Frigate | Carbonífero (Gunpowder) | Rhizodus | Frigodus |
+| Pesados (Trireme → Advanced Battleship) | Man o' War | Triássico (Enlightenment) | Shonisaurus (ictiossauro) | Man o' Saur |
+| Pesados (Trireme → Advanced Battleship) | Dreadnought | Jurássico (Industrial) | Liopleurodon | Dreadnodon |
+| Pesados (Trireme → Advanced Battleship) | Battleship | Cretáceo (Modern) | Mosasaurus | Battlesaur |
+| Pesados (Trireme → Advanced Battleship) | Advanced Battleship | Cenozoico (Information) | Livyatan | Advanced Battle-whale |
+| Leves (Bark → Missile Cruiser) | Bark | Pré-cambriano (Ancient) | Eoandromeda (disco de 8 braços) | Star Bark |
+| Leves (Bark → Missile Cruiser) | Dromon | Cambriano (Classical) | Haikouichthys | Fin-dromon |
+| Leves (Bark → Missile Cruiser) | Caravel | Devoniano (Medieval) | Cladoselache (tubarão primitivo) | Shark-avel |
+| Leves (Bark → Missile Cruiser) | Corvette | Carbonífero (Gunpowder) | Stethacanthus | Anvil Corvette |
+| Leves (Bark → Missile Cruiser) | Sloop | Triássico (Enlightenment) | Mixosaurus | Mixo-sloop |
+| Leves (Bark → Missile Cruiser) | Destroyer | Jurássico (Industrial) | Ophthalmosaurus | Eye-stroyer |
+| Leves (Bark → Missile Cruiser) | Cruiser | Cretáceo (Modern) | Tylosaurus | Tylo-cruiser |
+| Leves (Bark → Missile Cruiser) | Missile Cruiser | Cenozoico (Information) | Basilosaurus | Basilo-cruiser |
+| Incendiários → submarinos | Fire Raft | Cambriano (Classical) | Burgessomedusa (água-viva) | Sting Raft |
+| Incendiários → submarinos | Heavy Fire Raft | Devoniano (Medieval) | goniatita (amonoide do Devoniano) | Heavy Fire Coil-raft |
+| Incendiários → submarinos | Fireship | Carbonífero (Gunpowder) | Edestus (tubarão-tesoura) | Scissor Fireship |
+| Incendiários → submarinos | Heavy Fireship | Triássico (Enlightenment) | Nothosaurus | Heavy Fire-notho |
+| Incendiários → submarinos | Submarine | Jurássico (Industrial) | Plesiosaurus | Plesio-marine |
+| Incendiários → submarinos | Attack Submarine | Cenozoico (Information) | Otodus megalodon | Attack Megalo-sub |
+| Bombardeio | Bomb Vessel | Carbonífero (Gunpowder) | Falcatus | Falca-bomb Vessel |
+| Bombardeio | Bomb Ketch | Triássico (Enlightenment) | Placodus | Bomb Placo-ketch |
+| Porta-aviões | Aircraft Carrier | Cretáceo (Modern) | Archelon (tartaruga marinha gigante) | Air-chelon Carrier |
+| Civis do mar | Fishermen | jogo todo (textura única), textura única | náutilo | Nauti-fishers |
+| Civis do mar | Merchant Fleet | Cambriano (Classical) | Waptia | Mer-shrimp Fleet |
+| Civis do mar | Modern Merchant Fleet | Jurássico (Industrial) | Leedsichthys | Modern Mer-gulp Fleet |
+| Civis do mar | Transport Barge | Cambriano (Classical) | Opabinia | Opa-barge |
+| Civis do mar | Transport Galleon | Carbonífero (Gunpowder) | Rhabdoderma (celacanto) | Coela-galleon |
+| Civis do mar | Transport Freighter | Jurássico (Industrial) | Titanites (amonite gigante) | Coil Freighter |
+
+### Aviões e mísseis
+| Linha | Unidade original | Era | Bicho | Nome no jogo |
+|---|---|---|---|---|
+| Caças | Biplane | Jurássico (Industrial) | Rhamphorhynchus | Rhampho-plane |
+| Caças | Fighter | Cretáceo (Modern) | Pteranodon | Fight-anodon |
+| Caças | Jet Fighter | Cenozoico (Information) | águia-de-Haast | Haast Jet |
+| Caças | Advanced Fighter | Cenozoico (Information) | Pelagornis | Advanced Pelago-fighter |
+| Bombardeiros | Bomber | Cretáceo (Modern) | Quetzalcoatlus | Bomb-coatlus |
+| Bombardeiros | Strategic Bomber | Cenozoico (Information) | Teratornis | Strategic Tera-bomber |
+| Bombardeiros | Stealth Bomber | Cenozoico (Information) | Icaronycteris (morcego) | Stealth Bomb-bat |
+| Caças de porta-aviões | Fighter Bomber | Cretáceo (Modern) | Nyctosaurus (pterossauro marinho) | Fighter Nycto-bomber |
+| Caças de porta-aviões | Jet Fighter Bomber | Cenozoico (Information) | Limnofregata (fragata primitiva) | Jet Frigate-bird Bomber |
+| Helicópteros | Helicopter | Cretáceo (Modern) | libélula do Cretáceo | Dragonfly-copter |
+| Helicópteros | Attack Helicopter | Cenozoico (Information) | Eurotrochilus (beija-flor primitivo) | Attack Hum-copter |
+| Mísseis | V2 Rocket | Cretáceo (Modern) | meteoro | Meteo-rocket |
+| Mísseis | Cruise Missile | Cenozoico (Information) | meteoro | Cruise Meteor |
+| Mísseis | Nuclear Missile | Cretáceo (Modern) | asteroide | Extinction Event |
+| Mísseis | Nuclear ICBM | Cenozoico (Information) | asteroide | Extinction ICBM |
+
+### Civis e comando (uma textura cada, o jogo todo)
+| Linha | Unidade original | Era | Bicho | Nome no jogo |
+|---|---|---|---|---|
+| Civis | Citizen | Pré-cambriano (Ancient), textura única | caramujo | Citi-snail |
+| Civis | Scholar | Pré-cambriano (Ancient), textura única | verme-aveludado | Bookworm |
+| Civis | Merchant | Pré-cambriano (Ancient), textura única | milípede | Milli-peddler |
+| Civis | Caravan | Pré-cambriano (Ancient), textura única | tatuzinho-de-jardim (isópode) | Roly-Poly Caravan |
+| Civis | Supply Wagon | Devoniano (Medieval), textura única | límulo (caranguejo-ferradura) | Horseshoe Supply Wagon |
+| Comando | General | Cambriano (Classical), textura única | tuatara | General Tua-tactics |
+| Comando | Spy | Devoniano (Medieval), textura única | camaleão | Chamele-spy |
+| Líderes de governo | The Despot | Cambriano (Classical), textura única | Dimetrodon | The Despo-trodon |
+| Líderes de governo | The Senator | Cambriano (Classical), textura única | Mantellisaurus (iguanodonte com espinho no polegar) | The Thumb Senator |
+| Líderes de governo | The Monarch | Carbonífero (Gunpowder), textura única | Ctenosauriscus (arcossauro de vela do Triássico) | The Monarchosaur |
+| Líderes de governo | The President | Carbonífero (Gunpowder), textura única | Megatherium | The Mega-President |
+| Líderes de governo | The Comrade | Jurássico (Industrial), textura única | Lystrosaurus | The Comrade Lystro |
+| Líderes de governo | The CEO | Jurássico (Industrial), textura única | Cetiosaurus | The CEO-tiosaurus |
+
+### Grandes dinossauros reservados para unidades especiais (decisão da Ana, 18/10/2026)
+Não usar em unidades genéricas: Tyrannosaurus rex, Triceratops, Stegosaurus, Ankylosaurus, Brachiosaurus, Diplodocus, Apatosaurus/Brontosaurus, Argentinosaurus, Spinosaurus, Allosaurus, Velociraptor, Parasaurolophus, Iguanodon, Pachycephalosaurus, Compsognathus.
+Obs.: o Velociraptor continua como bicho da linhagem das Aves no Cretáceo e símbolo dos Mongols (não é unidade genérica).
+
+### Pontos em aberto
+- ~~Tricerátops e outros dinossauros grandes nas genéricas?~~ Resolvido: grandes dinossauros reservados como especiais, decisão da Ana 18/10/2026. Trocados: Triceratops, Diplodocus, Brachiosaurus, Parasaurolophus, Argentinosaurus, Compsognathus, Iguanodon, Spinosaurus, Allosaurus.
+- Algumas genéricas coincidem com linhagens de nações (sem ser bicho-símbolo): Archelon (tartarugas), aves e morcegos do Cenozoico (aves e mamíferos), libélula (insetos), mamíferos do Cenozoico em terra.
+- Civis e líderes têm textura única o jogo todo, então ficam fora da época em parte da partida (fósseis vivos foram escolhidos para minimizar isso).
+- Líderes de governo: confirmar se a Ana quer bichos ou se eles seguem a nação.
