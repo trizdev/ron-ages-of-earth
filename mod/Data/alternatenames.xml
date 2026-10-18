@@ -1,0 +1,687 @@
+<ROOT>
+  <!-- LOCALIZATION: All STRING elements under ALTERNATENAMES/EPOCHTYPE and ALTERNATENAMES2/EPOCHTYPE-->
+  <ALTERNATENAMES>
+    <EPOCHTYPE name="Written Word">
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+      <STRING>Nerve Net</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Mathematics">
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+      <STRING>Eye-rithmetic</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Chemistry">
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+      <STRING>Scent-istry</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Laws of Nature">
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+      <STRING>Ears of Nature</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Electricity">
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+      <STRING>Whisk-tricity</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Electronics">
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+      <STRING>Neuro-tronics</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Computerization">
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+      <STRING>Cortex-ization</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Barter">
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+      <STRING>Microbial Barter</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Coinage">
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+      <STRING>Shell Coinage</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Trade">
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+      <STRING>Spore Trade</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Mercantilism">
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+      <STRING>Fungal Mercantilism</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Finance">
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+      <STRING>Cache Flow</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Assembly Line">
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+      <STRING>Migration Line</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Globalization">
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+      <STRING>Global Pollination</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="City State">
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+      <STRING>Colony State</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Empire">
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+      <STRING>Reef Empire</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Feudalism">
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+      <STRING>Pecking Order</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Divine Right">
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+      <STRING>Alpha Right</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Constitution">
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+      <STRING>Herd Constitution</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Great Power">
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+      <STRING>Pack Power</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="International Law">
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+      <STRING>Inter-species Law</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="The Art of War">
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+      <STRING>The Art of Predation</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Mercenaries">
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+      <STRING>Arms Race</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Standing Army">
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+      <STRING>Standing Jaws</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Conscription">
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+      <STRING>Claw-scription</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Levee en Masse">
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+      <STRING>Scale en Masse</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Nation-in-Arms">
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+      <STRING>Nation-in-Armor</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Selective Service">
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+      <STRING>Natural Selective Service</STRING>
+    </EPOCHTYPE>
+  </ALTERNATENAMES>
+  <ALTERNATENAMES2>
+    <EPOCHTYPE name="Tactics">
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+      <STRING>Pack Tactics</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Operations">
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+      <STRING>Ambush Operations</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Strategy">
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+      <STRING>Apex Strategy</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Religion">
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+      <STRING>Ritual Display</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Monotheism">
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+      <STRING>Courtship Dance</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Existentialism">
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+      <STRING>Ex-stinct-ialism</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Taxation">
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+      <STRING>Tax-onomy</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Vassalage">
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+      <STRING>Commensalism</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Social Contract">
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+      <STRING>Mutualism Contract</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Income Tax">
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+      <STRING>Klepto-tax</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Fortification">
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+      <STRING>Carapace Fortification</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Bombardment">
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+      <STRING>Rockfall Bombardment</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Strategic Reserves">
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+      <STRING>Fat Reserves</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Allegiance">
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+      <STRING>Kin-legiance</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Oath of Fealty">
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+      <STRING>Pair Bond</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Patriotism">
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+      <STRING>Territorialism</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Nationalism">
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+      <STRING>Scent Marking</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Construction">
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+      <STRING>Reef Construction</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Architecture">
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+      <STRING>Burrow Architecture</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Engineering">
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+      <STRING>Nest Engineering</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Herbal Lore">
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+      <STRING>Algae Lore</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Medicine">
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+      <STRING>Immunity</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Pharmaceuticals">
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+      <STRING>Detox-ceuticals</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Forage">
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+      <STRING>Foraging</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Supply">
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+      <STRING>Food Stores</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Logistics">
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+      <STRING>Migration Logistics</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Carpentry">
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+      <STRING>First Forests</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Logging Industry">
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+      <STRING>Coal Swamps</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Papermill">
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+      <STRING>Wasp Papermill</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Agriculture">
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+      <STRING>Grazing</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Crop Rotation">
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+      <STRING>Seed Dispersal</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Food Industry">
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+      <STRING>Fungus Farming</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Literacy">
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+      <STRING>Learned Behaviour</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Printing Press">
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+      <STRING>Imprinting Press</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Scientific Method">
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+      <STRING>Trial-and-Error Method</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Institutional Research">
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+      <STRING>Social Learning</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Supercomputers">
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+      <STRING>Supercortex</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Metal Alloys">
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+      <STRING>Biomineral Alloys</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Cold Casting">
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+      <STRING>Cold-blood Casting</STRING>
+    </EPOCHTYPE>
+    <EPOCHTYPE name="Steel">
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+      <STRING>Enamel Steel</STRING>
+    </EPOCHTYPE>
+  </ALTERNATENAMES2>
+</ROOT>

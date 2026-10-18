@@ -2,7 +2,7 @@
 
 Mod files follow the game's mods folder layout (`Data/*.xml`, `.tga` textures, icons).
 
-## Current content: Era Test (v0.0)
+## Current content: v0.1 (all in-game text)
 
 `Data/typenames.xml`, `Data/string_lookup.xml` and `Data/translated_strings.xml` are copies of the game files with only the 8 age names changed:
 The Primordial Age, The Cambrian Explosion, The Age of Fins, The Coal Forest Age, The Triassic Dawn, The Jurassic Heights, The Cretaceous Bloom, The Cenozoic Rise.

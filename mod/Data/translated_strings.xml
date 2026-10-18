@@ -3567,23 +3567,23 @@
 	<STRING hash="50547568" needed="1">Sea Resources:</STRING>
 	<STRING hash="77134536" needed="1">Fish/Whale Sparsity:</STRING>
 	<STRING hash="32435734" needed="1">Nations: </STRING>
-	<STRING hash="15002569" needed="1">Snowy</STRING>
-	<STRING hash="14955539" needed="1">Dirty</STRING>
-	<STRING hash="47901748" needed="1">South West Desert</STRING>
-	<STRING hash="57623020" needed="1">Great Sahara Desert</STRING>
-	<STRING hash="16609325" needed="1">Jungle</STRING>
-	<STRING hash="47634745" needed="1">African Savannah</STRING>
-	<STRING hash="17377676" needed="1">Arctic</STRING>
-	<STRING hash="44766474" needed="1">Mongolian Steppe</STRING>
-	<STRING hash="16821430" needed="1">Autumn</STRING>
-	<STRING hash="18448526" needed="1">Dirty 2</STRING>
-	<STRING hash="31980934" needed="1">Early Autumn</STRING>
-	<STRING hash="28913524" needed="1">Late Autumn</STRING>
-	<STRING hash="50453617" needed="1">Mongolian Steppe 2</STRING>
-	<STRING hash="50483610" needed="1">Mongolian Steppe 3</STRING>
-	<STRING hash="73939619" needed="1">Mongolian Steppe Autumn</STRING>
-	<STRING hash="22031543" needed="1">Tropical</STRING>
-	<STRING hash="32368533" needed="1">Tropical Wet</STRING>
+	<STRING hash="15002569" needed="1">Frost Flats</STRING>
+	<STRING hash="14955539" needed="1">Primordial Mudflats</STRING>
+	<STRING hash="47901748" needed="1">Red Bed Mesas</STRING>
+	<STRING hash="57623020" needed="1">Great Dune Sea</STRING>
+	<STRING hash="16609325" needed="1">Coal Forest Swamp</STRING>
+	<STRING hash="47634745" needed="1">Fern Savanna</STRING>
+	<STRING hash="17377676" needed="1">Glacial Waste</STRING>
+	<STRING hash="44766474" needed="1">Cycad Steppe</STRING>
+	<STRING hash="16821430" needed="1">Ginkgo Woodland</STRING>
+	<STRING hash="18448526" needed="1">River Delta</STRING>
+	<STRING hash="31980934" needed="1">Cycad Uplands</STRING>
+	<STRING hash="28913524" needed="1">Ashfall Woodland</STRING>
+	<STRING hash="50453617" needed="1">Basalt Plateau</STRING>
+	<STRING hash="50483610" needed="1">Basalt Foothills</STRING>
+	<STRING hash="73939619" needed="1">Moss Steppe</STRING>
+	<STRING hash="22031543" needed="1">Tree Fern Coast</STRING>
+	<STRING hash="32368533" needed="1">Horsetail Marsh</STRING>
 	<STRING hash="215011649" needed="1">ESRB Notice: Game Experience May Change During Online Play</STRING>
 	<STRING hash="40683150" needed="1">Failed to init </STRING>
 	<STRING hash="42063510" needed="1">Exit to Windows</STRING>
