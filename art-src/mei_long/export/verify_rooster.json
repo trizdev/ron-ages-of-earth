@@ -1,0 +1,16 @@
+[
+ {
+  "file": "rooster.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 3.9999999996709334e-06,
+  "bh3_verts": 148,
+  "bh3_tris": 168,
+  "blender_tris": 168,
+  "multi_weight": 0,
+  "bh3_bytes": 8397,
+  "orig_tris": 38,
+  "orig_verts": 77
+ }
+]

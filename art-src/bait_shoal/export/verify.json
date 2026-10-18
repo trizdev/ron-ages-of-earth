@@ -1,0 +1,58 @@
+[
+ {
+  "file": "fish1.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.0000000010279564e-06,
+  "bh3_verts": 164,
+  "bh3_tris": 160,
+  "blender_tris": 160,
+  "multi_weight": 0,
+  "bh3_bytes": 9352,
+  "orig_tris": 60,
+  "orig_verts": 63
+ },
+ {
+  "file": "fish2.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.0000000010279564e-06,
+  "bh3_verts": 164,
+  "bh3_tris": 160,
+  "blender_tris": 160,
+  "multi_weight": 0,
+  "bh3_bytes": 9352,
+  "orig_tris": 60,
+  "orig_verts": 63
+ },
+ {
+  "file": "fish_belem.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.0000000010279564e-06,
+  "bh3_verts": 250,
+  "bh3_tris": 180,
+  "blender_tris": 180,
+  "multi_weight": 0,
+  "bh3_bytes": 12672,
+  "orig_tris": 60,
+  "orig_verts": 63
+ },
+ {
+  "file": "fish_coil.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.0000000010279564e-06,
+  "bh3_verts": 150,
+  "bh3_tris": 130,
+  "blender_tris": 130,
+  "multi_weight": 0,
+  "bh3_bytes": 8372,
+  "orig_tris": 60,
+  "orig_verts": 63
+ }
+]

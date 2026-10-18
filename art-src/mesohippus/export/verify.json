@@ -1,0 +1,43 @@
+[
+ {
+  "variant": "Wildhorse_1",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.289999999998237e-05,
+  "bh3_verts": 320,
+  "bh3_tris": 270,
+  "blender_tris": 270,
+  "multi_weight": 0,
+  "bh3_bytes": 17810
+ },
+ {
+  "variant": "Wildhorse_3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.289999999998237e-05,
+  "bh3_verts": 320,
+  "bh3_tris": 270,
+  "blender_tris": 270,
+  "multi_weight": 0,
+  "bh3_bytes": 17810
+ },
+ {
+  "variant": "Wildhorse_4",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.289999999998237e-05,
+  "bh3_verts": 320,
+  "bh3_tris": 270,
+  "blender_tris": 270,
+  "multi_weight": 0,
+  "bh3_bytes": 17810
+ },
+ {
+  "original": "_orig_Wildhorse_1",
+  "verts": 197,
+  "tris": 175
+ }
+]

@@ -1,0 +1,31 @@
+[
+ {
+  "variant": "pig",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 2.3999999996249244e-06,
+  "bh3_verts": 204,
+  "bh3_tris": 148,
+  "blender_tris": 148,
+  "multi_weight": 0,
+  "bh3_bytes": 10560
+ },
+ {
+  "variant": "pig_black",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 2.3999999996249244e-06,
+  "bh3_verts": 204,
+  "bh3_tris": 148,
+  "blender_tris": 148,
+  "multi_weight": 0,
+  "bh3_bytes": 10560
+ },
+ {
+  "original": "_orig_pig",
+  "verts": 165,
+  "tris": 131
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "file": "bird_dirty.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 2.000000000279556e-06,
+  "bh3_verts": 129,
+  "bh3_tris": 122,
+  "blender_tris": 122,
+  "multi_weight": 0,
+  "bh3_bytes": 7095,
+  "orig_tris": 50,
+  "orig_verts": 57
+ },
+ {
+  "file": "bird_snow.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 2.000000000279556e-06,
+  "bh3_verts": 129,
+  "bh3_tris": 122,
+  "blender_tris": 122,
+  "multi_weight": 0,
+  "bh3_bytes": 7095,
+  "orig_tris": 50,
+  "orig_verts": 57
+ },
+ {
+  "file": "bird_african.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 2.000000000279556e-06,
+  "bh3_verts": 129,
+  "bh3_tris": 122,
+  "blender_tris": 122,
+  "multi_weight": 0,
+  "bh3_bytes": 7095,
+  "orig_tris": 50,
+  "orig_verts": 57
+ }
+]

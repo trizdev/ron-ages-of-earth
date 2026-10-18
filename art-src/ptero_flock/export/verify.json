@@ -1,0 +1,16 @@
+[
+ {
+  "file": "flock.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.999999998503199e-06,
+  "bh3_verts": 200,
+  "bh3_tris": 144,
+  "blender_tris": 144,
+  "multi_weight": 0,
+  "bh3_bytes": 10613,
+  "orig_tris": 64,
+  "orig_verts": 108
+ }
+]

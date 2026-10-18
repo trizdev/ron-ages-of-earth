@@ -1,0 +1,43 @@
+[
+ {
+  "variant": "sheep3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 3.3000000003724494e-06,
+  "bh3_verts": 357,
+  "bh3_tris": 290,
+  "blender_tris": 290,
+  "multi_weight": 0,
+  "bh3_bytes": 17527
+ },
+ {
+  "variant": "sheep2",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 3.3000000003724494e-06,
+  "bh3_verts": 357,
+  "bh3_tris": 290,
+  "blender_tris": 290,
+  "multi_weight": 0,
+  "bh3_bytes": 17527
+ },
+ {
+  "variant": "sheep1",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 3.3000000003724494e-06,
+  "bh3_verts": 357,
+  "bh3_tris": 290,
+  "blender_tris": 290,
+  "multi_weight": 0,
+  "bh3_bytes": 17527
+ },
+ {
+  "original": "_orig_sheep2",
+  "verts": 136,
+  "tris": 161
+ }
+]

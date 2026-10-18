@@ -1,0 +1,16 @@
+[
+ {
+  "file": "Peacock.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.2000000001677336e-05,
+  "bh3_verts": 175,
+  "bh3_tris": 186,
+  "blender_tris": 186,
+  "multi_weight": 0,
+  "bh3_bytes": 10146,
+  "orig_tris": 135,
+  "orig_verts": 124
+ }
+]

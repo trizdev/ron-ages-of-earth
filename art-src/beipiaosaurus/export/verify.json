@@ -1,0 +1,58 @@
+[
+ {
+  "file": "blackbear.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.100000000064938e-05,
+  "bh3_verts": 469,
+  "bh3_tris": 400,
+  "blender_tris": 400,
+  "multi_weight": 0,
+  "bh3_bytes": 23190,
+  "orig_tris": 134,
+  "orig_verts": 118
+ },
+ {
+  "file": "blackbear_cub.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.100000000064938e-05,
+  "bh3_verts": 469,
+  "bh3_tris": 400,
+  "blender_tris": 400,
+  "multi_weight": 0,
+  "bh3_bytes": 23190,
+  "orig_tris": 134,
+  "orig_verts": 118
+ },
+ {
+  "file": "blackbear_snowy.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.100000000064938e-05,
+  "bh3_verts": 469,
+  "bh3_tris": 400,
+  "blender_tris": 400,
+  "multi_weight": 0,
+  "bh3_bytes": 23190,
+  "orig_tris": 134,
+  "orig_verts": 118
+ },
+ {
+  "file": "blackbear_cub_snowy.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 1.100000000064938e-05,
+  "bh3_verts": 469,
+  "bh3_tris": 400,
+  "blender_tris": 400,
+  "multi_weight": 0,
+  "bh3_bytes": 23190,
+  "orig_tris": 134,
+  "orig_verts": 118
+ }
+]

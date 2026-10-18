@@ -1,0 +1,16 @@
+[
+ {
+  "file": "hen.BH3",
+  "convert": true,
+  "reread": true,
+  "bones_same": true,
+  "rest_maxdiff": 3.099999999811587e-06,
+  "bh3_verts": 142,
+  "bh3_tris": 166,
+  "blender_tris": 166,
+  "multi_weight": 0,
+  "bh3_bytes": 8077,
+  "orig_tris": 36,
+  "orig_verts": 66
+ }
+]
