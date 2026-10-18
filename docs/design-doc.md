@@ -7,7 +7,7 @@ Base: Rise of Animals (24 nações viram espécies; visual fiel ao RoN com toque
 ## Conceito
 As 8 eras do Rise of Nations viram eras geológicas, em ordem. Pode ter animais pré-históricos. Possível mod separado no Workshop.
 
-## Eras (proposta inicial, texto do jogo em inglês)
+## Eras (proposta inicial, texto do jogo em inglês; substituída pelos Nomes das eras v2)
 | # | Era do RoN | Era geológica | Nome no jogo |
 |---|---|---|---|
 | 1 | Ancient | Pré-cambriano | The Pre-cram-brian Age |
@@ -632,3 +632,127 @@ Obs.: El Dorado, Washington Monument e Lenin Statue estão desativadas (`disable
 - Nomes de recurso dentro de textos: os textos de `help.xml` dizem "food", "timber" etc. e precisariam ser revisados.
 - Ícones dos recursos (`icon_texs.xml`) também teriam que ser repintados.
 - A etapa visual dos prédios por era foi deduzida (AGE3 = Gunpowder, AGE5 = Industrial) e precisa ser confirmada numa partida.
+
+## Tecnologias v1 (18/10/2026, aguardando a Ana)
+**Regra.** Cada tecnologia vira uma adaptação evolutiva real ligada à função dela:
+- Ciência = sentidos e cérebro.
+- Comércio = simbiose, forrageio e dispersão.
+- Cívica = vida em grupo (colônia, bando, manada).
+- Militar = predação, mandíbulas, garras e armaduras.
+- Prédios: Fort = caça e defesa; Tower = laço e território; Temple = exibição e simbiose; Lumber Mill = tocas, ninhos e florestas; Granary = pastejo e saúde; Smelter = estoque e biominerais; University = aprendizado.
+Na escala de cada linha, a adaptação aparece mais ou menos na era geológica dela.
+Fonte: `techrules.xml` (`<AGE>` = era em que dá para pesquisar, 0 = Ancient; `PREQ0`/`PREQ1`; `WHERE`), `typenames.xml` `<TECHS>`/`<MISC>`, `alternatenames.xml`.
+**Nomes por era:** as 28 tecnologias da biblioteca têm 8 nomes cada em `alternatenames.xml` (`ALTERNATENAMES`), um por era em que o jogador está quando pesquisa. Ex.: Written Word aparece como "Education" no Classical. As tecnologias de prédio têm 8 entradas em `ALTERNATENAMES2`, quase sempre repetidas. Proposta v1: repetir o nome do mod nas 8 entradas (são 224 + 320 strings). Nomes diferentes por era ficam para depois.
+As 7 tecnologias de avanço de era (Classical Age ... Information Age) estão na seção de nomes das eras.
+
+| Linha | Tecnologia original | Era | Equivalente evolutivo | Nome no jogo |
+|---|---|---|---|---|
+| Biblioteca: Ciência (sentidos e cérebro) | Written Word | Pré-cambriano (Ancient) | primeiro sistema nervoso | Nerve Net |
+| Biblioteca: Ciência (sentidos e cérebro) | Mathematics | Cambriano (Classical) | olhos compostos (explosão da visão) | Eye-rithmetic |
+| Biblioteca: Ciência (sentidos e cérebro) | Chemistry | Devoniano (Medieval) | olfato e quimiorrecepção | Scent-istry |
+| Biblioteca: Ciência (sentidos e cérebro) | Laws of Nature | Carbonífero (Gunpowder) | ouvido para ouvir no ar | Ears of Nature |
+| Biblioteca: Ciência (sentidos e cérebro) | Electricity | Triássico (Enlightenment) | bigodes sensoriais | Whisk-tricity |
+| Biblioteca: Ciência (sentidos e cérebro) | Electronics | Jurássico (Industrial) | cérebro maior e visão binocular | Neuro-tronics |
+| Biblioteca: Ciência (sentidos e cérebro) | Computerization | Cretáceo (Modern) | córtex para resolver problemas | Cortex-ization |
+| Biblioteca: Ciência (sentidos e cérebro) | Artificial Intelligence | Cenozoico (Information) | inteligência social complexa | Natural Intelligence |
+| Biblioteca: Comércio (simbiose e forrageio) | Barter | Pré-cambriano (Ancient) | troca de nutrientes entre micróbios | Microbial Barter |
+| Biblioteca: Comércio (simbiose e forrageio) | Coinage | Cambriano (Classical) | biomineralização (conchas) | Shell Coinage |
+| Biblioteca: Comércio (simbiose e forrageio) | Trade | Devoniano (Medieval) | dispersão por esporos | Spore Trade |
+| Biblioteca: Comércio (simbiose e forrageio) | Mercantilism | Carbonífero (Gunpowder) | rede de fungos e raízes (micorriza) | Fungal Mercantilism |
+| Biblioteca: Comércio (simbiose e forrageio) | Finance | Triássico (Enlightenment) | esconderijos de comida | Cache Flow |
+| Biblioteca: Comércio (simbiose e forrageio) | Assembly Line | Jurássico (Industrial) | migração de manadas | Migration Line |
+| Biblioteca: Comércio (simbiose e forrageio) | Globalization | Cretáceo (Modern) | flores e polinizadores pelo mundo | Global Pollination |
+| Biblioteca: Comércio (simbiose e forrageio) | Global Prosperity | Cenozoico (Information) | expansão dos campos de gramíneas | Global Grasslands |
+| Biblioteca: Cívica (vida em grupo) | City State | Pré-cambriano (Ancient) | colônias de micróbios | Colony State |
+| Biblioteca: Cívica (vida em grupo) | Empire | Cambriano (Classical) | primeiros recifes | Reef Empire |
+| Biblioteca: Cívica (vida em grupo) | Feudalism | Devoniano (Medieval) | hierarquia de dominância | Pecking Order |
+| Biblioteca: Cívica (vida em grupo) | Divine Right | Carbonífero (Gunpowder) | direito do macho alfa | Alpha Right |
+| Biblioteca: Cívica (vida em grupo) | Constitution | Triássico (Enlightenment) | regras da manada | Herd Constitution |
+| Biblioteca: Cívica (vida em grupo) | Great Power | Jurássico (Industrial) | caça em bando | Pack Power |
+| Biblioteca: Cívica (vida em grupo) | International Law | Cretáceo (Modern) | mutualismo entre espécies | Inter-species Law |
+| Biblioteca: Cívica (vida em grupo) | World Government | Cenozoico (Information) | teia alimentar global | World Food Web |
+| Biblioteca: Militar (garras, dentes e armaduras) | The Art of War | Pré-cambriano (Ancient) | primeiros predadores | The Art of Predation |
+| Biblioteca: Militar (garras, dentes e armaduras) | Mercenaries | Cambriano (Classical) | corrida armamentista do Cambriano | Arms Race |
+| Biblioteca: Militar (garras, dentes e armaduras) | Standing Army | Devoniano (Medieval) | mandíbulas | Standing Jaws |
+| Biblioteca: Militar (garras, dentes e armaduras) | Conscription | Carbonífero (Gunpowder) | garras e dentes em terra | Claw-scription |
+| Biblioteca: Militar (garras, dentes e armaduras) | Levee en Masse | Triássico (Enlightenment) | escamas e placas ósseas | Scale en Masse |
+| Biblioteca: Militar (garras, dentes e armaduras) | Nation-in-Arms | Jurássico (Industrial) | espinhos, placas e chifres | Nation-in-Armor |
+| Biblioteca: Militar (garras, dentes e armaduras) | Selective Service | Cretáceo (Modern) | seleção natural | Natural Selective Service |
+| Biblioteca: Militar (garras, dentes e armaduras) | Missile Shield | Cenozoico (Information) | espinhos de defesa (tipo porco-espinho) | Quill Shield |
+| Fort: táticas | Tactics | Devoniano (Medieval) | táticas de caça em bando | Pack Tactics |
+| Fort: táticas | Operations | Carbonífero (Gunpowder) | emboscada | Ambush Operations |
+| Fort: táticas | Strategy | Jurássico (Industrial) | predador de topo | Apex Strategy |
+| Fort: fortificação | Fortification | Devoniano (Medieval) | carapaça | Carapace Fortification |
+| Fort: fortificação | Bombardment | Carbonífero (Gunpowder) | queda de rochas | Rockfall Bombardment |
+| Fort: fortificação | Strategic Reserves | Jurássico (Industrial) | reservas de gordura | Fat Reserves |
+| Tower: lealdade | Allegiance | Cambriano (Classical) | seleção de parentesco | Kin-legiance |
+| Tower: lealdade | Oath of Fealty | Devoniano (Medieval) | casal fiel | Pair Bond |
+| Tower: lealdade | Patriotism | Triássico (Enlightenment) | territorialidade | Territorialism |
+| Tower: lealdade | Nationalism | Cretáceo (Modern) | marcação por cheiro | Scent Marking |
+| Temple: crença | Religion | Cambriano (Classical) | rituais de exibição | Ritual Display |
+| Temple: crença | Monotheism | Carbonífero (Gunpowder) | dança de corte | Courtship Dance |
+| Temple: crença | Existentialism | Jurássico (Industrial) | instinto de sobrevivência | Ex-stinct-ialism |
+| Temple: impostos | Taxation | Cambriano (Classical) | classificação dos seres vivos | Tax-onomy |
+| Temple: impostos | Vassalage | Devoniano (Medieval) | comensalismo | Commensalism |
+| Temple: impostos | Social Contract | Triássico (Enlightenment) | mutualismo | Mutualism Contract |
+| Temple: impostos | Income Tax | Jurássico (Industrial) | roubo de comida (cleptoparasitismo) | Klepto-tax |
+| Lumber Mill: construção | Construction | Cambriano (Classical) | construção de recifes | Reef Construction |
+| Lumber Mill: construção | Architecture | Devoniano (Medieval) | arquitetura de tocas | Burrow Architecture |
+| Lumber Mill: construção | Engineering | Triássico (Enlightenment) | engenharia de ninhos | Nest Engineering |
+| Lumber Mill: madeira | Carpentry | Devoniano (Medieval) | primeiras florestas | First Forests |
+| Lumber Mill: madeira | Logging Industry | Carbonífero (Gunpowder) | pântanos de carvão | Coal Swamps |
+| Lumber Mill: madeira | Papermill | Jurássico (Industrial) | vespa que faz papel mastigando madeira | Wasp Papermill |
+| Granary: saúde | Herbal Lore | Cambriano (Classical) | pastejo de algas | Algae Lore |
+| Granary: saúde | Medicine | Carbonífero (Gunpowder) | imunidade | Immunity |
+| Granary: saúde | Pharmaceuticals | Jurássico (Industrial) | resistência a toxinas de plantas | Detox-ceuticals |
+| Granary: comida | Agriculture | Devoniano (Medieval) | pastejo | Grazing |
+| Granary: comida | Crop Rotation | Carbonífero (Gunpowder) | dispersão de sementes | Seed Dispersal |
+| Granary: comida | Food Industry | Jurássico (Industrial) | cultivo de fungos (cupins e formigas) | Fungus Farming |
+| Smelter: suprimento | Forage | Devoniano (Medieval) | forrageio | Foraging |
+| Smelter: suprimento | Supply | Carbonífero (Gunpowder) | estoque de comida | Food Stores |
+| Smelter: suprimento | Logistics | Jurássico (Industrial) | rotas de migração | Migration Logistics |
+| Smelter: metal | Metal Alloys | Carbonífero (Gunpowder) | biominerais | Biomineral Alloys |
+| Smelter: metal | Cold Casting | Triássico (Enlightenment) | sangue frio | Cold-blood Casting |
+| Smelter: metal | Steel | Jurássico (Industrial) | esmalte dos dentes | Enamel Steel |
+| University | Literacy | Devoniano (Medieval) | comportamento aprendido | Learned Behaviour |
+| University | Printing Press | Carbonífero (Gunpowder) | estampagem (imprinting) | Imprinting Press |
+| University | Scientific Method | Triássico (Enlightenment) | tentativa e erro | Trial-and-Error Method |
+| University | Institutional Research | Jurássico (Industrial) | aprendizado social | Social Learning |
+| University | Supercomputers | Cretáceo (Modern) | supercórtex | Supercortex |
+| Senate: governos | Despotism | Cambriano (Classical) | dominância | Dominance |
+| Senate: governos | Republic | Cambriano (Classical) | bando que decide junto | Flock Republic |
+| Senate: governos | Monarchy | Carbonífero (Gunpowder) | rainha da colmeia | Hive Monarchy |
+| Senate: governos | Democracy | Carbonífero (Gunpowder) | abelhas que votam no ninho novo | Swarm Democracy |
+| Senate: governos | Socialism | Jurássico (Industrial) | eussocialidade | Colony Socialism |
+| Senate: governos | Capitalism | Jurássico (Industrial) | acumuladores | Hoarder Capitalism |
+
+### Pontos em aberto (tecnologias)
+- Nomes por era (`alternatenames.xml`): repetir um nome só (v1) ou criar 8 variantes por tecnologia?
+- Os textos de ajuda em `help.xml` descrevem os efeitos com palavras do jogo original ("Taxation", "Armies"...) e precisam ser revisados junto.
+- Testar se nomes longos ("Natural Selective Service", "Trial-and-Error Method") cabem no botão da biblioteca.
+- Os governos ficaram com nomes de comportamento animal; os líderes de governo das unidades genéricas (Despo-trodon etc.) continuam como estão.
+
+## Nomes das eras v2 (aprovados pela Ana, 18/10/2026)
+
+> **Decisão:** ficam os nomes recomendados (em negrito): The Primordial Age, The Cambrian Explosion, The Age of Fins, The Coal Forest Age, The Triassic Dawn, The Jurassic Heights, The Cretaceous Bloom, The Cenozoic Rise.
+Critério: trocadilho só onde soa natural. O resto usa nomes reais da geologia, que já soam épicos e combinam com o estilo realista. Nunca juntar "Jurassic" com "Park" ou "World".
+**Onde fica o texto:**
+- Classical a Information: `typenames.xml` `<AGES>` (7 hashes, ex.: 8843171 = Classical Age) e os mesmos hashes em `string_lookup.xml`, que também traz as formas curtas ("Classical") e frases como "Peace until Classical Age".
+- Ancient não tem tecnologia nem entrada em `<AGES>`. O texto dele fica em `translated_strings.xml` (hashes 38905808, 62458517, 28576951 = "Ancient Age"; 53140139 = "0 - Ancient Age"), em `string_lookup.xml` (5622063 = "Ancient Age"; 2415994 = "Ancient") e em cerca de 20 textos de `help.xml`.
+- A descrição de cada era iria nos textos de ajuda das tecnologias de era em `help.xml` (confirmar a entrada) ❓.
+
+| # | Era RoN | Atual | Recomendado | Alternativas | Descrição no jogo |
+|---|---|---|---|---|---|
+| 1 | Ancient | The Pre-cram-brian Age | **The Primordial Age** | The Pre-Cambrian Dawn; The Age of Ooze | Soft-bodied life drifts and crawls over microbial mats in warm, shallow seas. |
+| 2 | Classical | The Cam-bring-it Age | **The Cambrian Explosion** | The Cam-bring-it Age; The Age of Eyes | Shells, eyes and claws appear almost at once, and predator and prey race to outgrow each other. |
+| 3 | Medieval | The Fin-tastic Devonian | **The Age of Fins** | The Fin-tastic Devonian; The Devonian Shore | Jawed fish rule the seas while the first forests and four-limbed pioneers reach the shore. |
+| 4 | Gunpowder | The Car-bone-iferous Age | **The Coal Forest Age** | The Car-bone-iferous Age; The Age of Giant Wings | Steaming swamps of giant ferns, oxygen-rich air, metre-long dragonflies and the first reptiles. |
+| 5 | Enlightenment | The Triassic Dawn | **The Triassic Dawn** (mantém) | The Age of Reptiles; The Great Recovery | Life rebuilds after the Great Dying: early dinosaurs, mammal ancestors and sea reptiles spread across one supercontinent. |
+| 6 | Industrial | The Jurass-kick Age | **The Jurassic Heights** | The Jurass-kick Age; The Age of Titans | Long-necked giants browse conifer forests, while the first birds take to the air. |
+| 7 | Modern | The Cre-tail-ceous Age | **The Cretaceous Bloom** | The Cre-tail-ceous Age; The Last Roar | Flowers spread across the land, horned and armored giants roam, and the skies fill with wings, until the sky falls. |
+| 8 | Information | The Zen-ozoic Age | **The Cenozoic Rise** | The Zen-ozoic Age; The Age of Fur and Feather | The survivors inherit the Earth: grasslands, ice sheets, giant mammals and terror birds. |
+Obs.: "The Cenozoic Rise" ecoa o "Rise of Animals". "The Primordial Age" evita "Dawn" repetido com o Triássico.
+
+### Pontos em aberto (eras)
+- A seção "Eras (proposta inicial)" lá em cima continua com os nomes antigos até a Ana escolher.
+- Confirmar no jogo onde aparece a descrição de cada era.
