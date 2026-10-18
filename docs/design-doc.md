@@ -93,34 +93,34 @@ Rascunho v0.1 de 8 linhagens × 3 nações, todas sobreviventes até o Cenozoico
 8. Aracnídeos: escorpiões-do-mar > escorpiões gigantes > aranhas
 Grandes dinossauros como unidades especiais (Jurássico/Cretáceo). Navios: peixes, tubarões, amonites, répteis marinhos.
 
-## Distribuição das nações v0.1 (aprovada pela Ana, 17/10/2026; conferir bônus reais no mapeamento)
-1. Aves: Mongols, Lakota, Persians
-2. Mamíferos: Russians, Bantu, Iroquois
-3. Crocodilos: Egyptians, Nubians, Maya
-4. Tartarugas: Chinese, Koreans, Dutch
-5. Lagartos e cobras: Aztecs, Incas, Indians
+## Distribuição das nações v2 (aprovada pela Ana, 18/10/2026, conferida com os poderes reais)
+1. Aves: Mongols, Lakota, Bantu (migração + caças Hawk/Eagle Fighter)
+2. Mamíferos: Russians, Indians, Persians (os dois dividem a mesma unidade de elefante e textura)
+3. Crocodilos: Egyptians, Nubians, Dutch (comércio de rio e navios)
+4. Tartarugas: Chinese, Koreans, Maya (prédios mais resistentes)
+5. Lagartos e cobras: Aztecs, Incas, Iroquois (unidades escondidas no território)
 6. Anfíbios: British, Japanese, Spanish
 7. Insetos: Romans, Germans, Americans
 8. Aracnídeos: Turks, Greeks, French
 
-## Nações v1: bicho-símbolo e nome (aprovadas pela Ana, 17/10/2026)
+## Nações v2: bicho-símbolo e nome (18/10/2026)
 | Linhagem | Nação RoN | Bicho-símbolo | Nome no jogo |
 |---|---|---|---|
 | Aves | Mongols | Velociraptor | The Veloci-Horde |
 | Aves | Lakota | Ave-do-terror | The Terror-tory |
-| Aves | Persians | Archaeopteryx | The Feather-sian Empire |
+| Aves | Bantu | Argentavis (ave gigante voadora) | The Wing-tu Kingdom |
 | Mamíferos | Russians | Mamute | The Mam-moth-erland |
-| Mamíferos | Bantu | Dentes-de-sabre | The Fang-tu Kingdom |
-| Mamíferos | Iroquois | Castor gigante (Castoroides) | The Beaver-quois League |
+| Mamíferos | Indians | Deinotherium (elefante pré-histórico) | The Tusk Raj |
+| Mamíferos | Persians | Paraceratherium (rinoceronte gigante) | The Im-mammal Empire |
 | Crocodilos | Egyptians | Sarcosuchus | The Nile-osaurus Dynasty |
 | Crocodilos | Nubians | Deinosuchus | The Deino-Nubian Kingdom |
-| Crocodilos | Maya | Postosuchus | The Croco-Maya |
+| Crocodilos | Dutch | Purussaurus | The Nether-snaps |
 | Tartarugas | Chinese | Meiolania (tartaruga com chifres) | The Great Shell of China |
 | Tartarugas | Koreans | Proganochelys | The Turtle-ship Kingdom |
-| Tartarugas | Dutch | Stupendemys | The Shell-lands |
+| Tartarugas | Maya | Stupendemys | The Maya Shell-ter |
 | Lagartos e cobras | Aztecs | Titanoboa | The Boa-ztec Empire |
 | Lagartos e cobras | Incas | Megalania | The In-claw Empire |
-| Lagartos e cobras | Indians | Gigantophis | The Hiss-tory Raj |
+| Lagartos e cobras | Iroquois | Gigantophis | The Hiss-roquois League |
 | Anfíbios | British | Mastodonsaurus | The United King-frog |
 | Anfíbios | Japanese | Salamandra-gigante | The Salamander Shogunate |
 | Anfíbios | Spanish | Beelzebufo (rã gigante) | The Frog-quistadors |
@@ -130,3 +130,4 @@ Grandes dinossauros como unidades especiais (Jurássico/Cretáceo). Navios: peix
 | Aracnídeos | Turks | Escorpião gigante | The Scorpi-Ottoman Empire |
 | Aracnídeos | Greeks | Escorpião-do-mar | Arachn-Athens |
 | Aracnídeos | French | Aranha | The Web-public of France |
+Obs.: a unidade de elefante compartilhada por Indians e Persians vira o Deinotherium nas duas nações.
