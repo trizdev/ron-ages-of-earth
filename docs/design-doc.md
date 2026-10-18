@@ -131,3 +131,17 @@ Grandes dinossauros como unidades especiais (Jurássico/Cretáceo). Navios: peix
 | Aracnídeos | Greeks | Escorpião-do-mar | Arachn-Athens |
 | Aracnídeos | French | Aranha | The Web-public of France |
 Obs.: a unidade de elefante compartilhada por Indians e Persians vira o Deinotherium nas duas nações.
+
+## Linhagens era por era v1 (aprovadas pela Ana, 18/10/2026)
+Ordem: Pré-cambriano | Cambriano | Devoniano | Carbonífero | Triássico | Jurássico | Cretáceo | Cenozoico
+Raiz comum dos vertebrados: verme bilateral primitivo | Haikouichthys/Pikaia | Tiktaalik/Acanthostega (primeiros a sair na margem)
+1. Aves: verme | Haikouichthys | Tiktaalik | Hylonomus (1º réptil) | Coelophysis | Archaeopteryx | Velociraptor | ave-do-terror/Argentavis
+2. Mamíferos: verme | Pikaia | Acanthostega | Archaeothyris (1º sinapsídeo) | Thrinaxodon (cinodonte) | Morganucodon | Repenomamus | mamute/Deinotherium/Paraceratherium
+3. Crocodilos: verme | Haikouichthys | Tiktaalik | Hylonomus | Postosuchus | Protosuchus | Sarcosuchus/Deinosuchus | Purussaurus
+4. Tartarugas: verme | Haikouichthys | Tiktaalik | Hylonomus | Proganochelys | Kayentachelys | Basilemys | Meiolania/Stupendemys
+5. Lagartos e cobras: verme | Haikouichthys | Tiktaalik | Hylonomus | Megachirella (1º escamado) | Eichstaettisaurus | Najash (cobra com patas) | Titanoboa/Megalania/Gigantophis
+6. Anfíbios: verme | Haikouichthys | Acanthostega | Proterogyrinus | Triadobatrachus (proto-rã) | Prosalirus (1ª rã saltadora) | Beelzebufo | salamandra-gigante
+7. Insetos: artrópode primitivo de lama | Marrella | Rhyniognatha (1º inseto) | Meganeura | besouro primitivo | vespa primitiva | primeiras formigas e abelhas | Titanomyrma
+8. Aracnídeos: artrópode primitivo de lama | Sanctacaris | trigonotarbídeo (1º aracnídeo terrestre) | Pulmonoscorpius | aranha primitiva | Mongolarachne | aranha tecelã | escorpiões e tarântulas
+Pré-cambriano e Cambriano: toda a vida era marinha; as unidades de terra dessas eras são bichos de poça de maré e litoral, e o terreno da cidade nessas etapas é lodaçal úmido.
+Textura: as 6 linhagens de vertebrados dividem as 3 primeiras eras (verme, peixinho, Tiktaalik/Acanthostega), o que economiza arte; insetos e aracnídeos dividem a primeira.
