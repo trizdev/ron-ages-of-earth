@@ -16,8 +16,15 @@ Units evolve with each era, buildings become prehistoric habitats, technologies 
 ## Status
 
 - Design: complete ([docs/design-doc.md](docs/design-doc.md), in Portuguese).
-- Era name test: working in game ([mod/](mod/)).
-- Next: v0.1 with all in-game text, then textures, icons and models.
+- v0.1, all in-game text: working in game.
+- v0.2 text ([mod/](mod/)): themed help, tips, era descriptions and unit-class names (Light Biters, Heavy Brawlers, Armorbacks, Extinction Events...). Not yet tested in game; review notes in [docs/v0.2/](docs/v0.2/).
+- Art ([mod/art/](mod/art/)): new models and textures for the 13 scenery animals (Kanne-grazer, Diicto-hog, Wild Meso-herd, Lepto-flock, Wild Pterowing, Ptero Flock, Gull-hanguera, Bait Shoal, Steno-pod, Mei-hen, Plume-tail, Feather-bear), plus `mod/Data/unit_graphics.xml`. In-game test pending.
+- Art sources ([art-src/](art-src/)): Blender build scripts, file mappings and previews.
+- Next: nation art (icons, colors, units per lineage).
+
+## Tools
+
+New models are built in Blender and converted with the public RoN File Converter (ptasev). The converter is **not** included in this repository or in the mod; download and build it yourself from its official source.
 
 The mod is free and will always be free, with no ads.
 

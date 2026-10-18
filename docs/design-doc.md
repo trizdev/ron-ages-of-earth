@@ -1,11 +1,11 @@
-# Rise of Animals: Ages of Earth (Eras da Terra) — Documento de design
+# Rise of Nations: Ages of Earth (Eras da Terra) — Documento de design
 
-Status: fase de ideias (nenhum arquivo do jogo alterado)
+Status: v0.1 de textos e 13 bichos de cenário prontos (em teste); v0.2 de textos aprovada, ainda não instalada (18/10/2026). Os arquivos originais do jogo não são alterados: tudo fica numa pasta separada em `mods/`.
 Repositório: github.com/trizdev/ron-ages-of-earth (privado)
-Base: Rise of Animals (24 nações viram espécies; visual fiel ao RoN com toque fofo)
+Tipo: mod independente do Rise of Nations: Extended Edition (não é variante de outro mod). As 24 nações viram linhagens evolutivas pré-históricas e as 8 eras viram eras geológicas. Visual realista, sem toque fofo.
 
 ## Conceito
-As 8 eras do Rise of Nations viram eras geológicas, em ordem. Pode ter animais pré-históricos. Possível mod separado no Workshop.
+As 8 eras do Rise of Nations viram eras geológicas, em ordem. Pode ter animais pré-históricos. Mod próprio, para publicar no Workshop quando estiver pronto.
 
 ## Eras (proposta inicial, texto do jogo em inglês; substituída pelos Nomes das eras v2)
 | # | Era do RoN | Era geológica | Nome no jogo |
@@ -22,21 +22,22 @@ As 8 eras do Rise of Nations viram eras geológicas, em ordem. Pode ter animais 
 ## Restrições técnicas
 - Publicação via gerenciador de mods do jogo (pasta mods, layout data/*.xml).
 - Só substituir: sem nações, unidades ou tecnologias novas.
-- Texturas .tga (GIMP); modelos novos só com 3ds Max 5, então o padrão é reaproveitar modelos com textura, nome e ícone novos.
+- Texturas .tga (GIMP ou geradas por script). Modelos novos são feitos no Blender e convertidos com o RoN File Converter (ver "Rota de modelos" abaixo); a ideia original de usar só o 3ds Max 5 foi substituída.
 
 ## Regras da Microsoft (Game Content Usage Rules)
 Gratuito, sem anúncios, sem engenharia reversa, sem PI de terceiros, doações opcionais ok. Aviso obrigatório:
-"Rise of Animals: Ages of Earth was created under Microsoft's "Game Content Usage Rules" using assets from Rise of Nations, © Microsoft Corporation."
+"Rise of Nations: Ages of Earth was created under Microsoft's "Game Content Usage Rules" using assets from Rise of Nations, © Microsoft Corporation."
 
 ## Perguntas em aberto
 - Conferir os bônus reais de cada nação no mapeamento antes de fechar as habilidades.
 - Confirmar se dá pra trocar só o texto das eras mantendo o hash.
 
-## Nome do mod (decidido 17/10/2026)
-**Rise of Animals: Ages of Earth**
-Descartados: Evolution Edition; Pangaea (conflita com o tipo de mapa Pangaea do jogo e com mapas no Workshop).
+## Nome do mod (atualizado 18/10/2026)
+**Rise of Nations: Ages of Earth**
+É um mod independente do Rise of Nations: Extended Edition. Não descrever como variante de outro mod.
+Descartados: Rise of Animals: Ages of Earth (nome provisório de 17/10/2026); Evolution Edition; Pangaea (conflita com o tipo de mapa Pangaea do jogo e com mapas no Workshop).
 
-## Arquivos das eras (segundo o mapeamento do bot Rise of Animals, ainda não testado)
+## Arquivos das eras (mapeamento inicial vindo de outro projeto, só como referência; ainda não testado)
 - Nomes das eras: Data/typenames.xml; menus de partida: Data/string_lookup.xml.
 - Ancient Age não tem identificador próprio; Classical a Information ficam em techrules.xml.
 - Hipótese: manter o hash e trocar só o texto (precisa testar).
@@ -753,10 +754,10 @@ Critério: trocadilho só onde soa natural. O resto usa nomes reais da geologia,
 | 6 | Industrial | The Jurass-kick Age | **The Jurassic Heights** | The Jurass-kick Age; The Age of Titans | Long-necked giants browse conifer forests, while the first birds take to the air. |
 | 7 | Modern | The Cre-tail-ceous Age | **The Cretaceous Bloom** | The Cre-tail-ceous Age; The Last Roar | Flowers spread across the land, horned and armored giants roam, and the skies fill with wings, until the sky falls. |
 | 8 | Information | The Zen-ozoic Age | **The Cenozoic Rise** | The Zen-ozoic Age; The Age of Fur and Feather | The survivors inherit the Earth: grasslands, ice sheets, giant mammals and terror birds. |
-Obs.: "The Cenozoic Rise" ecoa o "Rise of Animals". "The Primordial Age" evita "Dawn" repetido com o Triássico.
+Obs.: "The Cenozoic Rise" ecoa o "Rise of Nations". "The Primordial Age" evita "Dawn" repetido com o Triássico.
 
 ### Pontos em aberto (eras)
-- A seção "Eras (proposta inicial)" lá em cima continua com os nomes antigos até a Ana escolher.
+- ~~A seção "Eras (proposta inicial)" lá em cima continua com os nomes antigos.~~ Resolvido: valem os nomes v2 aprovados (The Primordial Age, The Cambrian Explosion, The Age of Fins, The Coal Forest Age, The Triassic Dawn, The Jurassic Heights, The Cretaceous Bloom, The Cenozoic Rise).
 - Confirmar no jogo onde aparece a descrição de cada era.
 
 ## Biomas dos mapas v1 (aprovados pela Ana, 18/10/2026)
@@ -918,7 +919,7 @@ Os nomes das estradas não aparecem na tela (só arte); "Mud Trail", "Game Trail
 
 ### Bichos de caça e cenário
 
-> **Decisão da Ana (18/10/2026):** os bichos de cenário usam **modelos novos** (3ds Max 5) com as espécies da tabela, incluindo os bípedes Mei long, Caudipteryx e Beipiaosaurus; não é só repintura. Aves e baleia podem começar repintando os modelos existentes.
+> **Decisão da Ana (18/10/2026):** os bichos de cenário usam **modelos novos** (feitos no Blender, ver "Rota de modelos") com as espécies da tabela, incluindo os bípedes Mei long, Caudipteryx e Beipiaosaurus; não é só repintura. Aves e baleia podem começar repintando os modelos existentes.
 O que os dados mostram (`unitrules.xml` e `unit_graphics.xml`):
 - São 12 bichos com máscara de nação 0 (nenhuma nação produz), 1 de vida, sem ataque.
 - **O RoN não tem caça.** Comida vem de fazenda e de pesca. Os rebanhos são enfeite em volta dos recursos raros. A ligação recurso → bicho vem só dos nomes; não está em nenhum XML da caixa e deve estar no executável ❓.
@@ -955,5 +956,70 @@ Observações:
 - Os 6 mapstyles sem TILECHANCE (Mediterranean, Old World, East-West, Conquest, Editor) e os tipos de mapa sem arquivo próprio: de onde vem o tileset?
 - m_steppe_autumn não aparece em nenhum tipo de mapa: vale repintar agora?
 - Ligação recurso raro → bicho (Wool = ovelha, Furs = urso) e se a foca é usada.
-- Bichos de cenário: só repintar (mais rápido, menos fiel) ou fazer modelos novos para os bípedes?
+- ~~Bichos de cenário: só repintar ou fazer modelos novos para os bípedes?~~ Resolvido: modelos novos para os 13, incluindo os bípedes (ver "Bichos de cenário prontos").
 - Versões de neve das unidades genéricas (Citizen, Caravan, Merchant, Scout, Commando...): fazer arte de neve ou apontar para a normal.
+
+## Bichos de cenário prontos (aprovados pela Ana, 18/10/2026)
+Todos os 13 foram feitos no Blender, aprovados pela Ana pelas prévias e instalados no mod de teste `mods/Ages of Earth - Model Test/` (pasta `art/` com 50 arquivos + `Data/unit_graphics.xml`). Cada modelo mantém o esqueleto original (nomes, ordem e pose de descanso dos ossos), 1 osso por vértice, 1 textura e malha triangulada, para as animações originais (.BHa) continuarem servindo. O teste no jogo dos modelos novos ainda está pendente ❓ (o bisão de ida e volta já foi visto funcionando no jogo).
+
+| Bicho | Nome no jogo | Unidade original (arquivos em art/) | Observações |
+|---|---|---|---|
+| Kannemeyeria | Kanne-grazer | Herd Bison (`bison.BH3`, `bison2.BH3`, `Bison.tga`) | os dois modelos de bisão trocados; a maioria dos rebanhos usa o `bison2` (macho) |
+| Diictodon | Diicto-hog | Farm Pig (`pig.BH3`, `pig_black.BH3`, `pig.tga`, `pig_black.tga`) | 2 pelagens |
+| Mesohippus | Wild Meso-herd | Herd Horse (`Wildhorse_1/3/4.BH3`, `WildHorses.tga`) | v2 aprovada; escala no `unit_graphics.xml` de 0.9 para **0.55** (cavalo de três dedos é pequeno) |
+| Leptoceratops | Lepto-flock | Herd Sheep (`sheep1-3.BH3`, `sheep.tga`) | v2 aprovada (a v1 parecia lontra) |
+| anurognatídeo | Wild Pterowing | Wild Bird (`bird_dirty/snow/african.BH3` + 4 texturas, incluindo `bird_amer.tga`) | 4 pinturas por tileset, como no original |
+| Eudimorphodon | Ptero Flock | Flock Bird (`flock.BH3`, `flock.tga`, `flock_african.tga`) | normal e savana |
+| Anhanguera | Gull-hanguera | Gull Bird (`bird_gul.BH3`, `bird_gul.tga`) | pterossauro pescador do Ceará |
+| Leptolepis / belemnites / amonites | Bait Shoal | Herd Fish (`fish1.BH3`, `fish2.BH3`, `fish_belem.bh3`, `fish_coil.bh3`, 3 texturas) | o jogo tem um nome só por tipo, então os 3 cardumes ficam como Bait Shoal; belemnites (neve/ártico) e amonites (savana, GS, selva) usam modelos novos via `unit_graphics.xml`; só na água |
+| Stenopterygius | Steno-pod | Herd Whales (`whale.bh3`, `whale.tga`) | sem o jato do respiradouro (`WHALE_BLOWHOLE_BLOW` tirado), porque ictiossauro não tinha; só na água |
+| Mei long | Mei-hen | Farm Chicken (`hen.BH3`, `rooster.BH3`, `fowls.tga`) | fêmea apagada e macho colorido |
+| Caudipteryx | Plume-tail | Herd Peacock (`Peacock.BH3`, `Peahen.BH3`, `peafowl.tga`) | leque de penas na cauda |
+| Beipiaosaurus | Feather-bear | Herd Bear (`blackbear.BH3`, `blackbear_cub.BH3`, `blackbear_snowy.bh3`, `blackbear_cub_snowy.bh3` + 4 texturas) | v2 aprovada; feito no **esqueleto do peahen** e o `unit_graphics.xml` aponta o HERDBLACKBEAR para as animações do Peahen (escala 1 no filhote e 1.3 nos adultos, sombra de bípede); versão de neve nova; **troca de animação não testada no jogo** ❓ |
+
+Obs.: Keicho-pup (foca) continua sem lugar: o HERDSEALS não tem regra em `unitrules.xml` nem string própria.
+Arquivos de trabalho (scripts do Blender, MAPPING e prévias finais) ficam no repositório em `art-src/`.
+
+## Rota de modelos: Blender + RoN File Converter (18/10/2026)
+- Converter BH3/BHa para glTF e de volta com o **RoN File Converter** (código público do ptasev no GitHub). A Ana baixa e compila por conta própria; o conversor **nunca** é redistribuído nem entra no mod ou no repositório.
+- Não fazemos engenharia reversa de formato nenhum: só usamos a ferramenta pública.
+- No laptop: `~/.dotnet/dotnet ~/tools/ron-file-converter/ron-file-converter/ron-file-converter.dll bh3|gltf <arquivo>`.
+- Blender roda sem interface, por script: `flatpak run --filesystem=home org.blender.Blender -b --python <caminho absoluto>`. A Ana preferiu manter assim, sem o MCP do Blender.
+- Regras do modelo: mesmo esqueleto do original (nomes, ordem e pose de descanso), 1 osso por vértice, 1 textura, malha triangulada. O export do Blender reordena ossos irmãos, então a ordem original é restaurada antes de converter, e cada BH3 é relido para conferir.
+- Um bicho pode usar animações de outro esqueleto pelas entradas ANIM do `unit_graphics.xml` (caso do Feather-bear).
+- Arte entra no mod por nome de arquivo em `mods/<mod>/art/`, com a mesma caixa de letra do jogo. O jogo precisa ser reiniciado para ler as mudanças.
+
+## Textos v0.2 (aprovados pela Ana, 18/10/2026; instalação adiada)
+- 527 strings mudaram (`help.xml` 364, `translated_strings.xml` 163); 230 das 233 dicas e ajudas pendentes reescritas; as 8 descrições das eras escritas (help.xml LIBRARY/AGES, `AGE0`–`AGE7`, local a confirmar no jogo ❓).
+- Só o texto muda: hashes e IDs mantidos, arquivos idênticos byte a byte fora do texto, CRLF, sem BOM.
+- Detalhes em `docs/v0.2/REVIEW-v0.2.md` e `docs/v0.2/changes-v0.2.csv` no repositório.
+
+### Glossário de classes de unidade (aprovado pela Ana, 18/10/2026: usar os nomes temáticos)
+Vale para o help e para os rótulos de "bom contra / fraco contra" do `translated_strings.xml`.
+
+| Original | No jogo |
+|---|---|
+| Light Infantry | Light Biters |
+| Heavy Infantry | Heavy Brawlers |
+| Infantry (sozinho) | Foot Beasts |
+| Gunpowder / Musket Infantry | Spine-shooters |
+| Modern Infantry | Modern Shooters |
+| Foot Archers / Archers | Foot Spitters / Spitters |
+| Light / Heavy / Ranged Cavalry | Light Runners / Heavy Chargers / Ranged Runners |
+| Artillery (Weapons) | Siege Beasts |
+| Tanks | Armorbacks |
+| Machine Guns | Rapid Spitters |
+| Fighter / Bomber Aircraft | Fighter Flyers / Bomber Flyers |
+| Helicopters | Hoverers |
+| Anti-Aircraft | Anti-Air |
+| Nuclear Missiles | Extinction Events |
+| Nuclear Embargo | Extinction Embargo |
+| Light / Heavy / Bombardment Ships | Light / Heavy / Bombard Swimmers |
+| Subs | Divers |
+| Elephant | Tusker |
+Palavras soltas: troops/soldiers → creatures; foot troops → ground creatures; mounted troops → runners; armies → herds; cannon(s) → sharp teeth / crushing jaws; mortars → spine volleys; explosive shells/rockets → rock volleys/barrages; arrows/bullets → spines/stingers; weapons of mass destruction → falling space rocks; General → General Tua-tactics.
+Risco: rótulos mais longos podem cortar na interface; se cortar no teste, encurtar.
+
+### Pontos em aberto (v0.2)
+- Instalar a v0.2 no laptop junto com o teste dos 13 bichos (a Ana pediu para deixar para depois).
+- Ainda sem tema: títulos de poder, líderes, cidades, heróis, seções AIR/SPELLS/CAPS/LANDS, mapas, Conquest, fim de jogo e campanha.
