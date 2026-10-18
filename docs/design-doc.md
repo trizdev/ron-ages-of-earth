@@ -758,3 +758,202 @@ Obs.: "The Cenozoic Rise" ecoa o "Rise of Animals". "The Primordial Age" evita "
 ### Pontos em aberto (eras)
 - A seção "Eras (proposta inicial)" lá em cima continua com os nomes antigos até a Ana escolher.
 - Confirmar no jogo onde aparece a descrição de cada era.
+
+## Biomas dos mapas v1 (aprovados pela Ana, 18/10/2026)
+**Regra.**
+- Cada um dos 17 tilesets vira um bioma pré-histórico genérico, sem época marcada, porque o terreno não muda com a era e qualquer nação joga em qualquer mapa. A biologia das unidades segue a era.
+- Árvores e florestas (que dão Timber) usam só grupos de plantas que existem desde o Devoniano/Carbonífero e sobrevivem até hoje (licófitas, cavalinhas, samambaias-arbóreas, ginkgos, cicadáceas, coníferas, os "fósseis vivos" das plantas). Assim servem da era 3 à 8.
+- Limitação aceita: no Pré-cambriano e no Cambriano ainda não havia plantas em terra.
+- Tilesets que **dividem a mesma textura** (chão ou árvore) recebem a mesma pintura. Só o que é exclusivo de um tileset pode virar coisa própria.
+- Visual realista. Nomes no jogo em inglês.
+
+### Fontes conferidas (18/10/2026)
+- Copiados do laptop da Ana só para leitura, com aprovação dela, e extraídos em `/workspace/ron-data/terrain/`: `Data/tilesets.xml`, `Data/Cliffs.xml`, `Data/rivers.xml` e 22 arquivos em `mapstyles/`.
+- Lista completa da pasta `terrain art` com tamanhos: `/workspace/ron-data/terrain-art-files.tsv`, com 1070 arquivos.
+- Nomes na tela dos tilesets ficam em `translated_strings.xml`. Hashes: Snowy 15002569, Dirty 14955539, South West Desert 47901748, Great Sahara Desert 57623020, Jungle 16609325, African Savannah 47634745, Arctic 17377676, Mongolian Steppe 44766474, Autumn 16821430, Dirty 2 18448526, Early Autumn 31980934, Late Autumn 28913524, Mongolian Steppe 2 50453617, Mongolian Steppe 3 50483610, Mongolian Steppe Autumn 73939619, Tropical 22031543, Tropical Wet 32368533. As chaves internas (`snowy`, `m_steppe_2`...) ficam em `string_lookup.xml` e **não** se mexe nelas.
+
+### O que cada tileset usa de verdade (`tilesets.xml`)
+Todos os tilesets usam o mesmo fundo de mar (`ocean_floor_5`), as mesmas cores de mar no minimapa (`0x12aff8`/`0x064764`), a mesma decoração de chão (`T_Flat_Land_Deco_*`) e o mesmo toco (`art/doober_stumps.tga`). O minimapa da floresta é `0x425542`, menos no grupo da selva (`0x313501`).
+
+| Tileset | Pasta (BASEDIR) | 4 texturas-base | Costa | Penhasco de montanha | Rio | Estradas Middle / Late | Fazenda | Luz (tint R,G,B) | Montanha no minimapa | Neve |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Snowy | snowy | s_browngrass, s_browngrass_snow, s_snow_browngrass, s_snow | coastal | s_ | m_ | s_ / s_ | farm_snowy_wheat_1 | 0,9,38 (azulada) | 0xD2C9A6 | picos e prédios |
+| arctic | arctic | arctic1–4 | coastal | arctic_ | arctic_ | arctic_ / arctic_ | farm_snowy_wheat_1 | 0,9,38 | 0xDDD3AF | picos e prédios |
+| Dirty | dirty | grass, grass_dirt, dirt_grass, dirt | sand | t_ | d_ | d_ / d_ | farm_wheat_1 | 18,18,0 (amarelada) | 0x857f69 | picos |
+| Dirty_2 | dirty | grass_2, grass_dirt_2, dirt_grass_2, dirt_2 | sand | t_ | d_ | d_ / d_ | farm_wheat_1 | 18,18,0 | 0x857f69 | picos |
+| autumn | dirty | grass/dirt `_autumn` | sand | t_ | d_ | autumn_ / d_ | farm_wheat_1 | 18,18,0 | 0x857f69 | picos |
+| early_autumn | dirty | grass/dirt `_early_autumn` | sand | t_ | d_ | autumn_ / d_ | farm_wheat_1 | 18,18,0 | 0x857f69 | picos |
+| late_autumn | dirty | grass/dirt `_autumn_snow` | sand | t_ | d_ | autumn_ / d_ | farm_wheat_1 | 18,18,0 | 0x857f69 | picos |
+| SW_Desert | sw_desert | swgrass, swgrass_dirt, swdirt_grass, swdirt | coastal | sw_ | d_ | m_ / m_ | farm_wheat_1 | 38,29,0 (quente) | 0x000000 | não |
+| GS_Desert | GS_Desert | GS_desertsand, _sandgrass, _grasssand, _grass | coastal | gs_ | d_ | m_ / m_ | farm_wheat_1 | 38,29,0 | 0xB2AB8D | não |
+| african_savannah | african_savannah | savannah_clear, _undergrowth, _bushes, _rocky | coastal | as_ | d_ | m_ / d_ | farm_wheat_1 | 38,29,0 | 0x926a00 | não |
+| jungle | jungle | b_jungle1–4 | coastal | j_ | j_ | j_ / j_ | farm_jungle_wheat_1 | 20,20,0 | 0x857f69 | não |
+| tropical | jungle | c_jungle1–4 | coastal | tropical_ | j_ | j_ / j_ | farm_jungle_wheat_1 | 20,20,0 | 0x857f69 | não |
+| tropical_wet | jungle | wetlands_0–3 | coastal | tropical_ | j_ | j_ / j_ | farm_jungle_wheat_1 | 20,20,0 | 0x857f69 | não |
+| m_steppe | m_steppe | mongolia1–4 | coastal | m_ | m_ | gs_ / d_ | farm_wheat_1 | 5,0,15 (fria) | 0x75705c | picos |
+| m_steppe_autumn | m_steppe | mongolia1–4 `_c` | coastal | m_ | m_ | gs_ / d_ | farm_wheat_1 | 5,0,15 | 0x75705c | picos |
+| m_steppe_2 | m_steppe | mongolia4_b, 2_b, 1_b, 3_b | coastal | s_ (o do Snowy) | m_ | gs_ / d_ | farm_wheat_1 | 5,0,15 | 0x75705c | picos |
+| m_steppe_3 | m_steppe | mongolia4_b, 1_b, 1_b, 2_b | coastal | s_ (o do Snowy) | m_ | gs_ / d_ | farm_wheat_1 | 5,0,15 | 0x75705c | picos |
+
+Observações:
+- **Árvores.** O `tilesets.xml` não diz qual modelo de árvore cada tileset usa. A ligação abaixo vem dos nomes das pastas e arquivos ❓:
+  - `dirty/dtrees`: `tree_t` serve Dirty e Dirty_2. `tree_ta`, `tree_tea` e `tree_tla` servem autumn, early_autumn e late_autumn. As árvores baixas são `dirty_`, `dirtyautumn_` e `dirtylateautumn_low_trees`.
+  - `jungle/jtrees` serve jungle. `jungle/tropical_trees` serve provavelmente tropical e tropical_wet.
+  - `m_steppe/mtrees`: as texturas sem `_b` servem m_steppe e m_steppe_autumn; as com `_b` servem m_steppe_2 e m_steppe_3.
+  - Uma pasta cada: `snowy/strees`, `arctic/arctictrees` (`tree_a_*`), `SW_desert/swtrees` (com `TreeL_sw`), `GS_Desert/gstrees` e `african_savannah/astrees`.
+- **Moitas, pedras e pedra de mina.** SW_Desert, GS_Desert, jungle, tropical, tropical_wet e african_savannah apontam para `tilesets\sw_desert\swdoobers\...`. **Essa pasta não existe na lista de arquivos** ❓. Os objetos de verdade parecem ser os de `common/common_doobers`, um jogo por prefixo: `d_`, `s_`, `sw_`, `gs_`, `as_`, `j_`, `autumn_`.
+- **Plantas de flor na água.** Os enfeites de rio são taboa (`*_riverdoober_cat_texture`) e vitória-régia (`*_riverdoober_lilly_texture`), que são plantas com flor e só aparecem no Cretáceo. Trocar por cavalinhas na margem e por musgo/alga boiando.
+- **Penhascos** (`Cliffs.xml`): os sprites de penhasco ficam em `cliffs/` e são **iguais para todos os tilesets**. Cada tileset só troca a textura de encosta de montanha (`common_mountains/<prefixo>_mountain_cliff`).
+- **Petróleo e terreno áspero:** `common_doobers/<prefixo>_rough` e `_rough_oil`. A fazenda também usa as camadas `farm_animals`/`farm_j_animals` e `farm_wheat`/`farm_j_wheat`.
+- `weatherbase` e `riverbase` (valores 0–3) variam por tileset; o efeito deles não está documentado ❓.
+
+### Que tipo de mapa usa qual tileset (`mapstyles/*.xml`, campo TILECHANCE)
+| Tipo de mapa | Tilesets (chance %) |
+|---|---|
+| SAHARA | GS_Desert 100 |
+| NILEDELTA | GS_Desert 100 (mapa com muita água) |
+| SOUTHWESTMESA | SW_Desert 100 |
+| HIMALAYAS | Snowy 50, arctic 50 |
+| AFRICA | african_savannah 100 |
+| AMAZON | jungle, tropical e tropical_wet (100 cada; sorteio entre os três ❓) |
+| BRITISHISLES | Dirty 60, Snowy 40 |
+| COLONIALPOWERS | Dirty, Snowy, SW_Desert, jungle (25 cada) |
+| EASTINDIES | jungle 20, tropical 15, tropical_wet 15, SW_Desert 25, Dirty 25 |
+| OUTBACK | autumn, SW_Desert, Dirty, jungle (25 cada) |
+| SEAPOWER | Dirty, Snowy, GS_Desert, SW_Desert, jungle (20 cada) |
+| WARRINGSTATES | Dirty, african_savannah, arctic, Snowy (25 cada) |
+| GREATLAKES e NEWWORLD | autumn, early_autumn, late_autumn, Dirty_2, Dirty, Snowy, m_steppe (10 cada); m_steppe_2, m_steppe_3, arctic, jungle, SW_Desert, GS_Desert (5 cada) |
+| default | Dirty, Snowy, jungle, SW_Desert, GS_Desert (18 cada), arctic 10 |
+| greatlakes_trial | Dirty 100 |
+| MEDITERRANEAN, OLDWORLD, EASTWEST, CONQUESTMAP, CONQUESTMAPSEA, EDITORMAP | sem TILECHANCE; provavelmente usam o default ou o tileset vem de fora ❓ |
+
+O que isso mostra:
+- **Dirty** é o tileset mais visto (está em 9 tipos de mapa). Snowy, jungle e SW_Desert vêm logo atrás. Esses quatro são a prioridade de arte.
+- **m_steppe_autumn não aparece em nenhum tipo de mapa** (talvez só em cenário ou no editor ❓). m_steppe, m_steppe_2, m_steppe_3, early_autumn, late_autumn e Dirty_2 só aparecem no sorteio de GREATLAKES e NEWWORLD. tropical e tropical_wet aparecem só em AMAZON e EASTINDIES. Esses podem esperar.
+- O jogo tem mais tipos de mapa do que os 22 arquivos; os que não têm arquivo próprio provavelmente usam o default ❓.
+
+### Os 17 biomas (corrigido com os dados reais)
+| Tileset (interno) | Nome atual na tela | Onde aparece | Bioma pré-histórico | Florestas (Timber) | Nome no jogo |
+|---|---|---|---|---|---|
+| Snowy | Snowy | Himalayas, British Isles, Colonial, Sea Power, Warring States, default | litoral de gelo derretendo, lama com geada | Glossopteris e coníferas baixas | Frost Flats |
+| arctic | Arctic | Himalayas, Warring States, default | manto de gelo | coníferas anãs e musgo congelado | Glacial Waste |
+| Dirty | Dirty | o mais comum | lodaçal de maré com tapete de micróbios e margens verdes | bosques de Archaeopteris e Calamites (a mesma árvore do Dirty_2) | Primordial Mudflats |
+| Dirty_2 | Dirty 2 | Great Lakes, New World | planície de inundação de delta | a mesma do Dirty | River Delta |
+| autumn | Autumn | Outback, Great Lakes, New World | bosque de ginkgos dourados | ginkgos | Ginkgo Woodland |
+| early_autumn | Early Autumn | Great Lakes, New World | planalto seco com cicadáceas | cicadáceas e bennettitales | Cycad Uplands |
+| late_autumn | Late Autumn | Great Lakes, New World | bosque coberto de cinza vulcânica (a textura original é de neve; a cinza cinzenta aproveita isso) | ginkgos queimados | Ashfall Woodland |
+| SW_Desert | South West Desert | Southwest Mesa e mais 5 | mesetas de rocha vermelha do interior do supercontinente | coníferas esparsas tipo araucária | Red Bed Mesas (era "Red Bed Desert") |
+| GS_Desert | Great Sahara Desert | Sahara, Nile Delta, Sea Power, default | mar de dunas com oásis | araucárias em oásis | Great Dune Sea |
+| african_savannah | African Savannah | Africa, Warring States | savana de samambaias (antes do capim) | araucárias espalhadas | Fern Savanna |
+| jungle | Jungle | Amazon, East Indies, Colonial, Outback, Sea Power, default | pântano da floresta de carvão | Lepidodendron e Sigillaria | Coal Forest Swamp |
+| tropical | Tropical | Amazon, East Indies | litoral quente de samambaias-arbóreas | samambaias-arbóreas (Psaronius) | Tree Fern Coast |
+| tropical_wet | Tropical Wet | Amazon, East Indies | brejo de cavalinhas gigantes | samambaias-arbóreas, as mesmas do tropical (a árvore é dividida); as cavalinhas ficam no chão e na margem | Horsetail Marsh |
+| m_steppe | Mongolian Steppe | Great Lakes, New World | planalto seco com moitas de cicadáceas | cicadáceas e coníferas baixas (a mesma árvore do Moss Steppe) | Cycad Steppe |
+| m_steppe_autumn | Mongolian Steppe Autumn | nenhum tipo de mapa | estepe fria de musgo | a mesma do m_steppe | Moss Steppe |
+| m_steppe_2 | Mongolian Steppe 2 | Great Lakes, New World | planalto de lava basáltica | coníferas resistentes | Basalt Plateau |
+| m_steppe_3 | Mongolian Steppe 3 | Great Lakes, New World | encosta de basalto, a mesma pintura do Basalt Plateau | as mesmas do m_steppe_2 | Basalt Foothills (era "Salt Lake Shore") |
+Obs.: nenhum bioma tem capim, porque as gramíneas só se espalham no Cenozoico. Pedras ficam pedras. Moitas viram touceiras de samambaia. Tocos viram tocos de licófita (Stigmaria). Taboa e vitória-régia saem dos rios.
+
+### Estradas e chão das cidades por etapa (corrigido)
+O que os arquivos mostram:
+- **Chão embaixo dos prédios (ALPHAELEM) não muda com a era.** Os 7 tamanhos (TwoByTwo até SevenBySeven e NineByFive) usam `age0_22.tga` em `age0`, `age1` e `age2`. Uma textura só para o jogo inteiro.
+- **Calçamento em volta (WEATHERELEM) tem 3 etapas:** Rough (`base_0_0/0_1`, age 0), Cobble (`base_1_0/1_1`, age 1) e Modern (`Modern_Weathering`, age 2).
+- **Estradas têm 4 nomes de etapa:**
+  - Early: `Roads/Early_Road` e `Early_Road_Pieces`, uma para todos os tilesets.
+  - Middle e Late: uma de cada por grupo de tileset, em `common_roads`. Os prefixos de Middle são 7 (`s`, `d`, `autumn`, `m`, `gs`, `j`, `arctic`) e os de Late são 5 (`s`, `d`, `m`, `j`, `arctic`). Existem ainda `Roads/Middle_Road`, `Late_Road` e `SW_Middle_Road` genéricas.
+  - Modern: só peças, `Modern_Road_Pieces`.
+  - As caravanas têm peças Middle, Late e Modern.
+- **Qual era liga cada etapa não está em nenhum arquivo copiado** ❓. Isso deve estar no executável. Hipótese, como nos prédios: etapa 1 = Ancient–Medieval, 2 = Gunpowder–Enlightenment, 3 = Industrial–Information. Confirmar numa partida.
+
+| Etapa | Estrada | Calçamento em volta (WEATHERELEM) | Placas de rua |
+|---|---|---|---|
+| Early | Mud Trail: rastros de arraste e trilhas de vermes na lama | Rough: rocha nua com tapete de micróbios | sem placa (ou pedras empilhadas) |
+| Middle | Game Trail: trilha batida com pegadas | Cobble: lama pisoteada com pegadas | pedras marcadas com cheiro |
+| Late | Migration Route: corredor largo de terra compactada | Cobble (a mesma da etapa anterior) | pilhas de ossos |
+| Modern | Migration Route larga, com cascalho de ossos | Modern: terra batida com fragmentos de osso e concha | pilhas de ossos |
+| (todas) | — | Chão embaixo dos prédios (`age0_22`): uma pintura só, tapete de musgo e folhiço | — |
+Os nomes das estradas não aparecem na tela (só arte); "Mud Trail", "Game Trail" e "Migration Route" são nomes de trabalho.
+
+### Repintar ou só renomear
+- **Só renomear (texto):** os 17 nomes de tileset em `translated_strings.xml`.
+- **Contagem real da pasta `terrain art`:** 1070 arquivos. São 730 TGA (569 de cor e 161 `_mtrl` de material), 16 PNG, 323 modelos `.bh3` e 1 arquivo de dados de ponte.
+
+| Subpasta | Arquivos | Texturas de cor | `_mtrl` | Modelos .bh3 | MB |
+|---|---|---|---|---|---|
+| raiz | 57 | 38 | 19 | 0 | 12,8 |
+| Roads/ | 22 | 13 | 9 | 0 | 5,6 |
+| cliffs/ | 124 | 124 | 0 | 0 | 0,3 |
+| transitions/ | 32 | 32 (16 TGA + 16 PNG) | 0 | 0 | 1,6 |
+| rivers/ | 54 | 9 | 0 | 45 (enfeites de rio) | 1,4 |
+| newwater/ | 32 | 32 | 0 | 0 | 2,1 |
+| tilesets/ (raiz) | 14 | 8 | 6 | 0 | 9,8 |
+| tilesets/common/common_doobers | 64 | 64 | 0 | 0 | 6,3 |
+| tilesets/common/common_mountains | 69 | 35 | 34 | 0 | 18,1 |
+| tilesets/common/common_rivers | 16 | 16 | 0 | 0 | 3,2 |
+| tilesets/common/common_roads | 24 | 12 | 12 | 0 | 6,3 |
+| tilesets/dirty (+ dtrees) | 115 | 61 | 23 | 30 | 57,9 |
+| tilesets/jungle (+ jtrees, tropical_trees) | 108 | 34 | 14 | 60 | 38,0 |
+| tilesets/m_steppe (+ mtrees) | 74 | 30 | 14 | 30 | 32,4 |
+| tilesets/snowy (+ strees) | 51 | 15 | 6 | 30 | 13,1 |
+| tilesets/arctic (+ arctictrees) | 51 | 15 | 6 | 30 | 13,7 |
+| tilesets/SW_desert (+ swtrees) | 59 | 17 | 6 | 36 | 12,3 |
+| tilesets/GS_Desert (+ gstrees) | 48 | 15 | 6 | 27 | 13,2 |
+| tilesets/african_savannah (+ astrees) | 56 | 15 | 6 | 35 | 13,4 |
+| **Total** | **1070** | **585** | **161** | **323** | **~262** |
+
+- **Riscos de textura dividida:**
+  - A pasta `dirty/` serve 5 tilesets (Dirty, Dirty_2 e os três autumn). `jungle/` serve 3 e `m_steppe/` serve 4.
+  - Dirty e Dirty_2 dividem a árvore. tropical e tropical_wet dividem a árvore e o penhasco.
+  - m_steppe_2 e m_steppe_3 dividem quase todo o chão (três texturas `_b` iguais) e a árvore. Por isso a ideia de "lago salgado" saiu: ela pediria um chão branco, que mudaria o Basalt Plateau também.
+  - O penhasco `s_mountain_cliff` serve Snowy, m_steppe_2 e m_steppe_3, então tem que ser neutro, de rocha escura com pouca neve. `t_mountain_cliff` serve os 5 tilesets da pasta `dirty/`.
+  - As estradas Late `d_` servem Dirty, autumn, savana e os quatro m_steppe. As estradas `m_` servem os dois desertos e a savana. As `gs_` Middle servem os m_steppe.
+  - Os rios `d_` servem Dirty e os desertos e a savana. Os rios `m_` servem Snowy e os m_steppe.
+  - Comuns a todos os tilesets: `ocean_floor_5`, decoração `T_Flat_Land_*`, `doober_stumps`, sprites de penhasco, `age0_22`, `base_*`, `Modern_Weathering`.
+- **Outros riscos:**
+  - Os modelos de árvore (`.bh3`) mantêm o formato (copa redonda); só a pintura muda, então "samambaia-arbórea" fica limitada pela silhueta.
+  - Legibilidade: floresta, água rasa e terreno aberto precisam continuar fáceis de distinguir.
+  - Formato e tamanho dos TGA e canal alfa têm que ser os mesmos.
+  - Não está confirmado se um mod consegue sobrescrever `terrain art/`.
+  - Cores de minimapa e luz estão no `tilesets.xml` e dá para ajustar, mas isso é editar dado do jogo, que fica para a fase de mod, não agora.
+
+### Bichos de caça e cenário
+
+> **Decisão da Ana (18/10/2026):** os bichos de cenário usam **modelos novos** (3ds Max 5) com as espécies da tabela, incluindo os bípedes Mei long, Caudipteryx e Beipiaosaurus; não é só repintura. Aves e baleia podem começar repintando os modelos existentes.
+O que os dados mostram (`unitrules.xml` e `unit_graphics.xml`):
+- São 12 bichos com máscara de nação 0 (nenhuma nação produz), 1 de vida, sem ataque.
+- **O RoN não tem caça.** Comida vem de fazenda e de pesca. Os rebanhos são enfeite em volta dos recursos raros. A ligação recurso → bicho vem só dos nomes; não está em nenhum XML da caixa e deve estar no executável ❓.
+- O peixe fica no ponto de pesca (BONUS "Fish" dos mapstyles). Os barcos de pesca tiram comida dali.
+- Existe ainda `HERDSEALS` (foca) em `unit_graphics.xml`, mas sem linha em `unitrules.xml`. Talvez não seja usado ❓.
+- Nenhum bicho abaixo é dinossauro reservado, bicho-símbolo de nação ou unidade já usada.
+- A arte é uma só para o jogo inteiro, então a escolha vai para bichos "de fundo" que não marcam uma era famosa.
+
+| Original (gráfico) | O que faz no jogo | Variantes por tileset hoje | Substituto pré-histórico | Nome no jogo | Neve / variantes novas |
+|---|---|---|---|---|---|
+| Wild Bird (WILDBIRD) | pássaro solto voando, só cenário | dirty, snow (Snowy e arctic), african (savana e GS), amer (jungle) | pterossauro pequeno comedor de insetos (anurognatídeo) | Wild Pterowing | 4 pinturas, como hoje: marrom, cinza-claro (neve), areia, verde |
+| Flock Bird (FLOCKBIRD) | bando voando, só cenário | normal, african | bando de pterossauros pequenos (Eudimorphodon) | Ptero Flock | normal e savana; na neve usa a normal |
+| Gull Bird (GULLBIRD) | gaivota da costa, só cenário (voa em rasantes) | nenhuma | pterossauro pescador de costa (Anhanguera, do Ceará) | Gull-hanguera | não precisa |
+| Farm Pig (FARMPIG, 2 tipos) | porco da fazenda, só enfeite | nenhuma (camada `farm_animals`/`farm_j_animals` no chão) | dicinodonte pequeno (Diictodon) | Diicto-hog | não precisa; repintar as 2 camadas de fazenda |
+| Farm Chicken (FARMCHICKEN, galinha e galo) | galinha da fazenda, só enfeite | nenhuma | dinossauro emplumado pequeno (Mei long) | Mei-hen | fêmea apagada e macho colorido, como galinha e galo |
+| Herd Horse (HERDHORSES, 3 tipos) | rebanho do recurso Horses → **Wild Herds** (Stable mais barato) | nenhuma | cavalo de três dedos (Mesohippus) | Wild Meso-herd | não precisa |
+| Herd Sheep (HERDSHEEP, 3 tipos) | rebanho do recurso Wool → **Down** (Citizens mais baratos e rápidos) ❓ | nenhuma | ceratopsiano pequeno de quatro patas (Leptoceratops) | Lepto-flock | não precisa |
+| Herd Bison (HERDBISON, 3 tipos) | rebanho do recurso Bison → **Grazer Herds** (Granary mais barato) | nenhuma | dicinodonte grande (Kannemeyeria) | Kanne-grazer | não precisa |
+| Herd Bear (HERDBLACKBEAR, filhote + 2 adultos) | bicho do recurso Furs → **Feathers** (militar e visão) ❓ | arctic (`blackbear_snowy`) | terizinossauro pequeno emplumado (Beipiaosaurus) | Feather-bear | versão de neve com plumagem clara e grossa |
+| Herd Peacock (HERDPEACOCKS, 3 tipos) | bando do recurso Peacocks → **Courtship Plumes** (população) | nenhuma | dinossauro emplumado com leque na cauda (Caudipteryx) | Plume-tail | não precisa |
+| Herd Fish (HERDFISH, 3 tipos) | cardume no ponto de pesca (comida dos barcos de pesca) → recurso **Plankton** | normal (Dirty), salmon (Snowy e arctic), mahi (savana, GS, jungle) | normal: cardume de peixinhos (Leptolepis); frio: belemnites; quente: amonites pequenas | Bait Shoal / Belemnite Swarm / Coil Shoal | 3 pinturas, como hoje; só na água |
+| Herd Whales (HERDWHALES) | grupo do recurso Whales → **Ichthyosaur Pods** (navios mais rápidos) | nenhuma | ictiossauro comum (Stenopterygius) | Steno-pod | só na água |
+| (Herd Seals, sem regra) | foca, uso incerto ❓ | nenhuma | paquipleurossauro pequeno (Keichousaurus), na água ou na beira | Keicho-pup | só água e beira |
+
+Observações:
+- **Modelos.** Os pássaros e a baleia podem ser repintados em cima do modelo atual (asas e corpo de nadador batem). Porco, bisão e cavalo têm silhueta de quadrúpede parecida com dicinodonte, Kannemeyeria e Mesohippus, mas o resto precisa de modelo novo.
+- **Bípedes.** Galinha, pavão e urso viram dinossauros de duas patas, e o urso é o caso mais difícil. Se a Ana quiser só repintar, o urso pode virar Amphicyon (cão-urso do Cenozoico, silhueta igual), mas aí não combina com "Feathers".
+- **Fazenda.** A plantação da fazenda (`farm_wheat`, `farm_j_wheat`, `farm_*_wheat_1`) é trigo, ou seja, capim. Isso é da seção de construções (já aprovada); só registro aqui.
+
+### Pontos em aberto
+- Ligação era → etapa das estradas e do calçamento: não está nos arquivos; confirmar numa partida.
+- A pasta `sw_desert/swdoobers`, citada por 6 tilesets, não existe na lista de arquivos. Ver no jogo quais moitas e pedras aparecem nesses tilesets.
+- Qual pasta de árvore cada tileset usa (inferido pelos nomes) e se tropical e tropical_wet usam `tropical_trees`.
+- Os 6 mapstyles sem TILECHANCE (Mediterranean, Old World, East-West, Conquest, Editor) e os tipos de mapa sem arquivo próprio: de onde vem o tileset?
+- m_steppe_autumn não aparece em nenhum tipo de mapa: vale repintar agora?
+- Ligação recurso raro → bicho (Wool = ovelha, Furs = urso) e se a foca é usada.
+- Bichos de cenário: só repintar (mais rápido, menos fiel) ou fazer modelos novos para os bípedes?
+- Versões de neve das unidades genéricas (Citizen, Caravan, Merchant, Scout, Commando...): fazer arte de neve ou apontar para a normal.
