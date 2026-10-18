@@ -14,15 +14,15 @@
 	<STRING hash="62195238" needed="1">Conquer the World</STRING>
 	<STRING hash="36487804" needed="1">High Score</STRING>
 	<STRING hash="17344006" needed="1"> - </STRING>
-	<STRING hash="102569681" needed="1">Wonder (World Government)</STRING>
+	<STRING hash="102569681" needed="1">Wonder (World Food Web)</STRING>
 	<STRING hash="24351827" needed="1">Wonder</STRING>
-	<STRING hash="121116119" needed="1">Territory (World Government)</STRING>
+	<STRING hash="121116119" needed="1">Territory (World Food Web)</STRING>
 	<STRING hash="33322088" needed="1">Territory</STRING>
 	<STRING hash="33965359" needed="1">Tech Race</STRING>
 	<STRING hash="30477070" needed="1">Economic</STRING>
 	<STRING hash="35989200" needed="1">Time Limit</STRING>
 	<STRING hash="62217743" needed="1">None (Armageddon)</STRING>
-	<STRING hash="108956508" needed="1">Capital (World Government)</STRING>
+	<STRING hash="108956508" needed="1">Capital (World Food Web)</STRING>
 	<STRING hash="27476865" needed="1">Capital</STRING>
 	<STRING hash="42831502" needed="1">Sudden Death</STRING>
 	<STRING hash="51235994" needed="1">Musical Chairs</STRING>
@@ -40,16 +40,16 @@
 	<STRING hash="22088421" needed="1">Team </STRING>
 	<STRING hash="70987820" needed="1">$AGEEVENT1, $TIMER0</STRING>
 	<STRING hash="38905808" needed="1">The Primordial Age</STRING>
-	<STRING hash="158168585" needed="1">Wonder Victory (World Government)</STRING>
+	<STRING hash="158168585" needed="1">Wonder Victory (World Food Web)</STRING>
 	<STRING hash="51445857" needed="1">Wonder Victory</STRING>
-	<STRING hash="186220121" needed="1">Territory Victory (World Government)</STRING>
+	<STRING hash="186220121" needed="1">Territory Victory (World Food Web)</STRING>
 	<STRING hash="64597724" needed="1">Territory Victory</STRING>
 	<STRING hash="65240995" needed="1">Tech Race Victory</STRING>
 	<STRING hash="47787548" needed="1">Score Victory</STRING>
 	<STRING hash="60460548" needed="1">Economic Victory</STRING>
 	<STRING hash="68696714" needed="1">Time Limit Victory</STRING>
 	<STRING hash="36046510" needed="1">Armageddon</STRING>
-	<STRING hash="166517210" needed="1">Capital Capture (World Government)</STRING>
+	<STRING hash="166517210" needed="1">Capital Capture (World Food Web)</STRING>
 	<STRING hash="55235729" needed="1">Capital Capture</STRING>
 	<STRING hash="27130073" needed="1">Unknown</STRING>
 	<STRING hash="90357122" needed="1">$ACHIEVEEVENT1, $TIMER0</STRING>
@@ -60,7 +60,7 @@
 	<STRING hash="74984016" needed="1">City Founded: $CITY0</STRING>
 	<STRING hash="80558700" needed="1">City Captured: $CITY0</STRING>
 	<STRING hash="62100086" needed="1">City Lost: $CITY0</STRING>
-	<STRING hash="88968270" needed="1">Nuclear Missile Attack</STRING>
+	<STRING hash="88968270" needed="1">Extinction Event Strike</STRING>
 	<STRING hash="46875640" needed="1">Timer Started</STRING>
 	<STRING hash="46257870" needed="1">Timer Stopped</STRING>
 	<STRING hash="46150218" needed="1">Won: $REASON0</STRING>
@@ -118,23 +118,23 @@
 	<STRING hash="150179397" needed="1">Conventional missile launch detected.</STRING>
 	<STRING hash="176189694" needed="1">$GOVERNORVENTURA0 is researching $INFORMATIONAGE1!</STRING>
 	<STRING hash="110477526" needed="1">MAXIMUM POPULATION LIMIT REACHED.</STRING>
-	<STRING hash="239990288" needed="1">POPULATION LIMIT REACHED! Research Military (red) at the Library.</STRING>
-	<STRING hash="235496679" needed="1">CARAVAN LIMIT REACHED! Research Commerce (green) at the Library.</STRING>
-	<STRING hash="38977892" needed="1">Airbase is full.</STRING>
-	<STRING hash="134873376" needed="1">Airbase is reaching full capacity.</STRING>
+	<STRING hash="239990288" needed="1">POPULATION LIMIT REACHED! Research Military (red) at the Fossil Record.</STRING>
+	<STRING hash="235496679" needed="1">CARAVAN LIMIT REACHED! Research Commerce (green) at the Fossil Record.</STRING>
+	<STRING hash="38977892" needed="1">Cliff Roost is full.</STRING>
+	<STRING hash="134873376" needed="1">Cliff Roost is reaching full capacity.</STRING>
 	<STRING hash="82577558" needed="1">Infinite Queue Deactivated</STRING>
 	<STRING hash="183347952" needed="1">Enemy has a missile shield!  Launch aborted!</STRING>
 	<STRING hash="57308485" needed="1">$UNITNAME0 Garrisoned</STRING>
 	<STRING hash="50802141" needed="1">$UNITTYPE0 created.</STRING>
-	<STRING hash="95890780" needed="1">Build Caravans to get Wealth!</STRING>
-	<STRING hash="117213041" needed="1">Build Scholars to make Knowledge!</STRING>
+	<STRING hash="95890780" needed="1">Build Roly-Poly Caravans to get Shells!</STRING>
+	<STRING hash="117213041" needed="1">Build Bookworms to make Instinct!</STRING>
 	<STRING hash="43815276" needed="1">Build more Cities!</STRING>
 	<STRING hash="108874303" needed="1">MAXIMUM POPULATION LIMIT REACHED!</STRING>
-	<STRING hash="226091939" needed="1">POPULATION LIMIT REACHED! Research Military at the Library.</STRING>
+	<STRING hash="226091939" needed="1">POPULATION LIMIT REACHED! Research Military at the Fossil Record.</STRING>
 	<STRING hash="41533607" needed="1">Population Limit!</STRING>
-	<STRING hash="209338765" needed="1">CARAVAN LIMIT REACHED! Research Commerce at the Library.</STRING>
+	<STRING hash="209338765" needed="1">CARAVAN LIMIT REACHED! Research Commerce at the Fossil Record.</STRING>
 	<STRING hash="32543623" needed="1">Caravan Limit!</STRING>
-	<STRING hash="134142686" needed="1">Airbase Limit! Build more airbases!</STRING>
+	<STRING hash="134142686" needed="1">Cliff Roost Limit! Build more Cliff Roosts!</STRING>
 	<STRING hash="168868794" needed="1">$CAPTAINKIRK0 is developing NUCLEAR WEAPONS!</STRING>
 	<STRING hash="121879432" needed="1">Blocked by existing building.</STRING>
 	<STRING hash="73228870" needed="1">Blocked by mountain.</STRING>
@@ -145,9 +145,9 @@
 	<STRING hash="111924105" needed="1">Blocked by a rare resource.</STRING>
 	<STRING hash="117667701" needed="1">No resources available here.</STRING>
 	<STRING hash="81359827" needed="1">Must build near trees.</STRING>
-	<STRING hash="188806514" needed="1">Forest already has a Woodcutter's Camp.</STRING>
+	<STRING hash="188806514" needed="1">Forest already has a Wood-chewer's Camp.</STRING>
 	<STRING hash="99258598" needed="1">Must build near mountain.</STRING>
-	<STRING hash="115575751" needed="1">Mountain already has a Mine.</STRING>
+	<STRING hash="115575751" needed="1">Mountain already has a Geo-dig.</STRING>
 	<STRING hash="66969942" needed="1">Must build on land.</STRING>
 	<STRING hash="72297905" needed="1">Must build on water.</STRING>
 	<STRING hash="117000743" needed="1">Must build adjacent to land.</STRING>
@@ -167,20 +167,20 @@
 	<STRING hash="356208588" needed="1">Must build near a City. Found a new city here first or build near existing city.</STRING>
 	<STRING hash="86665056" needed="1">Must build near a City.</STRING>
 	<STRING hash="158140744" needed="1">Can't build in a City being razed.</STRING>
-	<STRING hash="183334771" needed="1">Must build near Large City (not Small).</STRING>
+	<STRING hash="183334771" needed="1">Must build near Grand Rookery (not Hatch-ville).</STRING>
 	<STRING hash="152741044" needed="1">Must build within map boundaries.</STRING>
 	<STRING hash="99572298" needed="1">Blocked by unseen object.</STRING>
 	<STRING hash="150053741" needed="1">Must build in explored territory.</STRING>
 	<STRING hash="138217368" needed="1">Cannot block city thoroughfare.</STRING>
 	<STRING hash="111505679" needed="1">Must be adjacent to a road.</STRING>
 	<STRING hash="101642515" needed="1">Only one allowed per City.</STRING>
-	<STRING hash="124870137" needed="1">Only one Senate can be built.</STRING>
+	<STRING hash="124870137" needed="1">Only one Herd Senate can be built.</STRING>
 	<STRING hash="198943996" needed="1">Too near another city that already has one.</STRING>
-	<STRING hash="129499951" needed="1">Farm limit: $NUMBER0 per City. </STRING>
+	<STRING hash="129499951" needed="1">Fern-tile Field limit: $NUMBER0 per City. </STRING>
 	<STRING hash="239656027" needed="1">You must found a new City before you can build more Farms. </STRING>
-	<STRING hash="403808191" needed="1">Farm limit: $NUMBER0 per Small City, $NUMBER1 per Large City, $NUMBER2 per Major City. </STRING>
+	<STRING hash="403808191" needed="1">Fern-tile Field limit: $NUMBER0 per Hatch-ville, $NUMBER1 per Grand Rookery, $NUMBER2 per Megalo-polis. </STRING>
 	<STRING hash="147134733" needed="1">Only one wonder allowed per City.</STRING>
-	<STRING hash="193785430" needed="1">Only two wonders allowed per Egyptian City.</STRING>
+	<STRING hash="193785430" needed="1">Only two wonders allowed per Nile-osaurus City.</STRING>
 	<STRING hash="81198534" needed="1">Cannot build on rivers</STRING>
 	<STRING hash="290238419" needed="1">Citizens cannot currently transport, so they cannot reach this spot.</STRING>
 	<STRING hash="269120724" needed="1">Cannot start a new city for 5 seconds after a city has been lost.</STRING>
@@ -189,8 +189,8 @@
 	<STRING hash="11573907" needed="1">)</STRING>
 	<STRING hash="0" needed="1"/>
 	<STRING hash="113140360" needed="1"> (+$FIFTYFOOD0 with Citizen)</STRING>
-	<STRING hash="258773877" needed="1">$FIFTYKNOWLEDGE0 (+$TENKNOWLEDGE1 per Scholar, $NUMBER0 more slots)</STRING>
-	<STRING hash="236668346" needed="1">$FIFTYKNOWLEDGE0 (+$TENKNOWLEDGE1 per Scholar, $NUMBER0 slots)</STRING>
+	<STRING hash="258773877" needed="1">$FIFTYKNOWLEDGE0 (+$TENKNOWLEDGE1 per Bookworm, $NUMBER0 more slots)</STRING>
+	<STRING hash="236668346" needed="1">$FIFTYKNOWLEDGE0 (+$TENKNOWLEDGE1 per Bookworm, $NUMBER0 slots)</STRING>
 	<STRING hash="247894964" needed="1">$FIFTYTIMBER0 (+$TENTIMBER1 each for up to $NUMBER0 more Citizens)</STRING>
 	<STRING hash="226474738" needed="1">$FIFTYTIMBER0 (+$TENTIMBER1 each for up to $NUMBER0 Citizens)</STRING>
 	<STRING hash="21562556" needed="1">Cost: </STRING>
@@ -285,7 +285,7 @@
 	<STRING hash="89265290" needed="1">$PARIS0 is now a $LARGECITY1.</STRING>
 	<STRING hash="102534765" needed="1">City of $CITYNAME0 assimilated!</STRING>
 	<STRING hash="24680005" needed="1">Assimilated!</STRING>
-	<STRING hash="174943590" needed="1">Caravan arrives at $CITYNAME0: +$NUMBER0 $GOODNAME1</STRING>
+	<STRING hash="174943590" needed="1">Roly-Poly Caravan arrives at $CITYNAME0: +$NUMBER0 $GOODNAME1</STRING>
 	<STRING hash="81794817" needed="1">Caravan: $NUMBER0 $GOODNAME0</STRING>
 	<STRING hash="239792521" needed="1">Cannon Time is only available in multiplayer games.</STRING>
 	<STRING hash="132028962" needed="1">No Cannon Time remaining.</STRING>
@@ -328,7 +328,7 @@
 	<STRING hash="103394694" needed="1">Your Reign is Over!</STRING>
 	<STRING hash="63021398" needed="1">Armageddon!</STRING>
 	<STRING hash="83213877" needed="1">Allied Victory!</STRING>
-	<STRING hash="89354874" needed="1">Nuclear Victory!</STRING>
+	<STRING hash="89354874" needed="1">Extinction Victory!</STRING>
 	<STRING hash="67744365" needed="1">Annihilated!</STRING>
 	<STRING hash="47069027" needed="1">Defeat!</STRING>
 	<STRING hash="51078980" needed="1">Victory!</STRING>
@@ -371,7 +371,7 @@
 	<STRING hash="1133089085" needed="1">$NODE0 has been overrun by the $TRIBE1.  Your forces have retreated to avoid overwhelming defeat. An overrun occurs when the total number of armies involved in an attack is two more than the defender's.</STRING>
 	<STRING hash="177810703" needed="1">You have eliminated the $TRIBENAME0!</STRING>
 	<STRING hash="612238957" needed="1">You have achieved an alliance with every other nation in the world!  Do you wish to declare victory and end your campaign?</STRING>
-	<STRING hash="1218288964" needed="1">Your tireless efforts have advanced your nation to the Information Age, but your campaign is now at an end. However, you may continue playing further in the Information Age if you wish. Would you like to continue?</STRING>
+	<STRING hash="1218288964" needed="1">Your tireless efforts have carried your lineage to the Cenozoic Rise, but your campaign is now at an end. However, you may continue playing further in the Cenozoic Rise if you wish. Would you like to continue?</STRING>
 	<STRING hash="817751548" needed="1">You have received $NUM0 tribute from your colonies this turn. Colony information can be viewed by clicking the Colonies button on the World Status screen.</STRING>
 	<STRING hash="306857461" needed="1">You have received a $NUM0 tribute income from your nation's industry.</STRING>
 	<STRING hash="873388323" needed="1">This territory has a high territory strength value and may be difficult to capture without supporting armies or bonus cards. Are you sure you want to attack?</STRING>
@@ -690,26 +690,26 @@
 	<STRING hash="479300615" needed="1">You must declare war on neutral nations before attacking. Use Diplomacy ($HOTKEY0) to declare war.</STRING>
 	<STRING hash="429672374" needed="1">You must declare war on neutral nations before attacking. Use Diplomacy to declare war.</STRING>
 	<STRING hash="196566073" needed="1">You do not have the range to reach this target.</STRING>
-	<STRING hash="492894999" needed="1">To gain Knowledge you must build Scholars at your University. Regular Citizens cannot be used for this purpose.</STRING>
+	<STRING hash="492894999" needed="1">To gain Instinct you must build Bookworms at your Paleo-versity. Regular Citi-snails cannot be used for this purpose.</STRING>
 	<STRING hash="419255080" needed="1">Right-Clicking to garrison inside same building only works if you turn on Advanced Options.</STRING>
 	<STRING hash="200243691" needed="1">$BUILDINGNAME0 is FULL. No more workers allowed here.</STRING>
-	<STRING hash="484970322" needed="1">Regular Citizens cannot study at the University. To gain Knowledge you must build Scholars at the University.</STRING>
+	<STRING hash="484970322" needed="1">Regular Citi-snails cannot study at the Paleo-versity. To gain Instinct you must build Bookworms at the Paleo-versity.</STRING>
 	<STRING hash="187383435" needed="1">Cannot repair buildings in enemy territory</STRING>
-	<STRING hash="206158234" needed="1">Citizens should be assigned to the Woodcutter's Camp.</STRING>
-	<STRING hash="178954166" needed="1">Citizens should be assigned to the Mine.</STRING>
-	<STRING hash="435320473" needed="1">Citizens should be assigned to a Woodcutter's Camp (build one near these trees to gain Timber)</STRING>
-	<STRING hash="361648529" needed="1">Citizens should be assigned to an Oil Well (build one on this oil patch to gain Oil)</STRING>
-	<STRING hash="349480876" needed="1">Citizens should be assigned to a Mine (build one near this mountain to gain Metal)</STRING>
+	<STRING hash="206158234" needed="1">Citi-snails should be assigned to the Wood-chewer's Camp.</STRING>
+	<STRING hash="178954166" needed="1">Citi-snails should be assigned to the Geo-dig.</STRING>
+	<STRING hash="435320473" needed="1">Citi-snails should be assigned to a Wood-chewer's Camp (build one near these trees to gain Fernwood)</STRING>
+	<STRING hash="361648529" needed="1">Citi-snails should be assigned to a Tar Pit (build one on this oil patch to gain Oil)</STRING>
+	<STRING hash="349480876" needed="1">Citi-snails should be assigned to a Geo-dig (build one near this mountain to gain Minerals)</STRING>
 	<STRING hash="266596353" needed="1">You are cheating--you can't really see this target! Moving instead.</STRING>
-	<STRING hash="213688364" needed="1">You already have Fishermen collecting this resource.</STRING>
-	<STRING hash="220760526" needed="1">You already have a Merchant collecting this resource.</STRING>
+	<STRING hash="213688364" needed="1">You already have Nauti-fishers collecting this resource.</STRING>
+	<STRING hash="220760526" needed="1">You already have a Milli-peddler collecting this resource.</STRING>
 	<STRING hash="125452447" needed="1">No room for merchant to unpack.</STRING>
-	<STRING hash="239267965" needed="1">Build Fishermen (at a Dock) to gather Fish and Whale resources.</STRING>
-	<STRING hash="222191089" needed="1">Build a Merchant (at a Market) to gather rare resources.</STRING>
+	<STRING hash="239267965" needed="1">Build Nauti-fishers (at a Tide-dock) to gather Plankton and Ichthyosaur Pod resources.</STRING>
+	<STRING hash="222191089" needed="1">Build a Milli-peddler (at a Shell Exchange) to gather rare resources.</STRING>
 	<STRING hash="190183107" needed="1">This unit cannot be transported by sea.</STRING>
 	<STRING hash="344845362" needed="1">You must turn 'Auto Transport' back on in order to transport these units by sea.</STRING>
-	<STRING hash="223481314" needed="1">You need a Dock and $TECHNAME0 to transport units by sea.</STRING>
-	<STRING hash="190055855" needed="1">You need a Dock to transport units by sea.</STRING>
+	<STRING hash="223481314" needed="1">You need a Tide-dock and $TECHNAME0 to transport units by sea.</STRING>
+	<STRING hash="190055855" needed="1">You need a Tide-dock to transport units by sea.</STRING>
 	<STRING hash="72145838" needed="1">Camera position saved.</STRING>
 	<STRING hash="13420994" needed="1">Exit</STRING>
 	<STRING hash="119636427" needed="1">Do you want to exit to Windows?</STRING>
@@ -1108,7 +1108,7 @@
 	<STRING hash="45426478" needed="1">Avail Types: </STRING>
 	<STRING hash="53140139" needed="1">0 - The Primordial Age</STRING>
 	<STRING hash="17090010" needed="1">Age</STRING>
-	<STRING hash="27534100" needed="1">Library</STRING>
+	<STRING hash="27534100" needed="1">Fossil Record</STRING>
 	<STRING hash="23780226" needed="1">Age = </STRING>
 	<STRING hash="28930633" needed="1">; Who = </STRING>
 	<STRING hash="61312709" needed="1">Unknown Command: </STRING>
@@ -1117,16 +1117,16 @@
 	<STRING hash="103393424" needed="1">Continue to Strategic Map</STRING>
 	<STRING hash="19264394" needed="1">Quit</STRING>
 	<STRING hash="108767482" needed="1">Your team won by conquest!</STRING>
-	<STRING hash="214577571" needed="1">Your team won a World Government (Capital) victory!</STRING>
+	<STRING hash="214577571" needed="1">Your team won a World Food Web (Capital) victory!</STRING>
 	<STRING hash="152644545" needed="1">Your team won a capital victory!</STRING>
 	<STRING hash="184360771" needed="1">Your team won a sudden death victory!</STRING>
 	<STRING hash="219241233" needed="1">Your team had the highest score at the final time check!</STRING>
 	<STRING hash="131293566" needed="1">All of your opponents gave up!</STRING>
 	<STRING hash="196604792" needed="1">All of your opponents gave up or disconnected!</STRING>
 	<STRING hash="48762761" needed="1">Your team won!</STRING>
-	<STRING hash="202160289" needed="1">Your team won a World Government (Wonder) victory!</STRING>
+	<STRING hash="202160289" needed="1">Your team won a World Food Web (Wonder) victory!</STRING>
 	<STRING hash="141371806" needed="1">Your team won a wonder victory!</STRING>
-	<STRING hash="216752470" needed="1">Your team won a World Government (Territory) victory!</STRING>
+	<STRING hash="216752470" needed="1">Your team won a World Food Web (Territory) victory!</STRING>
 	<STRING hash="167719552" needed="1">Your team won a territory victory!</STRING>
 	<STRING hash="177341063" needed="1">Your team won a technology victory!</STRING>
 	<STRING hash="135747148" needed="1">Your team won a score victory!</STRING>
@@ -1135,7 +1135,7 @@
 	<STRING hash="189606154" needed="1">Your team had the high score at the time limit!</STRING>
 	<STRING hash="102633644" needed="1">You have lost the battle.</STRING>
 	<STRING hash="139906708" needed="1">Your nation has been conquered!</STRING>
-	<STRING hash="191011497" needed="1">You lost your capital to World Government!</STRING>
+	<STRING hash="191011497" needed="1">You lost your capital to World Food Web!</STRING>
 	<STRING hash="87104405" needed="1">You lost your capital!</STRING>
 	<STRING hash="144773695" needed="1">You lost a city in sudden death!</STRING>
 	<STRING hash="198303530" needed="1">Your team had the lowest score at the time check!</STRING>
@@ -1143,13 +1143,13 @@
 	<STRING hash="194359071" needed="1">Your team failed to achieve its objectives!</STRING>
 	<STRING hash="88296366" needed="1">Your leader was killed!</STRING>
 	<STRING hash="48720454" needed="1">You have lost!</STRING>
-	<STRING hash="214504240" needed="1">Another team won a World Government (Wonder) victory.</STRING>
+	<STRING hash="214504240" needed="1">Another team won a World Food Web (Wonder) victory.</STRING>
 	<STRING hash="167555258" needed="1">Another team won a wonder victory.</STRING>
-	<STRING hash="217198359" needed="1">The other team won a World Government (Wonder) victory.</STRING>
+	<STRING hash="217198359" needed="1">The other team won a World Food Web (Wonder) victory.</STRING>
 	<STRING hash="186473327" needed="1">The other team won a wonder victory.</STRING>
-	<STRING hash="224223342" needed="1">Another team won a World Government (Territory) victory.</STRING>
+	<STRING hash="224223342" needed="1">Another team won a World Food Web (Territory) victory.</STRING>
 	<STRING hash="188515971" needed="1">Another team won a territory victory.</STRING>
-	<STRING hash="228082751" needed="1">The other team won a World Government (Territory) victory.</STRING>
+	<STRING hash="228082751" needed="1">The other team won a World Food Web (Territory) victory.</STRING>
 	<STRING hash="189574256" needed="1">The other team won a territory victory.</STRING>
 	<STRING hash="188613425" needed="1">Another team won a technology victory.</STRING>
 	<STRING hash="196212840" needed="1">The other team won a technology victory.</STRING>
@@ -1161,7 +1161,7 @@
 	<STRING hash="210760062" needed="1">Your team did not have the high score at the time limit.</STRING>
 	<STRING hash="60651021" needed="1">All players lose!</STRING>
 	<STRING hash="75771416" needed="1">You won by conquest!</STRING>
-	<STRING hash="196671783" needed="1">You won a World Government (Capital) victory!</STRING>
+	<STRING hash="196671783" needed="1">You won a World Food Web (Capital) victory!</STRING>
 	<STRING hash="110763977" needed="1">You won a capital victory!</STRING>
 	<STRING hash="140908157" needed="1">You won a sudden death victory!</STRING>
 	<STRING hash="199771431" needed="1">You had the highest score at the final time check!</STRING>
@@ -1169,9 +1169,9 @@
 	<STRING hash="192142841" needed="1">Your opponent disconnected or was dropped.</STRING>
 	<STRING hash="209381013" needed="1">All of your opponents were disconnected or gave up.</STRING>
 	<STRING hash="28956793" needed="1">You won!</STRING>
-	<STRING hash="192531487" needed="1">You won a World Government (Wonder) victory!</STRING>
+	<STRING hash="192531487" needed="1">You won a World Food Web (Wonder) victory!</STRING>
 	<STRING hash="102327222" needed="1">You won a wonder victory!</STRING>
-	<STRING hash="199920462" needed="1">You won a World Government (Territory) victory!</STRING>
+	<STRING hash="199920462" needed="1">You won a World Food Web (Territory) victory!</STRING>
 	<STRING hash="121895246" needed="1">You won a territory victory!</STRING>
 	<STRING hash="128612905" needed="1">You won a technology victory!</STRING>
 	<STRING hash="97451280" needed="1">You won a score victory!</STRING>
@@ -1179,9 +1179,9 @@
 	<STRING hash="184224170" needed="1">You had the high score at the time limit!</STRING>
 	<STRING hash="190046018" needed="1">You had the lowest score at the time check!</STRING>
 	<STRING hash="185876082" needed="1">You failed to achieve your objectives!</STRING>
-	<STRING hash="201348685" needed="1">You lost to a World Government (Wonder) victory.</STRING>
+	<STRING hash="201348685" needed="1">You lost to a World Food Web (Wonder) victory.</STRING>
 	<STRING hash="128596350" needed="1">You lost to a wonder victory.</STRING>
-	<STRING hash="215705312" needed="1">You lost to a World Government (Territory) victory.</STRING>
+	<STRING hash="215705312" needed="1">You lost to a World Food Web (Territory) victory.</STRING>
 	<STRING hash="151502012" needed="1">You lost to a territory victory.</STRING>
 	<STRING hash="160150475" needed="1">You lost to a technology victory.</STRING>
 	<STRING hash="123243814" needed="1">You lost to a score victory.</STRING>
@@ -1666,11 +1666,11 @@
 	<STRING hash="188417536" needed="1">Ability cannot target own units/buildings.</STRING>
 	<STRING hash="98445725" needed="1">Ability cannot target units.</STRING>
 	<STRING hash="122784319" needed="1">Ability cannot target buildings.</STRING>
-	<STRING hash="210314054" needed="1">The Senator can only bribe units in friendly territory.</STRING>
+	<STRING hash="210314054" needed="1">The Thumb Senator can only bribe units in friendly territory.</STRING>
 	<STRING hash="184967835" needed="1">Can only entrench in friendly territory.</STRING>
 	<STRING hash="130528073" needed="1">Inappropriate target for ability.</STRING>
 	<STRING hash="58959433" needed="1">Already researching.</STRING>
-	<STRING hash="473436097" needed="1">Each University can hold only 7 scholars; build another University in a new city to create more Scholars.</STRING>
+	<STRING hash="473436097" needed="1">Each Paleo-versity can hold only 7 Bookworms; build another Paleo-versity in a new city to create more Bookworms.</STRING>
 	<STRING hash="231434891" needed="1">The building's queue is full--it is infinitely queueing a unit.</STRING>
 	<STRING hash="99454844" needed="1">The building's queue is full.</STRING>
 	<STRING hash="131411993" needed="1">That option is not yet available.</STRING>
@@ -1720,7 +1720,7 @@
 	<STRING hash="81149393" needed="1">Infinite Queue Activated.</STRING>
 	<STRING hash="92759587" needed="1">Infinite Queue Deactivated.</STRING>
 	<STRING hash="113282803" needed="1">Missiles can not be retargeted!</STRING>
-	<STRING hash="310341963" needed="1">You can only launch if you have more nuclear missiles than any other player!</STRING>
+	<STRING hash="310341963" needed="1">You can only launch if you have more Extinction Events than any other player!</STRING>
 	<STRING hash="119339985" needed="1">Hostile actions not allowed yet!</STRING>
 	<STRING hash="17250114" needed="1"> </STRING>
 	<STRING hash="38844745" needed="1">Buildings</STRING>
@@ -1744,10 +1744,10 @@
 	<STRING hash="26594341" needed="1">16th </STRING>
 	<STRING hash="26599172" needed="1">17th </STRING>
 	<STRING hash="26601519" needed="1">18th </STRING>
-	<STRING hash="36158886" needed="1">Infantry</STRING>
+	<STRING hash="36158886" needed="1">Foot Beasts</STRING>
 	<STRING hash="33138571" needed="1">Cavalry</STRING>
 	<STRING hash="26707187" needed="1">Armor</STRING>
-	<STRING hash="39115614" needed="1">Artillery</STRING>
+	<STRING hash="39115614" needed="1">Siege Beasts</STRING>
 	<STRING hash="32739342" needed="1">Support</STRING>
 	<STRING hash="26616078" needed="1">Fleet</STRING>
 	<STRING hash="39374635" needed="1">Air Force</STRING>
@@ -1819,7 +1819,7 @@
 	<STRING hash="50745779" needed="1">Civilian</STRING>
 	<STRING hash="36178096" needed="1">Foot</STRING>
 	<STRING hash="46502694" needed="1">Mounted</STRING>
-	<STRING hash="54602403" needed="1">Artillery</STRING>
+	<STRING hash="54602403" needed="1">Siege Beasts</STRING>
 	<STRING hash="46805579" needed="1">Command</STRING>
 	<STRING hash="39942885" needed="1">Naval</STRING>
 	<STRING hash="32974356" needed="1">Air</STRING>
@@ -1855,7 +1855,7 @@
 	<STRING hash="59435746" needed="1">Computer</STRING>
 	<STRING hash="47485323" needed="1">Human</STRING>
 	<STRING hash="64418763" needed="1">Resources</STRING>
-	<STRING hash="101497461" needed="1">Library Research</STRING>
+	<STRING hash="101497461" needed="1">Fossil Record Research</STRING>
 	<STRING hash="73102494" needed="1">AI Settings</STRING>
 	<STRING hash="83365247" needed="1">Misc Settings</STRING>
 	<STRING hash="33537537" needed="1">1</STRING>
@@ -1892,7 +1892,7 @@
 	<STRING hash="101180151" needed="1">Population Goal</STRING>
 	<STRING hash="51919280" needed="1">Score</STRING>
 	<STRING hash="73874823" needed="1">Time Limit</STRING>
-	<STRING hash="89143112" needed="1">Wealth to Win</STRING>
+	<STRING hash="89143112" needed="1">Shells to Win</STRING>
 	<STRING hash="140578284" needed="1">Camera Start Position</STRING>
 	<STRING hash="118278110" needed="1">Scenario Filename:</STRING>
 	<STRING hash="59681875" needed="1">Title: </STRING>
@@ -2048,7 +2048,7 @@
 	<STRING hash="26308148" needed="1">]  </STRING>
 	<STRING hash="188973799" needed="1">Need $TECHNAME0 To Buy/Sell Resources</STRING>
 	<STRING hash="132995380" needed="1">$TECHCATEGORY0 Level $NUMBER0</STRING>
-	<STRING hash="68640018" needed="1">Nuclear Embargo: </STRING>
+	<STRING hash="68640018" needed="1">Extinction Embargo: </STRING>
 	<STRING hash="24924803" needed="1">Sell:</STRING>
 	<STRING hash="22598953" needed="1">Buy:</STRING>
 	<STRING hash="40759931" needed="1">No Stance</STRING>
@@ -2094,11 +2094,11 @@
 	<STRING hash="19742828" needed="1">)</STRING>
 	<STRING hash="92041642" needed="1">Under Construction: </STRING>
 	<STRING hash="170585174" needed="1">Advance to $AGENAME0 available.</STRING>
-	<STRING hash="249055099" needed="1">To gain Wealth: build a Caravan here then build a new City.</STRING>
-	<STRING hash="161139364" needed="1">Build Caravans to gain Wealth.</STRING>
+	<STRING hash="249055099" needed="1">To gain Shells: build a Roly-Poly Caravan here then build a new City.</STRING>
+	<STRING hash="161139364" needed="1">Build Roly-Poly Caravans to gain Shells.</STRING>
 	<STRING hash="67994700" needed="1">Max Population!</STRING>
 	<STRING hash="76216436" needed="1">Population Limit!</STRING>
-	<STRING hash="113329050" needed="1">Next Spy: $TIMERSECONDS0</STRING>
+	<STRING hash="113329050" needed="1">Next Chamele-spy: $TIMERSECONDS0</STRING>
 	<STRING hash="119348294" needed="1">Next Unit: $TIMERSECONDS0</STRING>
 	<STRING hash="36095110" needed="1">Total: </STRING>
 	<STRING hash="126123529" needed="1">$HEROTYPE0: $TIMERSECONDS1</STRING>
@@ -2114,7 +2114,7 @@
 	<STRING hash="36280050" needed="1">March! </STRING>
 	<STRING hash="36102571" needed="1">Rally! </STRING>
 	<STRING hash="42471183" needed="1">Jamming! </STRING>
-	<STRING hash="82818714" needed="1">Needs Supply Wagon</STRING>
+	<STRING hash="82818714" needed="1">Needs Horseshoe Supply Wagon</STRING>
 	<STRING hash="35964060" needed="1">Wares: </STRING>
 	<STRING hash="42203403" needed="1">Fishing: </STRING>
 	<STRING hash="35796760" needed="1">Goods: </STRING>
@@ -2150,9 +2150,9 @@
 	<STRING hash="157724926" needed="1">Counter with $LISTOFUNITTYPES0</STRING>
 	<STRING hash="50022330" needed="1">Strong vs. </STRING>
 	<STRING hash="43061548" needed="1">Weak vs. </STRING>
-	<STRING hash="59807555" needed="1">Send Merchant</STRING>
+	<STRING hash="59807555" needed="1">Send Milli-peddler</STRING>
 	<STRING hash="151889064" needed="1">Explore here to gain a bonus.</STRING>
-	<STRING hash="86783652" needed="1">Rise of Nations: Tips</STRING>
+	<STRING hash="86783652" needed="1">Ages of Earth: Tips</STRING>
 	<STRING hash="35477885" needed="1">Mouse Wheel Up</STRING>
 	<STRING hash="41930493" needed="1">Mouse Wheel Down</STRING>
 	<STRING hash="29110561" needed="1">Mouse Middle</STRING>
@@ -2169,22 +2169,22 @@
 	<STRING hash="36506008" needed="1">Camera Control</STRING>
 	<STRING hash="60804992" needed="1">Find Unit or Building</STRING>
 	<STRING hash="33400754" needed="1">Unit Commands</STRING>
-	<STRING hash="144900379" needed="1">  Scout and Special Forces Commands</STRING>
-	<STRING hash="36558302" needed="1">  Spy Commands</STRING>
-	<STRING hash="50604288" needed="1">  General Commands</STRING>
-	<STRING hash="50264644" needed="1">  Citizen Commands</STRING>
+	<STRING hash="144900379" needed="1">  Trackworm and Special Forest Commands</STRING>
+	<STRING hash="36558302" needed="1">  Chamele-spy Commands</STRING>
+	<STRING hash="50604288" needed="1">  General Tua-tactics Commands</STRING>
+	<STRING hash="50264644" needed="1">  Citi-snail Commands</STRING>
 	<STRING hash="49940570" needed="1">    Build Commands</STRING>
 	<STRING hash="46349750" needed="1">Building Commands</STRING>
 	<STRING hash="39911678" needed="1">  City Commands</STRING>
-	<STRING hash="51305781" needed="1">  Library Commands</STRING>
-	<STRING hash="46819098" needed="1">  Market Commands</STRING>
-	<STRING hash="55570696" needed="1">  Barracks Commands</STRING>
-	<STRING hash="98963821" needed="1">  Stable/Auto Plant Commands</STRING>
-	<STRING hash="126333913" needed="1">  Siege Factory/Factory Commands</STRING>
-	<STRING hash="63305850" needed="1">  University Commands</STRING>
-	<STRING hash="77860573" needed="1">  Dock/Shipyard Commands</STRING>
-	<STRING hash="50941311" needed="1">  Airbase Commands</STRING>
-	<STRING hash="71250338" needed="1">  Missile Silo Commands</STRING>
+	<STRING hash="51305781" needed="1">  Fossil Record Commands</STRING>
+	<STRING hash="46819098" needed="1">  Shell Exchange Commands</STRING>
+	<STRING hash="55570696" needed="1">  Burrow-acks Commands</STRING>
+	<STRING hash="98963821" needed="1">  Stampede Pen/Armor Molt Plant Commands</STRING>
+	<STRING hash="126333913" needed="1">  Rockfall Works/Fossil Factory Commands</STRING>
+	<STRING hash="63305850" needed="1">  Paleo-versity Commands</STRING>
+	<STRING hash="77860573" needed="1">  Tide-dock/Kelp-yard Commands</STRING>
+	<STRING hash="50941311" needed="1">  Cliff Roost Commands</STRING>
+	<STRING hash="71250338" needed="1">  Impact Silo Commands</STRING>
 	<STRING hash="67124074" needed="1">Script Editor Commands</STRING>
 	<STRING hash="86179828" needed="1">(Debug and Cheat Commands)</STRING>
 	<STRING hash="19426736" needed="1">SPACEBAR</STRING>
@@ -2200,24 +2200,24 @@
 	<STRING hash="215388525" needed="1">The following keys would lose their mappings. Is this okay?</STRING>
 	<STRING hash="10041844" needed="1"> (</STRING>
 	<STRING hash="8608430" needed="1">)</STRING>
-	<STRING hash="39759466" needed="1">Heavy Infantry</STRING>
-	<STRING hash="127384373" needed="1">Gunpowder Infantry, Machine Guns</STRING>
-	<STRING hash="97187434" needed="1">Archers, Gunpowder Infantry</STRING>
-	<STRING hash="57570623" needed="1">Tanks, Machine Guns</STRING>
-	<STRING hash="99170080" needed="1">Gunpowder Infantry, Cavalry</STRING>
-	<STRING hash="111296270" needed="1">Heavy Cavalry, Heavy Infantry</STRING>
-	<STRING hash="70846521" needed="1">Infantry, Machine Guns</STRING>
-	<STRING hash="63697529" needed="1">Heavy Cavalry, Tanks</STRING>
-	<STRING hash="109505141" needed="1">Heavy Cavalry, Light Infantry</STRING>
+	<STRING hash="39759466" needed="1">Heavy Brawlers</STRING>
+	<STRING hash="127384373" needed="1">Spine-shooters, Rapid Spitters</STRING>
+	<STRING hash="97187434" needed="1">Spitters, Spine-shooters</STRING>
+	<STRING hash="57570623" needed="1">Armorbacks, Rapid Spitters</STRING>
+	<STRING hash="99170080" needed="1">Spine-shooters, Runners</STRING>
+	<STRING hash="111296270" needed="1">Heavy Chargers, Heavy Brawlers</STRING>
+	<STRING hash="70846521" needed="1">Foot Beasts, Rapid Spitters</STRING>
+	<STRING hash="63697529" needed="1">Heavy Chargers, Armorbacks</STRING>
+	<STRING hash="109505141" needed="1">Heavy Chargers, Light Biters</STRING>
 	<STRING hash="19863234" needed="1">Cavalry</STRING>
-	<STRING hash="15316424" needed="1">Tanks</STRING>
-	<STRING hash="67775588" needed="1">Tanks, Heavy Infantry</STRING>
-	<STRING hash="84737520" needed="1">Heavy Infantry, Buildings</STRING>
-	<STRING hash="71797948" needed="1">Light Cavalry, Archers</STRING>
-	<STRING hash="36547581" needed="1">Light Cavalry</STRING>
-	<STRING hash="58021056" needed="1">Armored Cars, Tanks</STRING>
-	<STRING hash="40170897" needed="1">Tanks, Cavalry</STRING>
-	<STRING hash="42955328" needed="1">Tanks, Infantry</STRING>
+	<STRING hash="15316424" needed="1">Armorbacks</STRING>
+	<STRING hash="67775588" needed="1">Armorbacks, Heavy Brawlers</STRING>
+	<STRING hash="84737520" needed="1">Heavy Brawlers, Buildings</STRING>
+	<STRING hash="71797948" needed="1">Light Runners, Spitters</STRING>
+	<STRING hash="36547581" needed="1">Light Runners</STRING>
+	<STRING hash="58021056" needed="1">Armored Cars, Armorbacks</STRING>
+	<STRING hash="40170897" needed="1">Armorbacks, Runners</STRING>
+	<STRING hash="42955328" needed="1">Armorbacks, Foot Beasts</STRING>
 	<STRING hash="29402200" needed="1">Heavy Ships</STRING>
 	<STRING hash="63334186" needed="1">Submarines, Aircraft</STRING>
 	<STRING hash="67437157" needed="1">Fireships, Submarines</STRING>
@@ -2230,28 +2230,28 @@
 	<STRING hash="83429874" needed="1">Units that run away fast</STRING>
 	<STRING hash="21589859" needed="1">Fighters</STRING>
 	<STRING hash="76577613" needed="1">Fighters, Anti-Aircraft</STRING>
-	<STRING hash="108307773" needed="1">Modern Infantry, Machine Guns</STRING>
+	<STRING hash="108307773" needed="1">Modern Shooters, Rapid Spitters</STRING>
 	<STRING hash="81107453" needed="1">Garrisons, Entrenchments</STRING>
-	<STRING hash="90200954" needed="1">Bazooka, Anti-Tank Missile</STRING>
-	<STRING hash="55241843" needed="1">Fusiliers, AT Rifle</STRING>
-	<STRING hash="52553687" needed="1">Pikemen, Fusiliers</STRING>
-	<STRING hash="45555836" needed="1">Pikemen, Archers</STRING>
-	<STRING hash="19118573" needed="1">Pikemen</STRING>
-	<STRING hash="32685371" needed="1">Foot Archers</STRING>
+	<STRING hash="90200954" needed="1">Styra-zooka, Anti-Tusk Missile</STRING>
+	<STRING hash="55241843" needed="1">Fusi-beaks, AT Spike Rifle</STRING>
+	<STRING hash="52553687" needed="1">Venta-pikes, Fusi-beaks</STRING>
+	<STRING hash="45555836" needed="1">Venta-pikes, Spitters</STRING>
+	<STRING hash="19118573" needed="1">Venta-pikes</STRING>
+	<STRING hash="32685371" needed="1">Foot Spitters</STRING>
 	<STRING hash="96932629" needed="1">Machine Guns, Flamethrowers</STRING>
-	<STRING hash="115339288" needed="1">Ranged Cavalry, Light Infantry</STRING>
-	<STRING hash="86669575" needed="1">Heavy Infantry, Civilians</STRING>
-	<STRING hash="57925120" needed="1">Buildings, Infantry</STRING>
+	<STRING hash="115339288" needed="1">Ranged Runners, Light Biters</STRING>
+	<STRING hash="86669575" needed="1">Heavy Brawlers, Civilians</STRING>
+	<STRING hash="57925120" needed="1">Buildings, Foot Beasts</STRING>
 	<STRING hash="23810758" needed="1">Buildings</STRING>
-	<STRING hash="22107592" needed="1">Infantry</STRING>
+	<STRING hash="22107592" needed="1">Foot Beasts</STRING>
 	<STRING hash="77239606" needed="1">Heavy Ships, Transports</STRING>
 	<STRING hash="72644573" needed="1">Submarines, Transports</STRING>
 	<STRING hash="67395206" needed="1">Fireships, Transports</STRING>
 	<STRING hash="68959260" needed="1">Light Ships, Buildings</STRING>
-	<STRING hash="113725235" needed="1">Light Ships, Bombardment Ships</STRING>
+	<STRING hash="113725235" needed="1">Light Swimmers, Bombard Swimmers</STRING>
 	<STRING hash="96378903" needed="1">Heavy Ships, Ground Targets</STRING>
 	<STRING hash="22262203" needed="1">Aircraft</STRING>
-	<STRING hash="71644098" needed="1">Tanks, Artillery, Subs</STRING>
+	<STRING hash="71644098" needed="1">Armorbacks, Siege Beasts, Divers</STRING>
 	<STRING hash="44906507" needed="1">Buildings, Ships</STRING>
 	<STRING hash="44804502" needed="1">Buildings, Spies</STRING>
 	<STRING hash="15135311" needed="1">Spies</STRING>
@@ -2266,7 +2266,7 @@
 	<STRING hash="170816592" needed="1">Not enough $GOODNAME0. You need $NUMBER0.</STRING>
 	<STRING hash="67583851" needed="1">Not enough $GOODNAME0.</STRING>
 	<STRING hash="8590541" needed="1"> </STRING>
-	<STRING hash="141824349" needed="1">Research Commerce at the Library. </STRING>
+	<STRING hash="141824349" needed="1">Research Commerce at the Fossil Record. </STRING>
 	<STRING hash="178478279" needed="1">Build more Citizens and light cavalry.</STRING>
 	<STRING hash="180739369" needed="1">Assign Citizens to work your idle Farms.</STRING>
 	<STRING hash="49291137" needed="1">Build more Farms.</STRING>
@@ -2279,7 +2279,7 @@
 	<STRING hash="187621367" needed="1">Assign more Citizens to work at your Mines.</STRING>
 	<STRING hash="199468108" needed="1">Build more Mines and assign Citizens to work there.</STRING>
 	<STRING hash="220505122" needed="1">Research Commerce so that you can build more Caravans.</STRING>
-	<STRING hash="126272689" needed="1">Research Taxation at the Temple.</STRING>
+	<STRING hash="126272689" needed="1">Research Tax-onomy at the Amber Shrine.</STRING>
 	<STRING hash="236438729" needed="1">Use your Caravans to create more trade routes between Cities.</STRING>
 	<STRING hash="231402948" needed="1">Build more Caravans and create trade routes between Cities.</STRING>
 	<STRING hash="130640848" needed="1">You have encountered $LEADERNAME0!</STRING>
@@ -2343,8 +2343,8 @@
 	<STRING hash="192896700" needed="1">$DUBYA0 and $SADDAM1 have made an alliance.</STRING>
 	<STRING hash="112799023" needed="1">War declared with $KINGGEORGE0!</STRING>
 	<STRING hash="149995189" needed="1">Alliance cancelled with $YOURDADDY0!</STRING>
-	<STRING hash="178673067" needed="1">Nuclear Embargo! Market Closed for $TIMERVALUE0!</STRING>
-	<STRING hash="224950315" needed="1">$GOODTYPE0 Commerce Cap: research Commerce at the Library.</STRING>
+	<STRING hash="178673067" needed="1">Extinction Embargo! Shell Exchange Closed for $TIMERVALUE0!</STRING>
+	<STRING hash="224950315" needed="1">$GOODTYPE0 Commerce Cap: research Commerce at the Fossil Record.</STRING>
 	<STRING hash="47953289" needed="1">*** Create unit: </STRING>
 	<STRING hash="8584083" needed="1">x</STRING>
 	<STRING hash="51778658" needed="1">*** Unit Upgrade: </STRING>
@@ -2414,7 +2414,7 @@
 	<STRING hash="211600226" needed="1">Leave my territory at once or face the consequences!</STRING>
 	<STRING hash="420757302" needed="1">Perhaps you're unaware that your units have strayed into my territory. Please remove them.</STRING>
 	<STRING hash="297541391" needed="1">Our nations' borders are not to be sullied by the likes of you! Pull back!</STRING>
-	<STRING hash="457477476" needed="1">Unless your troops are immediately withdrawn, I will have no choice but to take drastic action.</STRING>
+	<STRING hash="457477476" needed="1">Unless your herds are immediately withdrawn, I will have no choice but to take drastic action.</STRING>
 	<STRING hash="287462266" needed="1">We have made every effort to respect your borders. Please respect ours.</STRING>
 	<STRING hash="304720331" needed="1">You fool! Are you trying to start a war? Withdraw from my territory...NOW.</STRING>
 	<STRING hash="306018123" needed="1">Thank you, but I already have an excellent ally and do not require another.</STRING>
@@ -2546,7 +2546,7 @@
 	<STRING hash="306075614" needed="1">Since you pose us no threat, what do you say we continue to live peacefully?</STRING>
 	<STRING hash="266119979" needed="1">You might be useful to us in the future. We should be friends for now.</STRING>
 	<STRING hash="218775631" needed="1">Greetings, mighty one! Long may our peoples live in peace.</STRING>
-	<STRING hash="213753728" needed="1">Hail, great ruler! We are a friendly and peaceful people.</STRING>
+	<STRING hash="213753728" needed="1">Hail, great ruler! We are a friendly and peaceful flock.</STRING>
 	<STRING hash="225835303" needed="1">If you will but leave me in peace, I shall not trouble you.</STRING>
 	<STRING hash="227999177" needed="1">Our nation welcomes peace with you, o great and powerful one.</STRING>
 	<STRING hash="448272607" needed="1">We humbly suggest that peace between our great nations will be mutually beneficial to us both.</STRING>
@@ -2566,7 +2566,7 @@
 	<STRING hash="187637433" needed="1">: They don't call me '$LEADERNAME0' for nothing, kid.</STRING>
 	<STRING hash="66153372" needed="1">: Sounds like a plan.</STRING>
 	<STRING hash="24296545" needed="1">: Groovy.</STRING>
-	<STRING hash="268765007" needed="1">You are at your population limit! Research Military at the Library</STRING>
+	<STRING hash="268765007" needed="1">You are at your population limit! Research Military at the Fossil Record</STRING>
 	<STRING hash="17036227" needed="1"> - </STRING>
 	<STRING hash="41836282" needed="1">Loading Game</STRING>
 	<STRING hash="89285988" needed="1">Recorded Game Playback</STRING>
@@ -2641,8 +2641,8 @@
 	<STRING hash="11503478" needed="1">+</STRING>
 	<STRING hash="11481435" needed="1"> </STRING>
 	<STRING hash="13232581" needed="1">) </STRING>
-	<STRING hash="238724669" needed="1">Send a Fisherman (from a Dock) here to collect this resource.</STRING>
-	<STRING hash="248753452" needed="1">Send a Merchant (from a Market) here to collect this resource. </STRING>
+	<STRING hash="238724669" needed="1">Send a Nauti-fisher (from a Tide-dock) here to collect this resource.</STRING>
+	<STRING hash="248753452" needed="1">Send a Milli-peddler (from a Shell Exchange) here to collect this resource. </STRING>
 	<STRING hash="71880871" needed="1">Basic resource type.</STRING>
 	<STRING hash="13250640" needed="1"> (</STRING>
 	<STRING hash="11499324" needed="1">)</STRING>
@@ -2690,7 +2690,7 @@
 	<STRING hash="228467536" needed="1">Allied City of $CITYNAME0 is under attack by $JOHNQWHINER1!</STRING>
 	<STRING hash="238672628" needed="1">Our city of $CITYNAME0 is being raided by $FRANCISXRUSHMASTER1!</STRING>
 	<STRING hash="141798765" needed="1">We are being RAIDED by $THEBURGLER0!</STRING>
-	<STRING hash="187117738" needed="1">Our Scout is being attacked by $JOESIXPACK0!</STRING>
+	<STRING hash="187117738" needed="1">Our Trackworm is being attacked by $JOESIXPACK0!</STRING>
 	<STRING hash="179973890" needed="1">We are under ATTACK by $FREDTHEFLYINGTRACTOR0!</STRING>
 	<STRING hash="117144018" needed="1">Reduced! Capture with infantry!</STRING>
 	<STRING hash="20448224" needed="1">Reduced!</STRING>
@@ -2718,14 +2718,14 @@
 	<STRING hash="84247039" needed="1">{Buy $NUMBER0 $GOODTYPE0}</STRING>
 	<STRING hash="143371499" needed="1">Click to {Sell $NUMBER0 $GOODTYPE0}</STRING>
 	<STRING hash="89061670" needed="1">{Sell $NUMBER0 $GOODTYPE0}</STRING>
-	<STRING hash="208243209" needed="1">Click to {Buy $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3 Wealth</STRING>
+	<STRING hash="208243209" needed="1">Click to {Buy $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3 Shells</STRING>
 	<STRING hash="182358015" needed="1">Click to {Buy $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3</STRING>
 	<STRING hash="172768409" needed="1">{Buy $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3</STRING>
-	<STRING hash="212295886" needed="1">Click to {Sell $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3 Wealth</STRING>
+	<STRING hash="212295886" needed="1">Click to {Sell $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3 Shells</STRING>
 	<STRING hash="185220237" needed="1">Click to {Sell $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3</STRING>
 	<STRING hash="172253770" needed="1">{Sell $NUMBER0 $GOODTYPE0} for $NUMBER1 #ICON3</STRING>
-	<STRING hash="176062436" needed="1"> [(Requires: a Market, and $TECHNAME0)]</STRING>
-	<STRING hash="76064888" needed="1"> [(Requires: a Market)]</STRING>
+	<STRING hash="176062436" needed="1"> [(Requires: a Shell Exchange, and $TECHNAME0)]</STRING>
+	<STRING hash="76064888" needed="1"> [(Requires: a Shell Exchange)]</STRING>
 	<STRING hash="81899851" needed="1"> [(Requires: $TECHNAME0)]</STRING>
 	<STRING hash="8539033" needed="1"> </STRING>
 	<STRING hash="13376066" needed="1">City</STRING>
@@ -2743,8 +2743,8 @@
 	<STRING hash="10061218" needed="1">)]</STRING>
 	<STRING hash="197387255" needed="1"> [(Requires: all prior research of same color)]</STRING>
 	<STRING hash="174453536" needed="1"> [(Requires: upgrade to $BUILDINGTYPE0.)] </STRING>
-	<STRING hash="205224969" needed="1">$NUMBER0 $TECHCATEGORY0 Research $SYMBOL1 at the Library</STRING>
-	<STRING hash="193479587" needed="1">$NUMBER0 $TECHCATEGORY0 $SYMBOL1 at the Library</STRING>
+	<STRING hash="205224969" needed="1">$NUMBER0 $TECHCATEGORY0 Research $SYMBOL1 at the Fossil Record</STRING>
+	<STRING hash="193479587" needed="1">$NUMBER0 $TECHCATEGORY0 $SYMBOL1 at the Fossil Record</STRING>
 	<STRING hash="121488743" needed="1">$NUMBER0 $TECHCATEGORY0 $SYMBOL1</STRING>
 	<STRING hash="21935094" needed="1">$SYMBOL1</STRING>
 	<STRING hash="11636362" needed="1">)] </STRING>
@@ -2755,11 +2755,11 @@
 	<STRING hash="51496128" needed="1"> at the $BUILDING0</STRING>
 	<STRING hash="179066414" needed="1">$NUMBER0 $TECHCATEGORY0 Research $SYMBOL1</STRING>
 	<STRING hash="127122951" needed="1">$NUMBER0 $TECHCATEGORY0 Research</STRING>
-	<STRING hash="141769469" needed="1"> [(Must first raze existing Senate</STRING>
+	<STRING hash="141769469" needed="1"> [(Must first raze existing Herd Senate</STRING>
 	<STRING hash="107917215" needed="1"> [(Must hold own Capital City</STRING>
 	<STRING hash="179907785" needed="1">[(Requires: $NUMBER0 kinds of building)]</STRING>
 	<STRING hash="118072414" needed="1"> and $NUMBER0 kinds of building</STRING>
-	<STRING hash="195669922" needed="1"> [(City Limit: research Civics #ICON25 at Library)]</STRING>
+	<STRING hash="195669922" needed="1"> [(City Limit: research Civics #ICON25 at Fossil Record)]</STRING>
 	<STRING hash="183439608" needed="1">Keep your previous government's power, and</STRING>
 	<STRING hash="41775507" needed="1">New Resources: </STRING>
 	<STRING hash="8575509" needed="1">.</STRING>
@@ -2791,10 +2791,10 @@
 	<STRING hash="144956585" needed="1"> - Click to turn on Infinite Queue.</STRING>
 	<STRING hash="152527288" needed="1"> - Click to turn off Infinite Queue.</STRING>
 	<STRING hash="109148853" needed="1">Transporting Troops: AUTOMATIC</STRING>
-	<STRING hash="191447558" needed="1"> [(Requires $TECHNOLOGY0 and at least one Dock)]</STRING>
+	<STRING hash="191447558" needed="1"> [(Requires $TECHNOLOGY0 and at least one Tide-dock)]</STRING>
 	<STRING hash="89118613" needed="1"> [(Requires $TECHNOLOGY0)]</STRING>
-	<STRING hash="120730180" needed="1"> [(Requires at least one Dock)]</STRING>
-	<STRING hash="270239941" needed="1"> [(No need to select Dock - just select troops and order into water)]</STRING>
+	<STRING hash="120730180" needed="1"> [(Requires at least one Tide-dock)]</STRING>
+	<STRING hash="270239941" needed="1"> [(No need to select Tide-dock - just select creatures and order into water)]</STRING>
 	<STRING hash="56133875" needed="1">Auto Transport: OFF</STRING>
 	<STRING hash="150029874" needed="1"> - Click to turn on Auto Transport.</STRING>
 	<STRING hash="130301802" needed="1">This unit cannot Auto Transport.</STRING>
@@ -2909,17 +2909,17 @@
 	<STRING hash="29251923" needed="1">Farmer Head</STRING>
 	<STRING hash="45081321" needed="1">Oil Driller Head</STRING>
 	<STRING hash="46762710" needed="1">Lumberjack Heads</STRING>
-	<STRING hash="26593022" needed="1">Mine Heads</STRING>
-	<STRING hash="35943498" needed="1">Scholar Heads</STRING>
+	<STRING hash="26593022" needed="1">Geo-dig Heads</STRING>
+	<STRING hash="35943498" needed="1">Bookworm Heads</STRING>
 	<STRING hash="53880570" needed="1">{Population Limit}</STRING>
 	<STRING hash="45963569" needed="1">{Commerce Limit}</STRING>
 	<STRING hash="184832587" needed="1">No more than +$NUMBER0 every $NUMBER1 seconds. </STRING>
 	<STRING hash="32569861" needed="1">{City Limit}</STRING>
-	<STRING hash="79332268" needed="1">{Wealth Infrastructure}</STRING>
-	<STRING hash="69274016" needed="1">{Food Infrastructure}</STRING>
-	<STRING hash="79412092" needed="1">{Timber Infrastructure}</STRING>
-	<STRING hash="74440158" needed="1">{Metal Infrastructure}</STRING>
-	<STRING hash="94589103" needed="1">{Knowledge Infrastructure}</STRING>
+	<STRING hash="79332268" needed="1">{Shells Infrastructure}</STRING>
+	<STRING hash="69274016" needed="1">{Grub Infrastructure}</STRING>
+	<STRING hash="79412092" needed="1">{Fernwood Infrastructure}</STRING>
+	<STRING hash="74440158" needed="1">{Minerals Infrastructure}</STRING>
+	<STRING hash="94589103" needed="1">{Instinct Infrastructure}</STRING>
 	<STRING hash="64776420" needed="1">{Oil Infrastructure}</STRING>
 	<STRING hash="28576951" needed="1">The Primordial Age</STRING>
 	<STRING hash="26764815" needed="1">{Strength}</STRING>
@@ -2936,7 +2936,7 @@
 	<STRING hash="19773320" needed="1">{Craft}</STRING>
 	<STRING hash="26835995" needed="1">{Supplies}</STRING>
 	<STRING hash="47125499" needed="1">{Decoy Duration}</STRING>
-	<STRING hash="56765577" needed="1">{Airbase Capacity}</STRING>
+	<STRING hash="56765577" needed="1">{Cliff Roost Capacity}</STRING>
 	<STRING hash="43249708" needed="1">{Splash Damage}</STRING>
 	<STRING hash="98062451" needed="1">{Buildings Towards Upgrade}</STRING>
 	<STRING hash="29998524" needed="1">{In Supply}</STRING>
@@ -2944,7 +2944,7 @@
 	<STRING hash="29680194" needed="1">{Attrition}</STRING>
 	<STRING hash="36311110" needed="1">{City Radius}</STRING>
 	<STRING hash="26799256" needed="1">{Informer}</STRING>
-	<STRING hash="32096689" needed="1">Idle Citizen</STRING>
+	<STRING hash="32096689" needed="1">Idle Citi-snail</STRING>
 	<STRING hash="15150657" needed="1">River</STRING>
 	<STRING hash="18997128" needed="1">Unit AI</STRING>
 	<STRING hash="21136511" needed="1">DISABLED</STRING>
@@ -3015,7 +3015,7 @@
 	<STRING hash="54363741" needed="1">City Names Display</STRING>
 	<STRING hash="62445104" needed="1">Hidden Units Display</STRING>
 	<STRING hash="54000284" needed="1">Allow Audio Taunts</STRING>
-	<STRING hash="901686884" needed="1">You have already reached your Commerce Cap for this resource ($RESOURCENAME0). You must research Commerce at the Library before you can gather this resource any faster.</STRING>
+	<STRING hash="901686884" needed="1">You have already reached your Commerce Cap for this resource ($RESOURCENAME0). You must research Commerce at the Fossil Record before you can gather this resource any faster.</STRING>
 	<STRING hash="190557159" needed="1">Left-click where you want the new building.</STRING>
 	<STRING hash="46468738" needed="1">Rename this city</STRING>
 	<STRING hash="13375704" needed="1">Name</STRING>
@@ -3090,7 +3090,7 @@
 	<STRING hash="40023871" needed="1">Playback - </STRING>
 	<STRING hash="20034766" needed="1">.rcx</STRING>
 	<STRING hash="67057914" needed="1">Load Recorded Game</STRING>
-	<STRING hash="100028133" needed="1">the Terra Cotta Army.</STRING>
+	<STRING hash="100028133" needed="1">the Terra Fossil Army.</STRING>
 	<STRING hash="42492046" needed="1">Observer Mode</STRING>
 	<STRING hash="17783277" needed="1">Load Game</STRING>
 	<STRING hash="21744094" needed="1">Loading Mod</STRING>
@@ -3136,7 +3136,7 @@
 	<STRING hash="307773911" needed="1">Error restarting scenario. Restart the editor and load the scenario.</STRING>
 	<STRING hash="225069585" needed="1">Must place at appropriate airbase/carrier/silo.</STRING>
 	<STRING hash="205936334" needed="1">Must place at own airbase/carrier/silo.</STRING>
-	<STRING hash="76685893" needed="1">Airbase is full.</STRING>
+	<STRING hash="76685893" needed="1">Cliff Roost is full.</STRING>
 	<STRING hash="76247618" needed="1">Carrier is full.</STRING>
 	<STRING hash="53555754" needed="1">SILO LIMIT!</STRING>
 	<STRING hash="153401141" needed="1">Must place in open location.</STRING>
@@ -3273,10 +3273,10 @@
 	<STRING hash="191281908" needed="1">Hardcoded Breakpoint on line $NUM0 in $FILE0</STRING>
 	<STRING hash="35896802" needed="1">Debug</STRING>
 	<STRING hash="50278071" needed="1">Skip Once</STRING>
-	<STRING hash="778692180" needed="1">The treacherous $TRIBE0 have launched their nuclear weapons! Do you want to turn the key and launch our missiles or wait and hope we can survive?</STRING>
+	<STRING hash="778692180" needed="1">The treacherous $TRIBE0 have called down an Extinction Event! Do you want to answer with our own sky-fall or wait and hope we can survive?</STRING>
 	<STRING hash="73378404" needed="1">Turn your key!</STRING>
 	<STRING hash="77846643" needed="1">What's the use?</STRING>
-	<STRING hash="761410297" needed="1">The treacherous $TRIBE0 have launched their nuclear weapons! How could you have neglected to build any nuclear weapons to retaliate with?!</STRING>
+	<STRING hash="761410297" needed="1">The treacherous $TRIBE0 have called down an Extinction Event! How could you have neglected to prepare any Extinction Events to retaliate with?!</STRING>
 	<STRING hash="193464736" needed="1">Give me about $NUMBER0 more $GOODNAME0.</STRING>
 	<STRING hash="69774462" needed="1">.\ScreenShots</STRING>
 	<STRING hash="177987894" needed="1">=======Error Saving Log to $FILENAME0</STRING>
@@ -3449,8 +3449,8 @@
 	<STRING hash="17775597" needed="1">CITIES</STRING>
 	<STRING hash="42142080" needed="1">Wonder Points: </STRING>
 	<STRING hash="17776730" needed="1">MARKET</STRING>
-	<STRING hash="169973462" needed="1">[(Requires: a Market, and $TECHNAME0)]</STRING>
-	<STRING hash="73090632" needed="1">[(Requires: a Market)]</STRING>
+	<STRING hash="169973462" needed="1">[(Requires: a Shell Exchange, and $TECHNAME0)]</STRING>
+	<STRING hash="73090632" needed="1">[(Requires: a Shell Exchange)]</STRING>
 	<STRING hash="79100183" needed="1">[(Requires: $TECHNAME0)]</STRING>
 	<STRING hash="10323246" needed="1">  </STRING>
 	<STRING hash="15624675" needed="1">Buy: </STRING>
@@ -3460,8 +3460,8 @@
 	<STRING hash="39080626" needed="1">Trade Routes: </STRING>
 	<STRING hash="15741101" needed="1">Max: </STRING>
 	<STRING hash="15586903" needed="1">Idle </STRING>
-	<STRING hash="45137620" needed="1">Idle Fishermen: </STRING>
-	<STRING hash="29139149" needed="1">Fishermen: </STRING>
+	<STRING hash="45137620" needed="1">Idle Nauti-fishers: </STRING>
+	<STRING hash="29139149" needed="1">Nauti-fishers: </STRING>
 	<STRING hash="24366577" needed="1">Farmers: </STRING>
 	<STRING hash="36974582" needed="1">Lumberjacks: </STRING>
 	<STRING hash="32614628" needed="1">Open Slots: </STRING>
@@ -3559,13 +3559,13 @@
 	<STRING hash="62808151" needed="1">Mountain Squares:</STRING>
 	<STRING hash="50395604" needed="1">Rocky Squares:</STRING>
 	<STRING hash="35519132" needed="1">Total Oil:</STRING>
-	<STRING hash="42759912" needed="1">Total Metal:</STRING>
+	<STRING hash="42759912" needed="1">Total Minerals:</STRING>
 	<STRING hash="41978002" needed="1">Goody Boxes:</STRING>
 	<STRING hash="54381572" needed="1">Goody Sparsity:</STRING>
 	<STRING hash="54420459" needed="1">Land Resources:</STRING>
 	<STRING hash="67678309" needed="1">Resource Sparsity:</STRING>
 	<STRING hash="50547568" needed="1">Sea Resources:</STRING>
-	<STRING hash="77134536" needed="1">Fish/Whale Sparsity:</STRING>
+	<STRING hash="77134536" needed="1">Plankton/Pod Sparsity:</STRING>
 	<STRING hash="32435734" needed="1">Nations: </STRING>
 	<STRING hash="15002569" needed="1">Frost Flats</STRING>
 	<STRING hash="14955539" needed="1">Primordial Mudflats</STRING>
@@ -3677,7 +3677,7 @@
 	<STRING hash="43535421" needed="1">EXPLORATION: Bonus </STRING>
 	<STRING hash="4614981" needed="1">!</STRING>
 	<STRING hash="105567293" needed="1">No room for merchant to unpack.</STRING>
-	<STRING hash="28501024" needed="1">Scout is idle.</STRING>
+	<STRING hash="28501024" needed="1">Trackworm is idle.</STRING>
 	<STRING hash="72452796" needed="1">Not able to reach target.</STRING>
 	<STRING hash="85957301" needed="1">Out of resources for repair.</STRING>
 	<STRING hash="101070157" needed="1">Cannot find city to trade with.</STRING>
@@ -3685,21 +3685,21 @@
 	<STRING hash="253317981" needed="1">Trade routes full. Each city can have 1 trade route per destination.</STRING>
 	<STRING hash="64627378" needed="1">Can't afford this spell.</STRING>
 	<STRING hash="61327187" needed="1">No rare resources here.</STRING>
-	<STRING hash="205833409" needed="1">The Senator can only bribe units in friendly territory.</STRING>
-	<STRING hash="128438183" needed="1">An enemy Spy is attempting bribery!</STRING>
-	<STRING hash="137050314" needed="1">An enemy Spy is planting an Informer!</STRING>
+	<STRING hash="205833409" needed="1">The Thumb Senator can only bribe units in friendly territory.</STRING>
+	<STRING hash="128438183" needed="1">An enemy Chamele-spy is attempting bribery!</STRING>
+	<STRING hash="137050314" needed="1">An enemy Chamele-spy is planting an Informer!</STRING>
 	<STRING hash="222610845" needed="1">Your planes are crashing because they have nowhere to land!</STRING>
-	<STRING hash="35274179" needed="1">Airbase is full.</STRING>
+	<STRING hash="35274179" needed="1">Cliff Roost is full.</STRING>
 	<STRING hash="184462060" needed="1">Must assimilate city before garrisoning it.</STRING>
 	<STRING hash="195460388" needed="1">Cannot add to City garrison while more than 90% damaged.</STRING>
 	<STRING hash="173128833" needed="1">$UNITTYPE0 cannot fit inside this $BUILDINGNAME1</STRING>
 	<STRING hash="184135484" needed="1">Cannot garrison building in enemy territory</STRING>
 	<STRING hash="8536484" needed="1"> o, </STRING>
 	<STRING hash="61337025" needed="1"> who : unit has issues.</STRING>
-	<STRING hash="258228452" needed="1">Military units in Russian territory receive 'Russian Winter' damage!</STRING>
+	<STRING hash="258228452" needed="1">Military units in Mam-moth-erland territory receive 'Ice Age' damage!</STRING>
 	<STRING hash="237300063" needed="1">Military units in enemy territory can receive attrition damage!</STRING>
-	<STRING hash="235040544" needed="1">Build Supply Wagons at a Factory to prevent attrition damage.</STRING>
-	<STRING hash="248760936" needed="1">Build Supply Wagons at a Siege Factory to prevent attrition damage.</STRING>
+	<STRING hash="235040544" needed="1">Build Horseshoe Supply Wagons at a Fossil Factory to prevent attrition damage.</STRING>
+	<STRING hash="248760936" needed="1">Build Horseshoe Supply Wagons at a Rockfall Works to prevent attrition damage.</STRING>
 	<STRING hash="254202465" needed="1">Military units have thirty seconds to leave former ally's territory.</STRING>
 	<STRING hash="253956558" needed="1">Military units have thirty seconds to leave former enemy's territory.</STRING>
 	<STRING hash="469176847" needed="1">Military units in former ally's territory suffer severe attrition damage! Declare war before attacking.</STRING>
@@ -3708,7 +3708,7 @@
 	<STRING hash="483583171" needed="1">Military units in neutral nation's territory suffer severe attrition damage! Declare war before attacking.</STRING>
 	<STRING hash="310442145" needed="1">Military units in non-target nation's territory suffer severe attrition damage!</STRING>
 	<STRING hash="101780043" needed="1">MAXIMUM POPULATION LIMIT REACHED!</STRING>
-	<STRING hash="220353571" needed="1">POPULATION LIMIT REACHED! Research Military at the Library.</STRING>
+	<STRING hash="220353571" needed="1">POPULATION LIMIT REACHED! Research Military at the Fossil Record.</STRING>
 	<STRING hash="200646585" needed="1">No Land specified in balancerules.txt</STRING>
 	<STRING hash="202167244" needed="1">No units specified in balancerules.txt</STRING>
 	<STRING hash="134649709" needed="1">$TRIBENAME0: unknown nation.</STRING>

@@ -34,12 +34,12 @@
         <BULLET/>Gain $NUMBER0 bonus resources per Age when your Burrow-acks, Stampede Pen, and Tide-dock units slay an enemy (maximum $NUMBER3).
         <BULLET/>Plunder from enemy buildings increased by $NUMBER1%.
       <BULLET/>Start with one Military research at the Fossil Record.
-      <BULLET/>Receive free Light Infantry whenever you build a new Burrow-acks (one at start, two with the Cambrian Explosion plus a Military research, and three with the Coal Forest Age plus 3 Military research).
+      <BULLET/>Receive free Light Biters whenever you build a new Burrow-acks (one at start, two with the Cambrian Explosion plus a Military research, and three with the Coal Forest Age plus 3 Military research).
       </STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE1">
 			<STRING>{The Maya Shell-ter has the Power of Architecture.}
-         <BULLET/>Cities, Stroma-towers, Reef Forts, etc. fire extra arrows/bullets--including Cities without garrisons.
+         <BULLET/>Cities, Stroma-towers, Reef Forts, etc. fire extra spines/stingers--including Cities without garrisons.
          <BULLET/>Buildings $NUMBER2% tougher and all non-Wonders are $NUMBER3% faster to build.
          <BULLET/>Buildings cost $NUMBER0% less Fernwood (except Wonders and military buildings).
       </STRING>
@@ -77,8 +77,8 @@
 		<ENTRY name="TRIBE6">
 			<STRING>{The Ant-perium Romanum has the Power of Caesar.}
          <BULLET/>Reef Forts $NUMBER3% cheaper and $NUMBER8% faster to build, exert +$NUMBER2 National Borders, and get free upgrades.
-      <BULLET/>Heavy Infantry created $NUMBER6% cheaper and $NUMBER7% faster. Start with one Military research at the Fossil Record.
-      <BULLET/>Receive free Heavy Infantry whenever you build a new Burrow-acks (one with the Cambrian Explosion, two with the Coal Forest Age plus 3 Military research, and three with the Jurassic Heights plus 5 Military research).
+      <BULLET/>Heavy Brawlers created $NUMBER6% cheaper and $NUMBER7% faster. Start with one Military research at the Fossil Record.
+      <BULLET/>Receive free Heavy Brawlers whenever you build a new Burrow-acks (one with the Cambrian Explosion, two with the Coal Forest Age plus 3 Military research, and three with the Jurassic Heights plus 5 Military research).
       <BULLET/>Cities gather an extra +$NUMBER4 Shells.
       </STRING>
 		</ENTRY>
@@ -100,7 +100,7 @@
 		</ENTRY>
 		<ENTRY name="TRIBE8">
 			<STRING>{The Scorpi-Ottoman Empire has the Power of Siege.}
-      <BULLET/>All siege, artillery, and bombardment units have +$NUMBER0 range and +$NUMBER1 Line-of-Sight.
+      <BULLET/>All siege beasts and bombardment units have +$NUMBER0 range and +$NUMBER1 Line-of-Sight.
          <BULLET/>Receive $NUMBER3 free Siege unit(s) whenever you build a new Rockfall Works or Fossil Factory.
       <BULLET/>Citi-snails $NUMBER5% cheaper. Conquered cities assimilated $NUMBER2% faster.
       <BULLET/>Siege units upgrade for free. Military research at the Fossil Record $NUMBER4% cheaper.
@@ -116,8 +116,8 @@
 		</ENTRY>
 		<ENTRY name="TRIBE10">
 			<STRING>{The Web-public of France has the Power of Leadership.}
-      <BULLET/>Receive a free General each time you build a new Reef Fort.
-      <BULLET/>Horseshoe Supply Wagons heal your troops. Receive a free Horseshoe Supply Wagon each time you build a new Rockfall Works or Fossil Factory.
+      <BULLET/>Receive a free General Tua-tactics each time you build a new Reef Fort.
+      <BULLET/>Horseshoe Supply Wagons heal your creatures. Receive a free Horseshoe Supply Wagon each time you build a new Rockfall Works or Fossil Factory.
       <BULLET/>Rockfall Works and Fossil Factory units created $NUMBER3% cheaper and $NUMBER4% faster. They also move faster.
       <BULLET/>Free Timber Gnaw-mill and upgrades. Wood-chewers +$NUMBER5 Citi-snails. Fernwood Commerce Limit +$NUMBER7%.
       </STRING>
@@ -126,9 +126,9 @@
 			<STRING>{The United King-frog has the Power of Empire.}
          <BULLET/>+$NUMBER0% Commerce Cap. Receive double income from Tax-onomy, and tax upgrades are 50% cheaper.
          <BULLET/>Ships created $NUMBER1% faster. Get one free Nauti-fisher whenever you build a new Tide-dock.
-      <BULLET/>Receive Foot Archer upgrades for free. Receive free Archer(s) whenever you build a new Burrow-acks (one at start, two with the Age of Fins, and three with the Coal Forest Age).
+      <BULLET/>Receive Foot Spitter upgrades for free. Receive free Foot Spitter(s) whenever you build a new Burrow-acks (one at start, two with the Age of Fins, and three with the Coal Forest Age).
       <BULLET/>+$NUMBER5 range to Reef Forts and Stroma-towers.
-      <BULLET/>Anti-Aircraft units and buildings created $NUMBER3% cheaper and $NUMBER4% faster.
+      <BULLET/>Anti-Air units and buildings created $NUMBER3% cheaper and $NUMBER4% faster.
       </STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE12">
@@ -144,7 +144,7 @@
          <BULLET/>Attrition damage to enemy units in your territory increased by $NUMBER0%. Attrition upgrades are free.
          <BULLET/>$NATIONALBORDERS0 Start with 1 free Civic research at the Fossil Record.
          <BULLET/>Chamele-spies are half price.
-         <BULLET/>Cavalry units do +$NUMBER3% damage to enemy Supply and Artillery units.
+         <BULLET/>Runner units do +$NUMBER3% damage to enemy Supply and Siege Beast units.
       <BULLET/>Plunder from your buildings goes to you, not the enemy who plundered them. +$NUMBER1% Oil gathering.
       </STRING>
 		</ENTRY>
@@ -160,7 +160,7 @@
 			<STRING>{The Salamander Shogunate has the Power of Honor.}
          <BULLET/>Burrow-acks units created $NUMBER1% cheaper and $NUMBER2% faster, for each Age plus Military research.
          <BULLET/>Burrow-acks units do $NUMBER0% extra damage vs. buildings for each Age plus Military research.
-         <BULLET/>Ships are $NUMBER3% cheaper and Aircraft Carriers are created $NUMBER4% faster.
+         <BULLET/>Ships are $NUMBER3% cheaper and Air-chelon Carriers are created $NUMBER4% faster.
       <BULLET/>Fern-tile Fields are $NUMBER5% cheaper. Fern-tile Fields and Nauti-fishers produce +$NUMBER6% resources.
       </STRING>
 		</ENTRY>
@@ -169,13 +169,13 @@
       <BULLET/>Start with an Amber Shrine and receive Ritual Display upgrades for free.
       <BULLET/>Start with an extra $NUMBER1 Citi-snail, receive $NUMBER3 when you build your next City, and $NUMBER5 for all future Cities.
       <BULLET/>Repair is $NUMBER2% faster. Your Citi-snails can build and repair buildings that are under fire without penalty.
-      <BULLET/>Receive the Militia, Minute-colophon, and Partisan upgrades for free. Stroma-towers $NUMBER4% cheaper.
+      <BULLET/>Receive the Lobo-militia, Minute-colophon, and Parrot-isan upgrades for free. Stroma-towers $NUMBER4% cheaper.
       </STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE17">
 			<STRING>{The Veloci-Horde has the Power of the Horde.}
-         <BULLET/>Receive free Ranged Cavalry whenever you build a new Stampede Pen or Armor Molt Plant ($NUMBER5 at start, $NUMBER3 with two Military research, $NUMBER7 with three Military research).
-      <BULLET/>Mounted units created $NUMBER0% cheaper and $NUMBER1% faster.
+         <BULLET/>Receive free Ranged Runners whenever you build a new Stampede Pen or Armor Molt Plant ($NUMBER5 at start, $NUMBER3 with two Military research, $NUMBER7 with three Military research).
+      <BULLET/>Runner units created $NUMBER0% cheaper and $NUMBER1% faster.
          <BULLET/>Receive +1 Grub for each $NUMBER4% of world landmass controlled (times half the number of nations).
       <BULLET/>Attrition to your units reduced by $NUMBER2%. Receive Foraging/Food Stores/Migration Logistics research free.
       </STRING>
@@ -190,23 +190,23 @@
 		</ENTRY>
 		<ENTRY name="TRIBE19">
 			<STRING>{The Terror-tory has the Power of the Plains.}
-        <BULLET/>Receive +$NUMBER0 Grub for every Citi-snail, Trackworm, and Cavalry unit (except when garrisoned) instead of building Fern-tile Fields and Spore-aries. Fern-tile Fields and Spore-aries in captured enemy cities are instantly destroyed.
+        <BULLET/>Receive +$NUMBER0 Grub for every Citi-snail, Trackworm, and Runners unit (except when garrisoned) instead of building Fern-tile Fields and Spore-aries. Fern-tile Fields and Spore-aries in captured enemy cities are instantly destroyed.
         <BULLET/>Borders are invisible to enemies. Can construct buildings anywhere in territory not belonging to an enemy nation.
-      <BULLET/>Ranged Cavalry upgrades are free.
+      <BULLET/>Ranged Runners upgrades are free.
         </STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE20">
 			<STRING>{The United Bee-states has the Power of Innovation.}
          <BULLET/>First Wonder is built instantly (except Aurora Program or Super-collision Crater) if no other nation is also building it.
 <BULLET/>Governments are free. Receive $NUMBER2 free Bookworm(s) at each new Paleo-versity.
-         <BULLET/>Aircraft and Carriers are $NUMBER0% cheaper. Receive $NUMBER1 free Bombers at each Cliff Roost from the Cretaceous Bloom.
+         <BULLET/>Flyers and Air-chelon Carriers are $NUMBER0% cheaper. Receive $NUMBER1 free Bombers at each Cliff Roost from the Cretaceous Bloom.
       <BULLET/>25% cheaper military ground unit upgrades. Receive +3 Grub, Fernwood, Minerals, and Shells for every non-Trackworm Burrow-acks unit (except when garrisoned).
       </STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE20CTW">
 			<STRING>{The United Bee-states has the Power of Innovation.}
          <BULLET/>Governments at the Herd Senate are free. Receive $NUMBER2 free Bookworm(s) at each new Paleo-versity.
-         <BULLET/>Aircraft and Carriers are $NUMBER0% cheaper. Receive $NUMBER1 free Bomber(s) at each Cliff Roost starting in the Cretaceous Bloom (these don't count against ramp-up cost).
+         <BULLET/>Flyers and Air-chelon Carriers are $NUMBER0% cheaper. Receive $NUMBER1 free Bomb-coatlus at each Cliff Roost starting in the Cretaceous Bloom (these don't count against ramp-up cost).
       
       <BULLET/>20% cheaper military unit upgrades. Receive +3 Grub, Fernwood, Minerals, and Shells for every Burrow-acks unit (except when garrisoned).
       <BULLET/>Start Conquer the World campaigns with a Build Wonder Bonus Card.</STRING>
@@ -222,7 +222,7 @@
 			<STRING>{The Nether-snaps have the Power of Commerce.}
          <BULLET/>Start with a free Commerce research at Fossil Record. Receive $NUMBER0% discount on all future Commerce research.
       <BULLET/>Start with a Shell Exchange and 2 free Milli-peddlers.<BULLET/>For every 100 of a resource in your treasury beyond starting level, receive +$NUMBER1 income for that resource (except Instinct); this income can exceed Commerce Cap by 50.
-      <BULLET/>Receive $NUMBER2 free Light Ships whenever you complete a Tide-dock. Ship upgrades are 10% cheaper.</STRING>
+      <BULLET/>Receive $NUMBER2 free Light Swimmers whenever you complete a Tide-dock. Ship upgrades are 10% cheaper.</STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE23">
 			<STRING>{The Im-mammal Empire has the Power of Ceremony.}
@@ -238,7 +238,7 @@
 			<ENTRY name="AGETECH">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings
+{Age} advances carry your lineage through deep time; they make new units and buildings
 available. To advance in Age, click the buttons with roman numerals in the top row of your Fossil Record.
 </STRING>
 				<TRANSLATION/>
@@ -286,22 +286,22 @@ allowed to gather any resource. It also increases your #ICON9 {Caravan Limit}, t
 			<ENTRY name="AGE0">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-In most games your nation begins in the {Primordial Age} with little technology and must make its way forward by researching technologies at the Fossil Record.
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Most games begin in the {Primordial Age}: soft-bodied life drifts and crawls over microbial mats in warm, shallow seas. Research at the Fossil Record to evolve onward.
 </STRING>
 			</ENTRY>
 			<ENTRY name="AGE1">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-Advancing to the #ICON28 {Cambrian Explosion} makes new resources available (#ICON4 Instinct and #ICON5 Minerals). It also allows you to build a Herd Senate for government powers, Reef Forts for defense, and Stampede Pens and Rockfall Works to create powerful new kinds of units.
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Advancing to the #ICON28 {Cambrian Explosion}: shells, eyes and claws appear almost at once, and predator and prey race to outgrow each other. New resources become available (#ICON4 Instinct and #ICON5 Minerals), along with the Herd Senate for government powers, Reef Forts for defense, and Stampede Pens and Rockfall Works for powerful new kinds of units.
 </STRING>
 			</ENTRY>
 			<ENTRY name="AGE2">
 				<STRING>
 					<BULLET/>
 
-{Age} advances represent your nation's progress through history; they make new units and buildings available. Advancing to the #ICON29 {Age of Fins} allows you to arm your troops with more powerful weapons. It also allows you to build Horseshoe Supply Wagons to support your troops and Chamele-spies to subvert your enemies.
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats. Advancing to the #ICON29 {Age of Fins}: jawed fish rule the seas while the first forests and four-limbed pioneers reach the shore. Your creatures gain stronger jaws and armor, and you can raise Horseshoe Supply Wagons to support them and Chamele-spies to subvert your enemies.
 </STRING>
 			</ENTRY>
 			<ENTRY name="AGE3">
@@ -309,36 +309,34 @@ Advancing to the #ICON28 {Cambrian Explosion} makes new resources available (#IC
 					<BULLET/>
 
 
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-Advancing to the #ICON30 {Coal Forest Age} makes powerful gunpowder units available.
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Advancing to the #ICON30 {Coal Forest Age}: steaming swamps of giant ferns, oxygen-rich air, metre-long dragonflies and the first reptiles. Powerful spine-shooting creatures become available.
 </STRING>
 			</ENTRY>
 			<ENTRY name="AGE4">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-Advancing to the #ICON31 {Triassic Dawn} makes powerful new musket and cannon units available.</STRING>
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Advancing to the #ICON31 {Triassic Dawn}: life rebuilds after the Great Dying; early dinosaurs, mammal ancestors and sea reptiles spread across one supercontinent. New spine-shooters and heavy siege beasts become available.</STRING>
 			</ENTRY>
 			<ENTRY name="AGE5">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-Advancing to the #ICON32 {Jurassic Heights} gives you access to a new resource #ICON12 (Oil) and makes Tanks and Aircraft available for the first time.</STRING>
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Advancing to the #ICON32 {Jurassic Heights}: long-necked giants browse conifer forests, while the first birds take to the air. Gives you access to a new resource #ICON12 (Oil) and brings Armorbacks and Flyers for the first time.</STRING>
 			</ENTRY>
 			<ENTRY name="AGE6">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-Advancing to the #ICON33 {Cretaceous Bloom} gives you access to powerful modern units and buildings, including the ability
-to research nuclear weapons.
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Advancing to the #ICON33 {Cretaceous Bloom}: flowers spread across the land, horned and armored giants roam, and the skies fill with wings, until the sky falls. Unlocks powerful late-age creatures and habitats, including the power to call down Extinction Events.
 </STRING>
 			</ENTRY>
 			<ENTRY name="AGE7">
 				<STRING>
 					<BULLET/>
-{Age} advances represent your nation's progress through history; they make new units and buildings available.
-Advancing to the #ICON34 {Cenozoic Rise} brings you to the pinnacle of information technology--the game's most powerful units and buildings at last become
-available.
+{Age} advances carry your lineage through deep time; each one unlocks new creatures and habitats.
+Advancing to the #ICON34 {Cenozoic Rise}: the survivors inherit the Earth, with grasslands, ice sheets, giant mammals and terror birds. The game's most powerful units and buildings at last become available.
 </STRING>
 			</ENTRY>
 		</AGES>
@@ -2845,7 +2843,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates foot soldiers to attack your enemies.
+         Creates ground creatures to attack your enemies.
 
 
 
@@ -2860,7 +2858,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Garrison foot soldiers inside to heal them.
+         Garrison ground creatures inside to heal them.
 
 
 
@@ -2873,7 +2871,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates mounted soldiers to attack your enemies.
+         Creates runners to attack your enemies.
 
 
 
@@ -2901,7 +2899,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates Tanks, Armored Cars, and other vehicle units.
+         Creates Armorbacks, Armored Scale Cars, and other armored beasts.
 
 
 
@@ -2917,7 +2915,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Garrison vehicles inside to repair them.
+         Garrison armored beasts inside to repair them.
 
 
 
@@ -2940,7 +2938,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates Horseshoe Supply Wagons to support your armies.
+         Creates Horseshoe Supply Wagons to support your herds.
 
 
 
@@ -2966,7 +2964,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates Artillery units to attack enemy buildings and troops.
+         Creates Siege Beast units to attack enemy buildings and creatures.
 
 
 
@@ -2975,7 +2973,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates Anti-Aircraft units to shoot down enemy aircraft.
+         Creates Anti-Air units to shoot down enemy flyers.
 
 
 
@@ -2984,7 +2982,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Creates Supply Trucks to support your armies.
+         Creates Horseshoe Supply Wagons to support your herds.
 
 
 
@@ -3000,7 +2998,7 @@ The bigger the mountain or cliff, the more Citi-snails can work the Geo-dig.
 
 
 
-         Garrison Artillery units inside to repair them.
+         Garrison Siege Beast units inside to repair them.
 
 
 
@@ -3293,7 +3291,7 @@ your libraries.
 		</ENTRY>
 		<ENTRY name="SENATEV">
 			<STRING>
-				<BULLET/>Also receive a unique General, the Patriot, with each form of government.<BULLET/>The Patriot returns to the Herd Senate (after a delay) when killed. If your Herd Senate is captured, the Patriot will return at a nearby city.<BULLET/>You may only have one Herd Senate at a time; you must first raze the old one (this takes a long time!) before building a new one, which will move your Capital to the new city.<!--Senate-->
+				<BULLET/>Also receive a unique leader, the Patriot, with each form of government.<BULLET/>The Patriot returns to the Herd Senate (after a delay) when killed. If your Herd Senate is captured, the Patriot will return at a nearby city.<BULLET/>You may only have one Herd Senate at a time; you must first raze the old one (this takes a long time!) before building a new one, which will move your Capital to the new city.<!--Senate-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="TOWER">
@@ -3320,7 +3318,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3360,7 +3358,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3401,7 +3399,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3441,7 +3439,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3481,7 +3479,7 @@ your libraries.
 
 
 
-         Creates Chamele-spies and Generals.
+         Creates Chamele-spies and General Tua-tactics.
 
 
 
@@ -3490,7 +3488,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3532,7 +3530,7 @@ your libraries.
 
 
 
-         Creates Chamele-spies and Generals.
+         Creates Chamele-spies and General Tua-tactics.
 
 
 
@@ -3541,7 +3539,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3581,7 +3579,7 @@ your libraries.
 
 
 
-         Creates Chamele-spies and Generals.
+         Creates Chamele-spies and General Tua-tactics.
 
 
 
@@ -3590,7 +3588,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3630,7 +3628,7 @@ your libraries.
 
 
 
-         Creates Chamele-spies and Generals.
+         Creates Chamele-spies and General Tua-tactics.
 
 
 
@@ -3639,7 +3637,7 @@ your libraries.
 
 
 
-         Can be garrisoned with friendly troops.
+         Can be garrisoned with friendly creatures.
 
 
 
@@ -3663,7 +3661,7 @@ your libraries.
 
 
 
-Creates aircraft from Biplanes and Fighters to Attack Helicopters and Strategic Bombers.
+Creates flyers from Biplanes and Fighters to Attack Helicopters and Strategic Bombers.
 
 
 
@@ -3675,7 +3673,7 @@ Creates aircraft from Biplanes and Fighters to Attack Helicopters and Strategic 
 		</ENTRY>
 		<ENTRY name="AIRBASEV">
 			<STRING>
-Aircraft can return here to be repaired and refueled.
+Flyers can return here to be repaired and refueled.
 </STRING>
 		</ENTRY>
 		<ENTRY name="LOOKOUT">
@@ -3704,7 +3702,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Limited ability to shoot arrows at enemy aircraft passing nearby.
+         Limited ability to flick spines at enemy flyers passing nearby.
 
 
 
@@ -3738,7 +3736,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Limited ability to shoot arrows at enemy aircraft passing nearby.
+         Limited ability to flick spines at enemy flyers passing nearby.
 
 
 
@@ -3754,7 +3752,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Fires at enemy aircraft.
+         Fires at enemy flyers.
 
 
 
@@ -3776,7 +3774,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Fires at enemy aircraft.
+         Fires at enemy flyers.
 
 
 
@@ -3800,7 +3798,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Fires at enemy aircraft.
+         Fires at enemy flyers.
 
 
 
@@ -3825,7 +3823,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Creates and launches missile units.
+         Creates and launches meteor units.
 
 
 
@@ -3834,7 +3832,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Researches new types of missiles, including Nuclear Missiles and ICBM's.
+         Researches new types of meteors, including Extinction Events and Extinction ICBMs.
 
 
 
@@ -3843,7 +3841,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Can only hold one missile at a time.
+         Can only hold one meteor at a time.
 
 
 
@@ -3891,7 +3889,7 @@ Aircraft can return here to be repaired and refueled.
 				<BULLET/>
          Wonder of the World: $STRING0 wonder point(s).
          <BULLET/>
-         Creates a free foot unit every $NUMBER2 seconds (plus $STRING3 second(s) for every infantry unit you control).
+         Creates a free foot unit every $NUMBER2 seconds (plus $STRING3 second(s) for every foot unit you control).
       </STRING>
 		</ENTRY>
 		<ENTRY name="TERRACOTTAARMYCTW">
@@ -3899,7 +3897,7 @@ Aircraft can return here to be repaired and refueled.
 				<BULLET/>
          Wonder of the World: $STRING0 wonder point(s).
          <BULLET/>Gives you an extra reinforcement army in every Conquest battle.
-      <BULLET/>If present in a battle, creates a free foot unit every $NUMBER2 seconds (plus $NUMBER3 second(s) for every infantry unit you control).
+      <BULLET/>If present in a battle, creates a free foot unit every $NUMBER2 seconds (plus $NUMBER3 second(s) for every foot unit you control).
       </STRING>
 		</ENTRY>
 		<ENTRY name="COLOSSEUM">
@@ -3998,9 +3996,9 @@ Aircraft can return here to be repaired and refueled.
          <BULLET/>
          Reduces the non-Knowledge costs of Fossil Record research by $NUMBER1%.
          <BULLET/>
-         Your Horseshoe Supply Wagons can heal your troops (and the Web-public of France's Horseshoe Supply Wagons heal at double normal rate).
+         Your Horseshoe Supply Wagons can heal your creatures (and the Web-public of France's Horseshoe Supply Wagons heal at double normal rate).
          <BULLET/>
-         Siege, Artillery, and Supply units move $NUMBER4% faster.
+         Siege Beasts and Supply units move $NUMBER4% faster.
          </STRING>
 		</ENTRY>
 		<ENTRY name="TAJMAHAL">
@@ -4061,8 +4059,8 @@ Aircraft can return here to be repaired and refueled.
          <BULLET/>
         You can see the location of all units, buildings, and terrain on the map.
          <BULLET/>
-       You create aircraft and missiles $NUMBER3% faster and $NUMBER4% cheaper.
-      <BULLET/>You are immune to the effects of a Nuclear Embargo.
+       You create flyers and meteors $NUMBER3% faster and $NUMBER4% cheaper.
+      <BULLET/>You are immune to the effects of a Extinction Embargo.
       </STRING>
 		</ENTRY>
 	</BUILDINGS>
@@ -4071,7 +4069,7 @@ Aircraft can return here to be repaired and refueled.
 			<STRING>
 				<BULLET/>
             
-         Im-mammal Empire and Tusk Raj unique {Elephant,} the Cambrian Explosion #ICON28 - powerful, slow melee units. Good against close-order foot; vulnerable to light, scattered troops.
+         Im-mammal Empire and Tusk Raj unique {Tusker,} the Cambrian Explosion #ICON28 - powerful, slow melee units. Good against close-packed ground creatures; vulnerable to light, scattered creatures.
          
             <!--War Elephant-->
 			</STRING>
@@ -4080,7 +4078,7 @@ Aircraft can return here to be repaired and refueled.
 			<STRING>
 				<BULLET/>
             
-        Im-mammal Empire and Tusk Raj unique {Elephant,} the Age of Fins #ICON29 - powerful, slow melee units. Good against close-order foot; vulnerable to light, scattered troops. Fires at range as well as in melee.
+        Im-mammal Empire and Tusk Raj unique {Tusker,} the Age of Fins #ICON29 - powerful, slow melee units. Good against close-packed ground creatures; vulnerable to light, scattered creatures. Fires at range as well as in melee.
          
             <!--Mahout-->
 			</STRING>
@@ -4089,7 +4087,7 @@ Aircraft can return here to be repaired and refueled.
 			<STRING>
 				<BULLET/>
             
-        Im-mammal Empire and Tusk Raj unique {Elephant,} the Coal Forest Age #ICON30 - powerful, slow melee units. Good against close-order foot; vulnerable to light, scattered troops. Fires at range as well as in melee.
+        Im-mammal Empire and Tusk Raj unique {Tusker,} the Coal Forest Age #ICON30 - powerful, slow melee units. Good against close-packed ground creatures; vulnerable to light, scattered creatures. Fires at range as well as in melee.
          
             <!--Mahout-->
 			</STRING>
@@ -4098,7 +4096,7 @@ Aircraft can return here to be repaired and refueled.
 			<STRING>
 				<BULLET/>
             
-        Im-mammal Empire and Tusk Raj unique {Elephant,} the Triassic Dawn #ICON31 - powerful, slow melee units. Good against close-order foot; vulnerable to light, scattered troops. Fires as siege as well as in melee.
+        Im-mammal Empire and Tusk Raj unique {Tusker,} the Triassic Dawn #ICON31 - powerful, slow melee units. Good against close-packed ground creatures; vulnerable to light, scattered creatures. Fires as siege as well as in melee.
          
             <!--Mahout-->
 			</STRING>
@@ -4137,7 +4135,7 @@ Aircraft can return here to be repaired and refueled.
 			<STRING>
 				<BULLET/>
             
-         {Light Infantry}, the Primordial Age #ICON45 - fast, cheap, and short-ranged.
+         {Light Biters}, the Primordial Age #ICON45 - fast, cheap, and short-ranged.
          
             <!--Slingers-->
 			</STRING>
@@ -4149,7 +4147,7 @@ Aircraft can return here to be repaired and refueled.
 			<STRING>
 				<BULLET/>
             
-         {Light Infantry}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged.
+         {Light Biters}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged.
          
             <!--Javelineers-->
 			</STRING>
@@ -4161,7 +4159,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         {Light Infantry}, the Age of Fins #ICON29 - fast,  cheap, and short-ranged.
+         {Light Biters}, the Age of Fins #ICON29 - fast,  cheap, and short-ranged.
 
 
 
@@ -4179,7 +4177,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Boa-ztec Empire Unique {Light Infantry}, the Primordial Age #ICON45 - fast, cheap, and short-ranged. Quicker and tougher than Sprig-slingers.
+         Boa-ztec Empire Unique {Light Biters}, the Primordial Age #ICON45 - fast, cheap, and short-ranged. Quicker and tougher than Sprig-slingers.
 
 
 
@@ -4197,7 +4195,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Boa-ztec Empire Unique {Light Infantry}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged. Quicker and tougher than Pika-lineers.
+         Boa-ztec Empire Unique {Light Biters}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged. Quicker and tougher than Pika-lineers.
 
 
 
@@ -4214,7 +4212,7 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Boa-ztec Empire Unique {Light Infantry}, the Age of Fins #ICON29 - fast, cheap, and short-ranged. Quicker and tougher than Elite Elgin-eers.
+         Boa-ztec Empire Unique {Light Biters}, the Age of Fins #ICON29 - fast, cheap, and short-ranged. Quicker and tougher than Elite Elgin-eers.
 
 
 
@@ -4231,8 +4229,8 @@ Aircraft can return here to be repaired and refueled.
 
 
 
-         Maya Shell-ter Unique {Light Infantry}, the Primordial Age #ICON45 - fast, cheap, and short-ranged. Extremely effective against
-enemy light infantry.
+         Maya Shell-ter Unique {Light Biters}, the Primordial Age #ICON45 - fast, cheap, and short-ranged. Extremely effective against
+enemy light biters.
 
 
 
@@ -4249,8 +4247,8 @@ enemy light infantry.
 
 
 
-         Maya Shell-ter Unique {Light Infantry}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged. Extremely effective
-against enemy light infantry.
+         Maya Shell-ter Unique {Light Biters}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged. Extremely effective
+against enemy light biters.
 
 
 
@@ -4267,8 +4265,8 @@ against enemy light infantry.
 
 
 
-         Maya Shell-ter Unique {Light Infantry}, the Age of Fins #ICON29 - fast, cheap, and short-ranged. Extremely effective
-against enemy light infantry.
+         Maya Shell-ter Unique {Light Biters}, the Age of Fins #ICON29 - fast, cheap, and short-ranged. Extremely effective
+against enemy light biters.
 
 
 
@@ -4285,7 +4283,7 @@ against enemy light infantry.
 
 
 
-         In-claw Empire Unique {Light Infantry}, the Cambrian Explosion #ICON28 - fast, cheap melee troops effective against enemy mounted troops.
+         In-claw Empire Unique {Light Biters}, the Cambrian Explosion #ICON28 - fast, cheap melee creatures effective against enemy runners.
 
 
 
@@ -4302,7 +4300,7 @@ against enemy light infantry.
 
 
 
-         In-claw Empire Unique {Light Infantry}, the Age of Fins #ICON29 - fast, cheap melee troops effective against enemy mounted troops.
+         In-claw Empire Unique {Light Biters}, the Age of Fins #ICON29 - fast, cheap melee creatures effective against enemy runners.
 
 
 
@@ -4319,7 +4317,7 @@ against enemy light infantry.
 
 
 
-         Wing-tu Kingdom Unique {Light Infantry}, the Primordial Age #ICON45 - fast, cheap, and short-ranged. Slightly stronger than Sprig-slingers; faster to create.
+         Wing-tu Kingdom Unique {Light Biters}, the Primordial Age #ICON45 - fast, cheap, and short-ranged. Slightly stronger than Sprig-slingers; faster to create.
 
 
 
@@ -4336,7 +4334,7 @@ against enemy light infantry.
 
 
 
-         Wing-tu Kingdom Unique {Light Infantry}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged. Slightly stronger than Pika-lineers; faster to create.
+         Wing-tu Kingdom Unique {Light Biters}, the Cambrian Explosion #ICON28 - fast, cheap, and short-ranged. Slightly stronger than Pika-lineers; faster to create.
 
 
 
@@ -4353,7 +4351,7 @@ against enemy light infantry.
 
 
 
-         Wing-tu Kingdom Unique {Light Infantry}, the Age of Fins #ICON29 - fast, cheap, and short-ranged. Slightly stronger than Elite Elgin-eers; faster to create.
+         Wing-tu Kingdom Unique {Light Biters}, the Age of Fins #ICON29 - fast, cheap, and short-ranged. Slightly stronger than Elite Elgin-eers; faster to create.
 
 
 
@@ -4370,7 +4368,7 @@ against enemy light infantry.
 
 
 
-         Great Shell of China Unique {Gunpowder Infantry}, the Age of Fins #ICON29 - earliest gunpowder unit; effective against Heavy Infantry.
+         Great Shell of China Unique {Spine-shooters}, the Age of Fins #ICON29 - earliest spine-shooter; effective against Heavy Brawlers.
 
 
 
@@ -4386,7 +4384,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Primordial Age #ICON45 - powerful, slow melee units.
+         {Heavy Brawlers}, the Primordial Age #ICON45 - powerful, slow melee units.
 
 
 
@@ -4404,7 +4402,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow, melee units.
+         {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow, melee units.
 
 
 
@@ -4422,7 +4420,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Age of Fins #ICON29 - powerful, slow, melee units.
+         {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow, melee units.
 
 
 
@@ -4440,7 +4438,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Coal Forest Age #ICON30 - powerful, slow, melee units.
+         {Heavy Brawlers}, the Coal Forest Age #ICON30 - powerful, slow, melee units.
 
 
 
@@ -4458,7 +4456,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Triassic Dawn #ICON31 - slow, powerful short-ranged gunpowder units useful for close-in defense.
+         {Heavy Brawlers}, the Triassic Dawn #ICON31 - slow, powerful short-ranged spine-shooters useful for close-in defense.
 
 
 
@@ -4475,7 +4473,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Jurassic Heights #ICON32 - slow with a powerful armor-piercing attack at short range.
+         {Heavy Brawlers}, the Jurassic Heights #ICON32 - slow with a powerful shell-piercing attack at short range.
 
 
 
@@ -4493,7 +4491,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Cretaceous Bloom #ICON33 - slow with an extremely powerful armor-piercing attack at short range.
+         {Heavy Brawlers}, the Cretaceous Bloom #ICON33 - slow with an extremely powerful shell-piercing attack at short range.
 
 
 
@@ -4511,7 +4509,7 @@ against enemy light infantry.
 
 
 
-         {Heavy Infantry}, the Cenozoic Rise #ICON34 - slow with a powerful and accurate long-range armor-piercing attack.
+         {Heavy Brawlers}, the Cenozoic Rise #ICON34 - slow with a powerful and accurate long-range shell-piercing attack.
 
 
 
@@ -4529,8 +4527,8 @@ against enemy light infantry.
 
 
 
-         Ant-perium Romanum Unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow, melee units. Extremely effective against enemy
-Heavy Infantry.
+         Ant-perium Romanum Unique {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow, melee units. Extremely effective against enemy
+Heavy Brawlers.
 
 
 
@@ -4548,8 +4546,8 @@ Heavy Infantry.
 
 
 
-         Ant-perium Romanum Unique {Heavy Infantry}, the Age of Fins #ICON29 - powerful, slow, melee units. Extremely effective against enemy
-Heavy Infantry.
+         Ant-perium Romanum Unique {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow, melee units. Extremely effective against enemy
+Heavy Brawlers.
 
 
 
@@ -4566,8 +4564,8 @@ Heavy Infantry.
 
 
 
-         Ant-perium Romanum Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - powerful, slow, melee units. Extremely effective against enemy
-Heavy Infantry.
+         Ant-perium Romanum Unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - powerful, slow, melee units. Extremely effective against enemy
+Heavy Brawlers.
 
 
 
@@ -4584,7 +4582,7 @@ Heavy Infantry.
 
 
 
-         Frog-quistadors Unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow, melee units; extremely effective against mounted troops.
+         Frog-quistadors Unique {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow, melee units; extremely effective against runners.
 
          
             <!--Scutari-->
@@ -4597,7 +4595,7 @@ Heavy Infantry.
 
 
 
-         Frog-quistadors Unique {Heavy Infantry}, the Age of Fins #ICON29 - powerful, slow, melee units; extremely effective against mounted troops.
+         Frog-quistadors Unique {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow, melee units; extremely effective against runners.
 
          
             <!--Royal Scutari-->
@@ -4610,7 +4608,7 @@ Heavy Infantry.
 
 
 
-         Frog-quistadors Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - slow, powerful, short-ranged gunpowder units; extremely effective against mounted troops.
+         Frog-quistadors Unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - slow, powerful, short-ranged spine-shooters; extremely effective against runners.
 
          
             <!--Tercios-->
@@ -4623,7 +4621,7 @@ Heavy Infantry.
 
 
 
-         Frog-quistadors Unique {Heavy Infantry}, the Triassic Dawn #ICON31 - slow, powerful, short-ranged gunpowder units; extremely effective against mounted troops.
+         Frog-quistadors Unique {Heavy Brawlers}, the Triassic Dawn #ICON31 - slow, powerful, short-ranged spine-shooters; extremely effective against runners.
 
          
             <!--Royal Tercios-->
@@ -4636,7 +4634,7 @@ Heavy Infantry.
 
 
 
-         Beetle Confederation Unique {Heavy Infantry}, the Primordial Age #ICON45 - powerful, slow melee units; tougher and faster to build than normal Worm-lites.
+         Beetle Confederation Unique {Heavy Brawlers}, the Primordial Age #ICON45 - powerful, slow melee units; tougher and faster to build than normal Worm-lites.
 
          
             <!--Solduri-->
@@ -4649,7 +4647,7 @@ Heavy Infantry.
 
 
 
-         Beetle Confederation Unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow melee units; tougher and faster to build than normal Spine-alanx.
+         Beetle Confederation Unique {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow melee units; tougher and faster to build than normal Spine-alanx.
 
          
             <!--Barbarians-->
@@ -4662,7 +4660,7 @@ Heavy Infantry.
 
 
 
-         Beetle Confederation Unique {Heavy Infantry}, the Age of Fins #ICON29 - powerful, slow melee units; tougher and faster to build than normal Venta-pikes.
+         Beetle Confederation Unique {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow melee units; tougher and faster to build than normal Venta-pikes.
 
          
             <!--Vandals-->
@@ -4675,7 +4673,7 @@ Heavy Infantry.
 
 
 
-         Beetle Confederation Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - powerful, slow melee units; tougher and faster to build than normal Elite Pike-erpetons.
+         Beetle Confederation Unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - powerful, slow melee units; tougher and faster to build than normal Elite Pike-erpetons.
 
          
             <!--Landsknechts-->
@@ -4688,7 +4686,7 @@ Heavy Infantry.
 
 
 
-         Salamander Shogunate Unique {Heavy Infantry}, the Primordial Age #ICON45 - powerful, slow melee units; stronger and tougher than normal Worm-lites.
+         Salamander Shogunate Unique {Heavy Brawlers}, the Primordial Age #ICON45 - powerful, slow melee units; stronger and tougher than normal Worm-lites.
 
 
          
@@ -4702,7 +4700,7 @@ Heavy Infantry.
 
 
 
-         Salamander Shogunate Unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow melee units; stronger and tougher than normal Spine-alanx.
+         Salamander Shogunate Unique {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow melee units; stronger and tougher than normal Spine-alanx.
 
 
 
@@ -4717,7 +4715,7 @@ Heavy Infantry.
 
 
 
-         Salamander Shogunate Unique {Heavy Infantry}, the Age of Fins #ICON29 - powerful, slow melee units; stronger and tougher than normal Venta-pikes.
+         Salamander Shogunate Unique {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow melee units; stronger and tougher than normal Venta-pikes.
 
          
             <!--Elite Bushi-->
@@ -4730,7 +4728,7 @@ Heavy Infantry.
 
 
 
-         Salamander Shogunate Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - powerful, slow melee units; stronger and tougher than normal Elite Pike-erpetons.
+         Salamander Shogunate Unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - powerful, slow melee units; stronger and tougher than normal Elite Pike-erpetons.
 
          
             <!--Samurai-->
@@ -4743,7 +4741,7 @@ Heavy Infantry.
 
 
 
-         Salamander Shogunate Unique {Heavy Infantry}, the Triassic Dawn #ICON31 - slow, powerful short-ranged gunpowder units; stronger and tougher than normal Fusi-beaks.
+         Salamander Shogunate Unique {Heavy Brawlers}, the Triassic Dawn #ICON31 - slow, powerful short-ranged spine-shooters; stronger and tougher than normal Fusi-beaks.
 
          
             <!--Gun Samurai-->
@@ -4752,7 +4750,7 @@ Heavy Infantry.
 		<ENTRY name="GENERAL">
 			<STRING>
 				<BULLET/>
-            Increases the armor of all your troops nearby by +$NUMBER0 (increases further per level General is upgraded).
+            Increases the armor of all your creatures nearby by +$NUMBER0 (increases further per level the General Tua-tactics is upgraded).
 
         
             <BULLET/>
@@ -4760,7 +4758,7 @@ Heavy Infantry.
 
 
 
-         Can {Force March} their armies to increase their move speeds.
+         Can {Force March} their herds to increase their move speeds.
 
 
 
@@ -4772,7 +4770,7 @@ Heavy Infantry.
 
 
 
-         Can {Entrench} foot troops to increase their defense.
+         Can {Entrench} ground creatures to increase their defense.
 
 
 
@@ -4814,7 +4812,7 @@ Heavy Infantry.
 
 
 
-         Having a General in a Stroma-tower (or Reef Fort, City, etc.) adds +$NUMBER1 to the building's Attack Range and Attack Rating.
+         Having a General Tua-tactics in a Stroma-tower (or Reef Fort, City, etc.) adds +$NUMBER1 to the building's Attack Range and Attack Rating.
 
 
 
@@ -4887,7 +4885,7 @@ Heavy Infantry.
 
 
          
-            <BULLET/>         You specify one of the cities on a Caravan's route by selecting the Roly-Poly Caravan and right clicking on the City. The Roly-Poly Caravan will pick the most favorable second City.            
+            <BULLET/>         You specify one of the cities on a Roly-Poly Caravan's route by selecting the Roly-Poly Caravan and right clicking on the City. The Roly-Poly Caravan will pick the most favorable second City.            
 
 
 
@@ -4895,7 +4893,7 @@ Heavy Infantry.
 
 
          
-            <BULLET/>         You can specify both of the cities on a Caravan's route by right dragging between the two cities on either the main map or the minimap.
+            <BULLET/>         You can specify both of the cities on a Roly-Poly Caravan's route by right dragging between the two cities on either the main map or the minimap.
 
 
 
@@ -4971,7 +4969,7 @@ Heavy Infantry.
 
 
 
-         {Foot Archers}, the Primordial Age #ICON45 - medium-ranged foot infantry with little armor.
+         {Foot Spitters}, the Primordial Age #ICON45 - medium-ranged foot creatures with little armor.
 
 
 
@@ -4988,7 +4986,7 @@ Heavy Infantry.
 
 
 
-         {Foot Archers}, the Cambrian Explosion #ICON28 - medium-ranged foot infantry with little armor.
+         {Foot Spitters}, the Cambrian Explosion #ICON28 - medium-ranged foot creatures with little armor.
 
 
 
@@ -5005,7 +5003,7 @@ Heavy Infantry.
 
 
 
-         {Foot Archers}, Medieval #ICON29 and the Coal Forest Age #ICON30 - medium-ranged foot infantry with little armor.
+         {Foot Spitters}, the Age of Fins #ICON29 and the Coal Forest Age #ICON30 - medium-ranged foot creatures with little armor.
 
 
 
@@ -5022,7 +5020,7 @@ Heavy Infantry.
 
 
 
-         {Foot Archers}, Medieval #ICON29 and the Coal Forest Age #ICON30 - medium-ranged foot infantry with little armor.
+         {Foot Spitters}, the Age of Fins #ICON29 and the Coal Forest Age #ICON30 - medium-ranged foot creatures with little armor.
 
 
 
@@ -5039,7 +5037,7 @@ Heavy Infantry.
 
 
 
-         Deino-Nubian Kingdom Unique {Foot Archers}, the Cambrian Explosion #ICON28 - medium-ranged foot infantry with little armor; highly effective against all enemy archers.
+         Deino-Nubian Kingdom Unique {Foot Spitters}, the Cambrian Explosion #ICON28 - medium-ranged foot creatures with little armor; highly effective against all enemy spitters.
 
 
 
@@ -5056,7 +5054,7 @@ Heavy Infantry.
 
 
 
-         Deino-Nubian Kingdom Unique {Foot Archers}, the Age of Fins #ICON29 - medium-ranged foot infantry with little armor; highly effective against all enemy archers.
+         Deino-Nubian Kingdom Unique {Foot Spitters}, the Age of Fins #ICON29 - medium-ranged foot creatures with little armor; highly effective against all enemy spitters.
 
          
             <!--Royal Kushite Archers-->
@@ -5069,7 +5067,7 @@ Heavy Infantry.
 
 
 
-         Deino-Nubian Kingdom Unique {Foot Archers}, the Coal Forest Age #ICON30 - medium-ranged foot infantry with little armor; highly effective against all enemy archers.
+         Deino-Nubian Kingdom Unique {Foot Spitters}, the Coal Forest Age #ICON30 - medium-ranged foot creatures with little armor; highly effective against all enemy spitters.
 
          
             <!--Apedemak Kushite Archers-->
@@ -5082,7 +5080,7 @@ Heavy Infantry.
 
 
 
-         United King-frog Unique {Foot Archers}, the Cambrian Explosion #ICON28 - medium-ranged foot infantry with little armor; superior in almost every way to normal Archers.
+         United King-frog Unique {Foot Spitters}, the Cambrian Explosion #ICON28 - medium-ranged foot creatures with little armor; superior in almost every way to normal Halluci-archers.
 
          
             <!--Longbowmen-->
@@ -5095,7 +5093,7 @@ Heavy Infantry.
 
 
 
-         United King-frog Unique {Foot Archers}, the Age of Fins #ICON29 - medium-ranged foot infantry with little armor; superior in almost every way to normal Crossbows.
+         United King-frog Unique {Foot Spitters}, the Age of Fins #ICON29 - medium-ranged foot creatures with little armor; superior in almost every way to normal Crossbow-stegans.
 
 
 
@@ -5110,7 +5108,7 @@ Heavy Infantry.
 				<BULLET/>
             
 
-         United King-frog Unique {Foot Archers}, the Coal Forest Age #ICON30 - long-ranged foot infantry with little armor; stronger and cheaper than Arque-pedes.
+         United King-frog Unique {Foot Spitters}, the Coal Forest Age #ICON30 - long-ranged foot creatures with little armor; stronger and cheaper than Arque-pedes.
 
          
             <!--King's Yeomanry-->
@@ -5123,7 +5121,7 @@ Heavy Infantry.
 
 
 
-         Turtle-ship Kingdom Unique {Foot Archers}, the Primordial Age #ICON45 - medium-ranged foot infantry with little armor; stronger, tougher than normal Bow-slugs.
+         Turtle-ship Kingdom Unique {Foot Spitters}, the Primordial Age #ICON45 - medium-ranged foot creatures with little armor; stronger, tougher than normal Bow-slugs.
 
 
 
@@ -5140,7 +5138,7 @@ Heavy Infantry.
 
 
 
-         Turtle-ship Kingdom Unique {Foot Archers}, the Cambrian Explosion #ICON28 - medium-ranged foot infantry with little armor; stronger, tougher than normal Archers.
+         Turtle-ship Kingdom Unique {Foot Spitters}, the Cambrian Explosion #ICON28 - medium-ranged foot creatures with little armor; stronger, tougher than normal Halluci-archers.
 
 
 
@@ -5158,7 +5156,7 @@ Heavy Infantry.
 
 
 
-         Turtle-ship Kingdom Unique {Foot Archers}, the Age of Fins #ICON29 - medium-ranged foot infantry with little armor; stronger, tougher than normal Crossbow-stegans.
+         Turtle-ship Kingdom Unique {Foot Spitters}, the Age of Fins #ICON29 - medium-ranged foot creatures with little armor; stronger, tougher than normal Crossbow-stegans.
 
 
 
@@ -5175,7 +5173,7 @@ Heavy Infantry.
 
 
 
-         Turtle-ship Kingdom Unique {Foot Archers}, the Coal Forest Age #ICON30 - long-ranged foot infantry with little armor; stronger, tougher than all bow-armed units.
+         Turtle-ship Kingdom Unique {Foot Spitters}, the Coal Forest Age #ICON30 - long-ranged foot creatures with little armor; stronger, tougher than all spitting units.
 
 
 
@@ -5192,7 +5190,7 @@ Heavy Infantry.
 
 
 
-         Citi-snails who have taken up weapons.
+         Citi-snails who have taken up the fight.
 
 
 
@@ -5203,8 +5201,8 @@ Heavy Infantry.
 
 
 
-         Once the Militia unit is researched, Citi-snails
-gain a {To Arms!} button, which allows them to become fighting Militia units.
+         Once the Lobo-militia unit is researched, Citi-snails
+gain a {To Arms!} button, which allows them to become fighting Lobo-militia units.
 
 
 
@@ -5217,7 +5215,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Militia research also increases the hit points and Line-of-Sight of ordinary Citi-snails.
+         Lobo-militia research also increases the hit points and Line-of-Sight of ordinary Citi-snails.
 
 
 
@@ -5228,7 +5226,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Militia research also increases Stroma-tower range and Line-of-Sight.
+         Lobo-militia research also increases Stroma-tower range and Line-of-Sight.
 
 
 
@@ -5247,7 +5245,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Upgraded Militia armed with muskets.
+         Upgraded Lobo-militia with sharper spines.
 
 
 
@@ -5258,7 +5256,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Citi-snails can become Minutemen using their {To Arms!} button.
+         Citi-snails can become Minute-colophons using their {To Arms!} button.
 
 
 
@@ -5297,7 +5295,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Upgraded Minute-colophon armed with rifles.
+         Upgraded Minute-colophon with camouflage and stronger bites.
 
 
 
@@ -5332,7 +5330,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Partisan research also increases the hit points and Line-of-Sight of ordinary Citi-snails.
+         Parrot-isan research also increases the hit points and Line-of-Sight of ordinary Citi-snails.
 
 
 
@@ -5343,7 +5341,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         Partisan research also increases Stroma-tower range and Line-of-Sight.
+         Parrot-isan research also increases Stroma-tower range and Line-of-Sight.
 
 
 
@@ -5359,7 +5357,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         {Ranged Cavalry}, the Cambrian Explosion #ICON28 - fast raiders able to fire even while moving.
+         {Ranged Runners}, the Cambrian Explosion #ICON28 - fast raiders able to fire even while moving.
 
 
 
@@ -5376,7 +5374,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         {Ranged Cavalry}, the Age of Fins #ICON29 - fast raiders able to fire even while moving.
+         {Ranged Runners}, the Age of Fins #ICON29 - fast raiders able to fire even while moving.
 
 
 
@@ -5393,7 +5391,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         {Ranged Cavalry}, the Coal Forest Age #ICON30 - fast gunpowder-armed raiders able to fire even while moving.
+         {Ranged Runners}, the Coal Forest Age #ICON30 - fast spine-shooting raiders able to fire even while moving.
 
 
 
@@ -5410,7 +5408,7 @@ gain a {To Arms!} button, which allows them to become fighting Militia units.
 
 
 
-         {Light Cavalry}, the Cambrian Explosion #ICON28 - extremely fast and lightly armed melee troops; useful
+         {Light Runners}, the Cambrian Explosion #ICON28 - extremely fast and lightly armed melee creatures; useful
 for catching enemy raiders.
 
 
@@ -5428,7 +5426,7 @@ for catching enemy raiders.
 
 
 
-         {Light Cavalry}, the Age of Fins #ICON29 - extremely fast and lightly armed melee troops; useful
+         {Light Runners}, the Age of Fins #ICON29 - extremely fast and lightly armed melee creatures; useful
 for catching enemy raiders.
 
 
@@ -5447,7 +5445,7 @@ for catching enemy raiders.
 
 
 
-         {Light Cavalry}, the Coal Forest Age #ICON30 - extremely fast and lightly armed melee troops; useful
+         {Light Runners}, the Coal Forest Age #ICON30 - extremely fast and lightly armed melee creatures; useful
 for catching enemy raiders.
 
 
@@ -5465,7 +5463,7 @@ for catching enemy raiders.
 
 
 
-         {Light Cavalry}, the Triassic Dawn #ICON31 - extremely fast and lightly armed melee troops, useful
+         {Light Runners}, the Triassic Dawn #ICON31 - extremely fast and lightly armed melee creatures, useful
 for catching enemy raiders.
 
 
@@ -5483,7 +5481,7 @@ for catching enemy raiders.
 
 
 
-         {Anti-Aircraft}, the Jurassic Heights #ICON32 - a slow and inaccurate defense against early aircraft.
+         {Anti-Air}, the Jurassic Heights #ICON32 - a slow and inaccurate defense against early flyers.
 
 
 
@@ -5501,7 +5499,7 @@ for catching enemy raiders.
 
 
 
-         {Anti-Aircraft}, the Cretaceous Bloom #ICON33 - a vehicle-mounted defense against enemy aircraft.
+         {Anti-Air}, the Cretaceous Bloom #ICON33 - a mobile defense against enemy flyers.
 
 
 
@@ -5518,7 +5516,7 @@ for catching enemy raiders.
 
 
 
-         {Anti-Aircraft}, the Cenozoic Rise #ICON34 - a powerful, accurate defense against enemy aircraft.
+         {Anti-Air}, the Cenozoic Rise #ICON34 - a powerful, accurate defense against enemy flyers.
 
 
 
@@ -5535,7 +5533,7 @@ for catching enemy raiders.
 
 
 
-         {Ranged Cavalry}, the Triassic Dawn #ICON31 - fast, gunpowder-armed raiders able to fire even while moving.
+         {Ranged Runners}, the Triassic Dawn #ICON31 - fast, spine-shooting raiders able to fire even while moving.
 
 
 
@@ -5552,8 +5550,8 @@ for catching enemy raiders.
 
 
 
-         Deino-Nubian Kingdom Unique {Ranged Cavalry}, the Cambrian Explosion #ICON28 - excellent raiders who
-can fire while moving; particularly effective against enemy Light Infantry.
+         Deino-Nubian Kingdom Unique {Ranged Runners}, the Cambrian Explosion #ICON28 - excellent raiders who
+can fire while moving; particularly effective against enemy Light Biters.
 
 
 
@@ -5570,7 +5568,7 @@ can fire while moving; particularly effective against enemy Light Infantry.
 
 
 
-         Deino-Nubian Kingdom Unique {Ranged Cavalry}, the Age of Fins #ICON29 - excellent raiders who can fire while moving; particularly effective against enemy Light Infantry.
+         Deino-Nubian Kingdom Unique {Ranged Runners}, the Age of Fins #ICON29 - excellent raiders who can fire while moving; particularly effective against enemy Light Biters.
 
 
 
@@ -5587,7 +5585,7 @@ can fire while moving; particularly effective against enemy Light Infantry.
 
 
 
-         Deino-Nubian Kingdom Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - excellent gunpowder-armed raiders who can fire while moving.
+         Deino-Nubian Kingdom Unique {Ranged Runners}, the Coal Forest Age #ICON30 - excellent spine-shooting raiders who can fire while moving.
 
 
 
@@ -5604,7 +5602,7 @@ can fire while moving; particularly effective against enemy Light Infantry.
 
 
 
-         Deino-Nubian Kingdom Unique {Ranged Cavalry}, the Triassic Dawn #ICON31 - excellent gunpowder-armed raiders who can fire while moving.
+         Deino-Nubian Kingdom Unique {Ranged Runners}, the Triassic Dawn #ICON31 - excellent spine-shooting raiders who can fire while moving.
 
 
 
@@ -5621,8 +5619,8 @@ can fire while moving; particularly effective against enemy Light Infantry.
 
 
 
-         Nile-osaurus Dynasty Unique {Ranged Cavalry}, the Cambrian Explosion #ICON28 - fast, ranged cavalry
-who can fire even while moving; particularly effective against all other Ranged Cavalry.
+         Nile-osaurus Dynasty Unique {Ranged Runners}, the Cambrian Explosion #ICON28 - fast, ranged runners
+who can fire even while moving; particularly effective against all other Ranged Runners.
 
 
 
@@ -5639,8 +5637,8 @@ who can fire even while moving; particularly effective against all other Ranged 
 
 
 
-         Nile-osaurus Dynasty Unique {Ranged Cavalry}, the Age of Fins #ICON29 - fast, ranged cavalry
-who can fire even while moving; particularly effective against all other Ranged Cavalry.
+         Nile-osaurus Dynasty Unique {Ranged Runners}, the Age of Fins #ICON29 - fast, ranged runners
+who can fire even while moving; particularly effective against all other Ranged Runners.
 
 
 
@@ -5654,14 +5652,14 @@ who can fire even while moving; particularly effective against all other Ranged 
 		<ENTRY name="MAMELUKE">
 			<STRING>
 				<BULLET/>
-            Nile-osaurus Dynasty Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - excellent gunpowder-armed raiders who can fire while moving; particularly effective against all other Ranged Cavalry.
+            Nile-osaurus Dynasty Unique {Ranged Runners}, the Coal Forest Age #ICON30 - excellent spine-shooting raiders who can fire while moving; particularly effective against all other Ranged Runners.
             <!--Mameluke-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="ROYALMAMELUKE">
 			<STRING>
 				<BULLET/>
-            Nile-osaurus Dynasty Unique {Ranged Cavalry}, the Triassic Dawn #ICON31 - excellent gunpowder-armed raiders who can fire while moving; particularly effective against all other Ranged Cavalry.
+            Nile-osaurus Dynasty Unique {Ranged Runners}, the Triassic Dawn #ICON31 - excellent spine-shooting raiders who can fire while moving; particularly effective against all other Ranged Runners.
             <!--Royal Mameluke-->
 			</STRING>
 		</ENTRY>
@@ -5672,8 +5670,8 @@ who can fire even while moving; particularly effective against all other Ranged 
 
 
 
-         Veloci-Horde Unique {Ranged Cavalry}, the Cambrian Explosion #ICON28 - fast, ranged cavalry
-who can fire even while moving; they are particularly effective against enemy Light Infantry.
+         Veloci-Horde Unique {Ranged Runners}, the Cambrian Explosion #ICON28 - fast, ranged runners
+who can fire even while moving; they are particularly effective against enemy Light Biters.
 
 
 
@@ -5691,8 +5689,8 @@ who can fire even while moving; they are particularly effective against enemy Li
 
 
 
-         Veloci-Horde Unique {Ranged Cavalry}, the Age of Fins #ICON29 - fast, ranged cavalry
-who can fire even while moving; they are particularly effective against enemy Light Infantry.
+         Veloci-Horde Unique {Ranged Runners}, the Age of Fins #ICON29 - fast, ranged runners
+who can fire even while moving; they are particularly effective against enemy Light Biters.
 
 
 
@@ -5710,8 +5708,8 @@ who can fire even while moving; they are particularly effective against enemy Li
 
 
 
-         Veloci-Horde Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - fast, gunpowder-armed cavalry
-who can fire even while moving; effective against enemy Light Infantry and Musket Infantry.
+         Veloci-Horde Unique {Ranged Runners}, the Coal Forest Age #ICON30 - fast, spine-shooting runners
+who can fire even while moving; effective against enemy Light Biters and Spine-shooters.
 
 
 
@@ -5728,8 +5726,8 @@ who can fire even while moving; effective against enemy Light Infantry and Muske
 
 
 
-         Veloci-Horde Unique {Ranged Cavalry}, the Triassic Dawn #ICON31 - fast, gunpowder-armed cavalry
-who can fire even while moving; effective against enemy Musket Infantry.
+         Veloci-Horde Unique {Ranged Runners}, the Triassic Dawn #ICON31 - fast, spine-shooting runners
+who can fire even while moving; effective against enemy Spine-shooters.
 
 
 
@@ -5746,8 +5744,8 @@ who can fire even while moving; effective against enemy Musket Infantry.
 
 
 
-         Mam-moth-erland Unique {Light Cavalry}, the Age of Fins #ICON29 - extremely fast and lightly armed melee troops; useful
-for catching enemy raiders; cheaper and faster to build than normal Light Cavalry.
+         Mam-moth-erland Unique {Light Runners}, the Age of Fins #ICON29 - extremely fast and lightly armed melee creatures; useful
+for catching enemy raiders; cheaper and faster to build than normal Light Runners.
 
 
 
@@ -5764,8 +5762,8 @@ for catching enemy raiders; cheaper and faster to build than normal Light Cavalr
 
 
 
-         Mam-moth-erland Unique {Light Cavalry}, the Coal Forest Age #ICON30 - extremely fast and lightly armed melee troops; useful
-for catching enemy raiders; cheaper and faster to build than normal Light Cavalry.
+         Mam-moth-erland Unique {Light Runners}, the Coal Forest Age #ICON30 - extremely fast and lightly armed melee creatures; useful
+for catching enemy raiders; cheaper and faster to build than normal Light Runners.
 
 
 
@@ -5782,8 +5780,8 @@ for catching enemy raiders; cheaper and faster to build than normal Light Cavalr
 
 
 
-         Mam-moth-erland Unique {Light Cavalry}, the Triassic Dawn #ICON31 - extremely fast and lightly armed melee troops; useful
-for catching enemy raiders; cheaper and faster to build than normal Light Cavalry.
+         Mam-moth-erland Unique {Light Runners}, the Triassic Dawn #ICON31 - extremely fast and lightly armed melee creatures; useful
+for catching enemy raiders; cheaper and faster to build than normal Light Runners.
 
 
 
@@ -5800,7 +5798,7 @@ for catching enemy raiders; cheaper and faster to build than normal Light Cavalr
 
 
 
-         {Artillery Weapons}, the Cambrian Explosion #ICON28 - expensive and slow-moving, but effective at long range against enemy buildings.
+         {Siege Beasts}, the Cambrian Explosion #ICON28 - expensive and slow-moving, but effective at long range against enemy buildings.
 
 
 
@@ -5818,7 +5816,7 @@ for catching enemy raiders; cheaper and faster to build than normal Light Cavalr
 
 
 
-         {Artillery Weapons}, the Age of Fins #ICON29 - expensive and slow-moving, but effective at long range against enemy buildings.
+         {Siege Beasts}, the Age of Fins #ICON29 - expensive and slow-moving, but effective at long range against enemy buildings.
 
 
 
@@ -5836,8 +5834,8 @@ for catching enemy raiders; cheaper and faster to build than normal Light Cavalr
 
 
 
-         {Artillery Weapons}, the Coal Forest Age #ICON30 - expensive and slow-moving, but effective at long range against enemy buildings and
-foot troops.
+         {Siege Beasts}, the Coal Forest Age #ICON30 - expensive and slow-moving, but effective at long range against enemy buildings and
+ground creatures.
 
 
 
@@ -5854,8 +5852,8 @@ foot troops.
 
 
 
-         {Artillery Weapons}, the Triassic Dawn #ICON31 - expensive and slow-moving, but effective at long range against enemy buildings and
-foot troops.
+         {Siege Beasts}, the Triassic Dawn #ICON31 - expensive and slow-moving, but effective at long range against enemy buildings and
+ground creatures.
 
 
 
@@ -5872,8 +5870,8 @@ foot troops.
 
 
 
-         {Artillery Weapons}, the Jurassic Heights #ICON32 - expensive and slow-moving, but effective at long range against enemy buildings and
-foot troops.
+         {Siege Beasts}, the Jurassic Heights #ICON32 - expensive and slow-moving, but effective at long range against enemy buildings and
+ground creatures.
 
 
 
@@ -5890,8 +5888,8 @@ foot troops.
 
 
 
-         {Artillery Weapons}, the Cretaceous Bloom #ICON33 - fast moving, firing powerful explosive shells at very long range against enemy
-buildings and foot troops.
+         {Siege Beasts}, the Cretaceous Bloom #ICON33 - fast moving, firing powerful rock volleys at very long range against enemy
+buildings and ground creatures.
 
 
 
@@ -5908,8 +5906,8 @@ buildings and foot troops.
 
 
 
-         {Artillery Weapons}, the Cenozoic Rise #ICON34 - fast moving, firing powerful explosive rockets at very long range against enemy
-buildings and foot troops.
+         {Siege Beasts}, the Cenozoic Rise #ICON34 - fast moving, firing powerful rock barrages at very long range against enemy
+buildings and ground creatures.
 
 
 
@@ -5927,8 +5925,8 @@ buildings and foot troops.
 
 
 
-         {Heavy Cavalry}, the Cambrian Explosion #ICON28 - powerful, armored, shock melee units useful against formations
-of ranged foot troops.
+         {Heavy Chargers}, the Cambrian Explosion #ICON28 - powerful, armored, shock melee units useful against formations
+of ranged ground creatures.
 
 
 
@@ -5945,8 +5943,8 @@ of ranged foot troops.
 
 
 
-         {Heavy Cavalry}, the Age of Fins #ICON29 - powerful, armored, shock melee units useful against formations
-of ranged foot troops.
+         {Heavy Chargers}, the Age of Fins #ICON29 - powerful, armored, shock melee units useful against formations
+of ranged ground creatures.
 
 
 
@@ -5963,8 +5961,8 @@ of ranged foot troops.
 
 
 
-         {Heavy Cavalry}, the Coal Forest Age #ICON30 - powerful, armored, shock melee units useful against formations
-of ranged foot troops.
+         {Heavy Chargers}, the Coal Forest Age #ICON30 - powerful, armored, shock melee units useful against formations
+of ranged ground creatures.
 
 
 
@@ -5982,8 +5980,8 @@ of ranged foot troops.
 
 
 
-         {Heavy Cavalry}, the Triassic Dawn #ICON31 - powerful, armored, shock melee units useful against unprotected
-Tusk-eteers and other ranged foot troops.
+         {Heavy Chargers}, the Triassic Dawn #ICON31 - powerful, armored, shock melee units useful against unprotected
+Tusk-eteers and other ranged ground creatures.
 
 
 
@@ -6000,7 +5998,7 @@ Tusk-eteers and other ranged foot troops.
 
 
 
-         Arachn-Athens Unique {Heavy Cavalry}, the Cambrian Explosion #ICON28 - powerful, armored, shock melee units. Faster than normal Heavy Cavalry.
+         Arachn-Athens Unique {Heavy Chargers}, the Cambrian Explosion #ICON28 - powerful, armored, shock melee units. Faster than normal Heavy Chargers.
 
 
 
@@ -6017,7 +6015,7 @@ Tusk-eteers and other ranged foot troops.
 
 
 
-         Arachn-Athens Unique {Heavy Cavalry}, the Age of Fins #ICON29 - powerful, armored, shock melee units. Faster than normal Heavy Cavalry.
+         Arachn-Athens Unique {Heavy Chargers}, the Age of Fins #ICON29 - powerful, armored, shock melee units. Faster than normal Heavy Chargers.
 
 
 
@@ -6035,7 +6033,7 @@ Tusk-eteers and other ranged foot troops.
 
 
 
-         Arachn-Athens Unique {Heavy Cavalry}, the Coal Forest Age #ICON30 - powerful, armored, shock melee units. Faster than normal Heavy Cavalry.
+         Arachn-Athens Unique {Heavy Chargers}, the Coal Forest Age #ICON30 - powerful, armored, shock melee units. Faster than normal Heavy Chargers.
 
 
 
@@ -6052,7 +6050,7 @@ Tusk-eteers and other ranged foot troops.
 
 
 
-         Arachn-Athens Unique {Heavy Cavalry}, the Triassic Dawn #ICON31 - powerful, armored, shock melee units. Faster than normal Heavy Cavalry.
+         Arachn-Athens Unique {Heavy Chargers}, the Triassic Dawn #ICON31 - powerful, armored, shock melee units. Faster than normal Heavy Chargers.
 
 
 
@@ -6069,8 +6067,8 @@ Tusk-eteers and other ranged foot troops.
 
 
 
-         Web-public of France Unique {Heavy Cavalry}, the Cambrian Explosion #ICON28 - powerful, armored, shock melee units; stronger, tougher, and faster than
-ordinary Heavy Cavalry.
+         Web-public of France Unique {Heavy Chargers}, the Cambrian Explosion #ICON28 - powerful, armored, shock melee units; stronger, tougher, and faster than
+ordinary Heavy Chargers.
 
 
 
@@ -6087,8 +6085,8 @@ ordinary Heavy Cavalry.
 
 
 
-         Web-public of France Unique {Heavy Cavalry}, the Age of Fins #ICON29 - powerful, armored, shock melee units; stronger, tougher, and faster than
-ordinary Heavy Cavalry.
+         Web-public of France Unique {Heavy Chargers}, the Age of Fins #ICON29 - powerful, armored, shock melee units; stronger, tougher, and faster than
+ordinary Heavy Chargers.
 
 
 
@@ -6106,8 +6104,8 @@ ordinary Heavy Cavalry.
 
 
 
-         Web-public of France Unique {Heavy Cavalry}, the Coal Forest Age #ICON30 - powerful, armored, shock melee units; stronger, tougher, and faster than
-ordinary Heavy Cavalry.
+         Web-public of France Unique {Heavy Chargers}, the Coal Forest Age #ICON30 - powerful, armored, shock melee units; stronger, tougher, and faster than
+ordinary Heavy Chargers.
 
 
 
@@ -6125,8 +6123,8 @@ ordinary Heavy Cavalry.
 
 
 
-         Web-public of France Unique {Heavy Cavalry}, the Triassic Dawn #ICON31 - powerful, armored, shock melee units; stronger, tougher, and faster than
-ordinary Heavy Cavalry.
+         Web-public of France Unique {Heavy Chargers}, the Triassic Dawn #ICON31 - powerful, armored, shock melee units; stronger, tougher, and faster than
+ordinary Heavy Chargers.
 
 
 
@@ -6143,7 +6141,7 @@ ordinary Heavy Cavalry.
 
 
 
-         {Gunpowder Infantry}, the Coal Forest Age #ICON30 - powerful in quantity but somewhat slow-firing.
+         {Spine-shooters}, the Coal Forest Age #ICON30 - powerful in quantity but somewhat slow-firing.
 
 
 
@@ -6160,7 +6158,7 @@ ordinary Heavy Cavalry.
 
 
 
-         {Gunpowder Infantry}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing.
+         {Spine-shooters}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing.
 
 
 
@@ -6178,7 +6176,7 @@ ordinary Heavy Cavalry.
 
 
 
-         {Gunpowder Infantry}, the Jurassic Heights #ICON32 - powerful and accurate foot troops.
+         {Spine-shooters}, the Jurassic Heights #ICON32 - powerful and accurate ground creatures.
 
 
 
@@ -6195,7 +6193,7 @@ ordinary Heavy Cavalry.
 
 
 
-         {Modern Infantry}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-firing, foot troops accurate even at long range.
+         {Modern Shooters}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-striking, ground creatures accurate even at long range.
 
 
 
@@ -6212,7 +6210,7 @@ ordinary Heavy Cavalry.
 
 
 
-         {Modern Infantry}, the Cenozoic Rise #ICON34 - fast, powerful, rapid-firing foot troops.
+         {Modern Shooters}, the Cenozoic Rise #ICON34 - fast, powerful, rapid-striking ground creatures.
 
 
 
@@ -6416,7 +6414,7 @@ Use {Sabotage} ability to damage enemy buildings.
 
          
             <BULLET/>
-            All anti-aircraft emplacements are automatically jammed within range of Special Forest.
+            All anti-air emplacements are automatically jammed within range of Special Forest.
 
 
          
@@ -6473,7 +6471,7 @@ Use {Sabotage} ability to damage enemy buildings.
 
          
             <BULLET/>
-            All anti-aircraft emplacements are automatically jammed within range of Elite Special Fangs.
+            All anti-air emplacements are automatically jammed within range of Elite Special Fangs.
 
 
          
@@ -6499,8 +6497,8 @@ Use {Sabotage} ability to damage enemy buildings.
 
 
 
-         {Tanks}, the Jurassic Heights #ICON32 - relatively slow but armored and extremely powerful; difficult
-to destroy except with heavy weapons.
+         {Armorbacks}, the Jurassic Heights #ICON32 - relatively slow but armored and extremely powerful; difficult
+to destroy except with heavy hitters.
 
 
 
@@ -6517,8 +6515,8 @@ to destroy except with heavy weapons.
 
 
 
-         {Tanks}, the Cretaceous Bloom #ICON33 - armored and extremely powerful; difficult to destroy
-except with heavy weapons.
+         {Armorbacks}, the Cretaceous Bloom #ICON33 - armored and extremely powerful; difficult to destroy
+except with heavy hitters.
 
 
 
@@ -6535,7 +6533,7 @@ except with heavy weapons.
 
 
 
-         {Tanks}, the Cenozoic Rise #ICON34 - heavily armored and extremely powerful; difficult to destroy except with heavy weapons.
+         {Armorbacks}, the Cenozoic Rise #ICON34 - heavily armored and extremely powerful; difficult to destroy except with heavy hitters.
 
 
 
@@ -6552,7 +6550,7 @@ except with heavy weapons.
 
 
 
-         Beetle Confederation Unique {Tanks}, the Cretaceous Bloom #ICON33 - armored and substantially more powerful than ordinary Tanks.
+         Beetle Confederation Unique {Armorbacks}, the Cretaceous Bloom #ICON33 - armored and substantially more powerful than ordinary Armorbacks.
 
 
 
@@ -6569,7 +6567,7 @@ except with heavy weapons.
 
 
 
-         Beetle Confederation Unique {Tanks}, the Cenozoic Rise #ICON34 - heavily armored and substantially more powerful than ordinary Tanks.
+         Beetle Confederation Unique {Armorbacks}, the Cenozoic Rise #ICON34 - heavily armored and substantially more powerful than ordinary Armorbacks.
 
 
 
@@ -6587,7 +6585,7 @@ except with heavy weapons.
 
 
 
-         {Ranged Cavalry}, the Cretaceous Bloom #ICON33 - lightly armored vehicles that can fire while moving.
+         {Ranged Runners}, the Cretaceous Bloom #ICON33 - lightly armored beasts that can fire while moving.
 
 
 
@@ -6604,7 +6602,7 @@ except with heavy weapons.
 
 
 
-         {Ranged Cavalry}, the Jurassic Heights #ICON32 - fast, lightly armored vehicles that can fire while moving.
+         {Ranged Runners}, the Jurassic Heights #ICON32 - fast, lightly armored beasts that can fire while moving.
 
 
 
@@ -6621,7 +6619,7 @@ except with heavy weapons.
 
 
 
-         {Ranged Cavalry}, the Cenozoic Rise #ICON34 - fast, moderately armored vehicles that can fire while moving.
+         {Ranged Runners}, the Cenozoic Rise #ICON34 - fast, moderately armored beasts that can fire while moving.
 
 
 
@@ -6638,7 +6636,7 @@ except with heavy weapons.
 
 
 
-         {Fighter Aircraft}, the Jurassic Heights #ICON32 - useful for scouting, strafing enemy ground troops, and shooting down enemy planes.
+         {Fighter Flyers}, the Jurassic Heights #ICON32 - useful for scouting, strafing enemy ground creatures, and shooting down enemy flyers.
 
 
 
@@ -6655,7 +6653,7 @@ except with heavy weapons.
 
 
 
-         {Fighter Aircraft}, the Cretaceous Bloom #ICON33 - powerful against enemy aircraft and useful for strafing enemy ground troops.
+         {Fighter Flyers}, the Cretaceous Bloom #ICON33 - powerful against enemy flyers and useful for strafing enemy ground creatures.
 
 
 
@@ -6672,7 +6670,7 @@ except with heavy weapons.
 
 
 
-         {Fighter Aircraft}, the Cenozoic Rise #ICON34 - powerful against enemy aircraft and useful for strafing enemy ground troops.
+         {Fighter Flyers}, the Cenozoic Rise #ICON34 - powerful against enemy flyers and useful for strafing enemy ground creatures.
 
 
 
@@ -6685,14 +6683,14 @@ except with heavy weapons.
 		<ENTRY name="FIGHTERBOMBER">
 			<STRING>
 				<BULLET/>
-             {Fighter Aircraft}, the Cretaceous Bloom #ICON33 - deployed on Aircraft Carriers; powerful against enemy aircraft and useful for strafing enemy ground troops.
+             {Fighter Flyers}, the Cretaceous Bloom #ICON33 - deployed on Air-chelon Carriers; powerful against enemy flyers and useful for strafing enemy ground creatures.
             <!--Fighter Bomber-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="JETFIGHTERBOMBER">
 			<STRING>
 				<BULLET/>
-            {Fighter Aircraft}, the Cenozoic Rise #ICON34 - powerful against enemy aircraft and useful for strafing enemy ground troops.
+            {Fighter Flyers}, the Cenozoic Rise #ICON34 - powerful against enemy flyers and useful for strafing enemy ground creatures.
             <!--Jet Fighter Bomber-->
 			</STRING>
 		</ENTRY>
@@ -6703,7 +6701,7 @@ except with heavy weapons.
 
 
 
-         {Fighter Aircraft}, the Cenozoic Rise #ICON34 - powerful against enemy aircraft and useful for strafing enemy ground troops.
+         {Fighter Flyers}, the Cenozoic Rise #ICON34 - powerful against enemy flyers and useful for strafing enemy ground creatures.
 
 
 
@@ -6720,7 +6718,7 @@ except with heavy weapons.
 
 
 
-         {Bomber Aircraft}, the Jurassic Heights #ICON32 - slow and inaccurate; provides an early capability to bomb enemy buildings.
+         {Bomber Flyers}, the Jurassic Heights #ICON32 - slow and inaccurate; provides an early capability to bomb enemy buildings.
 
 
 
@@ -6737,7 +6735,7 @@ except with heavy weapons.
 
 
 
-         {Bomber Aircraft}, the Cretaceous Bloom #ICON33 - powerful against enemy cities and buildings; somewhat inaccurate.
+         {Bomber Flyers}, the Cretaceous Bloom #ICON33 - powerful against enemy cities and buildings; somewhat inaccurate.
 
 
 
@@ -6754,7 +6752,7 @@ except with heavy weapons.
 
 
 
-         {Bomber Aircraft}, the Cenozoic Rise #ICON34 - extremely powerful against enemy cities and buildings; fast and relatively accurate.
+         {Bomber Flyers}, the Cenozoic Rise #ICON34 - extremely powerful against enemy cities and buildings; fast and relatively accurate.
 
 
 
@@ -6771,7 +6769,7 @@ except with heavy weapons.
 
 
 
-         {Bomber Aircraft}, the Cenozoic Rise #ICON34 - devastating against enemy cities and buildings; very fast and highly accurate. Cannot be targeted by ground-based defenses.
+         {Bomber Flyers}, the Cenozoic Rise #ICON34 - devastating against enemy cities and buildings; very fast and highly accurate. Cannot be targeted by ground-based defenses.
 
 
 
@@ -6788,7 +6786,7 @@ except with heavy weapons.
 
 
 
-         {Helicopters}, the Cretaceous Bloom #ICON33 - versatile aircraft that can hover in place. Useful for raiding and for hunting Submarines and Tanks.
+         {Hoverers}, the Cretaceous Bloom #ICON33 - versatile flyers that can hover in place. Useful for raiding and for hunting Plesio-marines and Armorbacks.
 
 
 
@@ -6805,7 +6803,7 @@ except with heavy weapons.
 
 
 
-         {Helicopters}, the Cenozoic Rise #ICON34 - versatile aircraft that can hover in place. Useful for raiding and for hunting Submarines and Tanks.
+         {Hoverers}, the Cenozoic Rise #ICON34 - versatile flyers that can hover in place. Useful for raiding and for hunting Plesio-marines and Armorbacks.
 
 
 
@@ -6856,7 +6854,7 @@ except with heavy weapons.
 
 
 
-         {Nuclear Missiles}, the Cretaceous Bloom #ICON33 - weapons of mass destruction capable of flattening several enemy buildings; there are political and economic consequences to using them.
+         {Extinction Events}, the Cretaceous Bloom #ICON33 - falling space rocks capable of flattening several enemy buildings; there are political and economic consequences to using them.
 
 
 
@@ -6873,7 +6871,7 @@ except with heavy weapons.
 
 
 
-         {Nuclear Missiles}, the Cenozoic Rise #ICON34 - devastating weapons of mass destruction capable of levelling enemy cities; there are political and economic consequences to using them.
+         {Extinction Events}, the Cenozoic Rise #ICON34 - devastating falling space rocks capable of levelling enemy cities; there are political and economic consequences to using them.
 
 
 
@@ -6890,7 +6888,7 @@ except with heavy weapons.
 
 
 
-         Prevent most attrition damage to your troops within their radius.
+         Prevent most attrition damage to your creatures within their radius.
 
 
 
@@ -6901,7 +6899,7 @@ except with heavy weapons.
 
 
 
-         Allow your siege/artillery units to fire faster even in enemy territory.
+         Allow your siege beasts to fire faster even in enemy territory.
 
 
 
@@ -6919,7 +6917,7 @@ except with heavy weapons.
 
 
 
-        Nether-snaps Unique civilian unit. <BULLET/> Prevents most attrition damage to your troops within its radius. <BULLET/> Allows your siege/artillery units to fire faster even in enemy territory.
+        Nether-snaps Unique civilian unit. <BULLET/> Prevents most attrition damage to your creatures within its radius. <BULLET/> Allows your siege beasts to fire faster even in enemy territory.
 
 
 
@@ -6930,7 +6928,7 @@ except with heavy weapons.
 
 
 
-         Armed Supply Waddlers have limited firepower for protection against raiding and improve with each Age.
+         Armed Supply Waddlers have limited bite for protection against raiding and improve with each Age.
 
 
 
@@ -7011,7 +7009,7 @@ except with heavy weapons.
 
 
 
-         Carries an Air Cavalry unit to its destination.
+         Carries an Air Runners unit to its destination.
 
 
 
@@ -7028,7 +7026,7 @@ except with heavy weapons.
 
 
 
-         {Heavy Ships}, the Primordial Age #ICON45 - slow but powerful; useful for massing naval power.
+         {Heavy Swimmers}, the Primordial Age #ICON45 - slow but powerful; useful for massing naval power.
 
 
 
@@ -7045,7 +7043,7 @@ except with heavy weapons.
 
 
 
-         {Heavy Ships}, the Cambrian Explosion #ICON28 - slow but powerful; useful for massing naval power.
+         {Heavy Swimmers}, the Cambrian Explosion #ICON28 - slow but powerful; useful for massing naval power.
 
 
 
@@ -7062,7 +7060,7 @@ except with heavy weapons.
 
 
 
-         {Heavy Ships}, the Age of Fins #ICON29 - slow but powerful; useful for massing naval power.
+         {Heavy Swimmers}, the Age of Fins #ICON29 - slow but powerful; useful for massing naval power.
 
 
 
@@ -7079,7 +7077,7 @@ except with heavy weapons.
 
 
 
-         {Heavy Ships}, the Coal Forest Age #ICON30 - armed with cannons; useful for massing naval power. Limited range curtails their value for shore bombardment.
+         {Heavy Swimmers}, the Coal Forest Age #ICON30 - armed with crushing jaws; useful for massing naval power. Limited range curtails their value for shore bombardment.
 
 
 
@@ -7096,7 +7094,7 @@ except with heavy weapons.
 
 
 
-         {Heavy Ships}, the Triassic Dawn #ICON31 - powerful cannon-armed warships; more than a match for any other wooden ship.
+         {Heavy Swimmers}, the Triassic Dawn #ICON31 - powerful heavy-jawed swimmers; more than a match for any other wooden ship.
 
 
 
@@ -7113,7 +7111,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Primordial Age #ICON45 - fast and lightly armed; useful for scouting and intercepting enemy Transports.
+         {Light Swimmers}, the Primordial Age #ICON45 - fast and lightly armed; useful for scouting and intercepting enemy Transports.
 
 
 
@@ -7130,7 +7128,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Cambrian Explosion #ICON28 - fast and lightly armed; useful for scouting and intercepting enemy Transports.
+         {Light Swimmers}, the Cambrian Explosion #ICON28 - fast and lightly armed; useful for scouting and intercepting enemy Transports.
 
 
 
@@ -7147,7 +7145,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, Medieval #ICON29 - fast and lightly armed; useful for scouting and intercepting enemy Transports.
+         {Light Swimmers}, the Age of Fins #ICON29 - fast and lightly armed; useful for scouting and intercepting enemy Transports.
 
 
 
@@ -7164,7 +7162,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Coal Forest Age #ICON30 - swift and armed with light cannon; excellent for scouting and intercepting enemy Transports.
+         {Light Swimmers}, the Coal Forest Age #ICON30 - swift and armed with sharp teeth; excellent for scouting and intercepting enemy Transports.
 
 
 
@@ -7181,7 +7179,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Triassic Dawn #ICON31 - swift and armed with light cannon; excellent for scouting and intercepting enemy Transports.
+         {Light Swimmers}, the Triassic Dawn #ICON31 - swift and armed with sharp teeth; excellent for scouting and intercepting enemy Transports.
 
 
 
@@ -7198,7 +7196,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Jurassic Heights #ICON32 - swift, moderately armed, and able to detect and destroy enemy {Submarines} as well as Transports.
+         {Light Swimmers}, the Jurassic Heights #ICON32 - swift, moderately armed, and able to detect and destroy enemy {Submarines} as well as Transports.
 
 
 
@@ -7215,7 +7213,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Cretaceous Bloom #ICON33 - swift and able to detect and destroy enemy {Submarines} and Transports; also armed with powerful {Anti-Aircraft} weapons.
+         {Light Swimmers}, the Cretaceous Bloom #ICON33 - swift and able to detect and destroy enemy {Submarines} and Transports; also armed with powerful {Anti-Air} spines.
 
 
 
@@ -7232,7 +7230,7 @@ except with heavy weapons.
 
 
 
-         {Light Ships}, the Cenozoic Rise #ICON34 - swift and able to detect and destroy enemy submarines and transports; also armed with powerful {anti-aircraft} weapons.
+         {Light Swimmers}, the Cenozoic Rise #ICON34 - swift and able to detect and destroy enemy submarines and transports; also armed with powerful {anti-air} weapons.
 
 
 
@@ -7249,7 +7247,7 @@ except with heavy weapons.
 
 
 
-         {Bombardment Ships}, the Coal Forest Age #ICON30 - slow-moving vessel armed with long-range mortars useful for
+         {Bombard Swimmers}, the Coal Forest Age #ICON30 - slow-moving vessel armed with long-range spine volleys useful for
 bombing enemy coastal positions.
 
 
@@ -7267,7 +7265,7 @@ bombing enemy coastal positions.
 
 
 
-         {Bombardment Ships}, the Triassic Dawn #ICON31 - slow-moving vessel armed with improved mortars useful for
+         {Bombard Swimmers}, the Triassic Dawn #ICON31 - slow-moving vessel armed with improved spine volleys useful for
 bombing enemy coastal positions.
 
 
@@ -7285,7 +7283,7 @@ bombing enemy coastal positions.
 
 
 
-         {Heavy Bombardment Ships}, the Jurassic Heights #ICON32 - powerful, armored, naval vessels useful for both naval supremacy and shore bombardment.
+         {Heavy Bombard Swimmers}, the Jurassic Heights #ICON32 - powerful, armored, naval vessels useful for both naval supremacy and shore bombardment.
 
 
 
@@ -7302,7 +7300,7 @@ bombing enemy coastal positions.
 
 
 
-         {Heavy Bombardment Ships}, the Cretaceous Bloom #ICON33 - powerful armored naval vessels useful for both naval supremacy and shore bombardment.
+         {Heavy Bombard Swimmers}, the Cretaceous Bloom #ICON33 - powerful armored naval vessels useful for both naval supremacy and shore bombardment.
 
 
 
@@ -7319,7 +7317,7 @@ bombing enemy coastal positions.
 
 
 
-         {Aircraft Carriers}, the Cretaceous Bloom #ICON33 - Can carry a wing of seven Fighter-Bomber aircraft, which can perform air missions.
+         {Air-chelon Carriers}, the Cretaceous Bloom #ICON33 - Can carry a wing of seven Fighter-Bomber flyers, which can perform air missions.
 
 
 
@@ -7331,7 +7329,7 @@ bombing enemy coastal positions.
 
 
 
-    Land-based aircraft cannot be based on Carriers, and vice-versa.
+    Land-based flyers cannot be based on Carriers, and vice-versa.
 
 
 
@@ -7450,7 +7448,7 @@ bombing enemy coastal positions.
 
 
 
-         Nile-osaurus Dynasty Unique {Light Cavalry}, the Cambrian Explosion #ICON28 - extremely fast and lightly armed melee troops; useful for catching enemy raiders. Slightly better against enemy Light Cavalry.
+         Nile-osaurus Dynasty Unique {Light Runners}, the Cambrian Explosion #ICON28 - extremely fast and lightly armed melee creatures; useful for catching enemy raiders. Slightly better against enemy Light Runners.
 
 
 
@@ -7467,7 +7465,7 @@ bombing enemy coastal positions.
 
 
 
-         Nile-osaurus Dynasty Unique {Light Cavalry}, the Age of Fins #ICON29 - extremely fast and lightly armed melee troops; useful for catching enemy raiders. Slightly better against enemy Light Cavalry.
+         Nile-osaurus Dynasty Unique {Light Runners}, the Age of Fins #ICON29 - extremely fast and lightly armed melee creatures; useful for catching enemy raiders. Slightly better against enemy Light Runners.
 
 
 
@@ -7484,7 +7482,7 @@ bombing enemy coastal positions.
 
 
 
-         Nile-osaurus Dynasty Unique {Light Cavalry}, the Coal Forest Age #ICON30 - extremely fast and lightly armed melee troops; useful for catching enemy raiders. Slightly better against enemy Light Cavalry.
+         Nile-osaurus Dynasty Unique {Light Runners}, the Coal Forest Age #ICON30 - extremely fast and lightly armed melee creatures; useful for catching enemy raiders. Slightly better against enemy Light Runners.
 
 
 
@@ -7501,7 +7499,7 @@ bombing enemy coastal positions.
 
 
 
-         Scorpi-Ottoman Empire Unique {Gunpowder Infantry}, the Coal Forest Age #ICON30 - stronger and faster than ordinary Gunpowder Infantry.
+         Scorpi-Ottoman Empire Unique {Spine-shooters}, the Coal Forest Age #ICON30 - stronger and faster than ordinary Spine-shooters.
 
 
 
@@ -7518,7 +7516,7 @@ bombing enemy coastal positions.
 
 
 
-         Scorpi-Ottoman Empire Unique {Gunpowder Infantry}, the Triassic Dawn #ICON31 - stronger and faster than ordinary Gunpowder Infantry.
+         Scorpi-Ottoman Empire Unique {Spine-shooters}, the Triassic Dawn #ICON31 - stronger and faster than ordinary Spine-shooters.
 
 
 
@@ -7535,7 +7533,7 @@ bombing enemy coastal positions.
 
 
 
-         United King-frog Unique {Gunpowder Infantry}, the Triassic Dawn #ICON31 - particularly effective against all forms of enemy infantry.
+         United King-frog Unique {Spine-shooters}, the Triassic Dawn #ICON31 - particularly effective against all forms of enemy foot creatures.
 
 
 
@@ -7552,7 +7550,7 @@ bombing enemy coastal positions.
 
 
 
-         United King-frog Unique {Gunpowder Infantry}, the Jurassic Heights #ICON32 - particularly effective against all forms of enemy infantry.
+         United King-frog Unique {Spine-shooters}, the Jurassic Heights #ICON32 - particularly effective against all forms of enemy foot creatures.
 
 
 
@@ -7569,7 +7567,7 @@ bombing enemy coastal positions.
 
 
 
-         Great Shell of China Unique {Gunpowder Infantry}, the Coal Forest Age #ICON30 - early gunpowder weapons with significant range; better range than ordinary Gunpowder Infantry.
+         Great Shell of China Unique {Spine-shooters}, the Coal Forest Age #ICON30 - early spine-shooters with significant range; better range than ordinary Spine-shooters.
 
 
 
@@ -7586,7 +7584,7 @@ bombing enemy coastal positions.
 
 
 
-         Great Shell of China Unique {Gunpowder Infantry}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing; cheap and quick to create.
+         Great Shell of China Unique {Spine-shooters}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing; cheap and quick to create.
 
 
 
@@ -7603,7 +7601,7 @@ bombing enemy coastal positions.
 
 
 
-         Great Shell of China Unique {Gunpowder Infantry}, the Jurassic Heights #ICON32 - powerful and accurate foot troops; cheap and quick to create.
+         Great Shell of China Unique {Spine-shooters}, the Jurassic Heights #ICON32 - powerful and accurate ground creatures; cheap and quick to create.
 
 
 
@@ -7620,7 +7618,7 @@ bombing enemy coastal positions.
 
 
 
-         Great Shell of China Unique {Modern Infantry}, the Cretaceous Bloom #ICON33 - rapid fire, small arms with excellent firepower; cheap and quick to create.
+         Great Shell of China Unique {Modern Shooters}, the Cretaceous Bloom #ICON33 - rapid, snapping jaws with excellent bite force; cheap and quick to create.
 
 
 
@@ -7637,7 +7635,7 @@ bombing enemy coastal positions.
 
 
 
-         Boa-ztec Empire Unique {Modern Infantry}, the Cretaceous Bloom #ICON33 - faster and with a stronger attack than ordinary Modern Infantry.
+         Boa-ztec Empire Unique {Modern Shooters}, the Cretaceous Bloom #ICON33 - faster and with a stronger attack than ordinary Modern Shooters.
 
 
 
@@ -7654,7 +7652,7 @@ bombing enemy coastal positions.
 
 
 
-         Boa-ztec Empire Unique {Modern Infantry}, the Cenozoic Rise #ICON34 - faster and with a stronger attack than ordinary Modern Infantry.
+         Boa-ztec Empire Unique {Modern Shooters}, the Cenozoic Rise #ICON34 - faster and with a stronger attack than ordinary Modern Shooters.
 
 
 
@@ -7671,7 +7669,7 @@ bombing enemy coastal positions.
 
 
 
-         Maya Shell-ter Unique {Heavy Infantry}, the Cretaceous Bloom #ICON33 - particularly effective against all types of vehicles.
+         Maya Shell-ter Unique {Heavy Brawlers}, the Cretaceous Bloom #ICON33 - particularly effective against all armored beasts.
 
 
 
@@ -7686,7 +7684,7 @@ bombing enemy coastal positions.
 
 
 
-         Maya Shell-ter Unique {Heavy Infantry}, the Cenozoic Rise #ICON34 - particularly effective against all types of vehicles.
+         Maya Shell-ter Unique {Heavy Brawlers}, the Cenozoic Rise #ICON34 - particularly effective against all armored beasts.
 
 
 
@@ -7701,7 +7699,7 @@ bombing enemy coastal positions.
 
 
 
-         Ant-perium Romanum Unique {Ranged Cavalry}, the Cretaceous Bloom #ICON33 - lightly armored vehicles that can fire while moving; particularly effective against vehicles.
+         Ant-perium Romanum Unique {Ranged Runners}, the Cretaceous Bloom #ICON33 - lightly armored beasts that can fire while moving; particularly effective against armored beasts.
 
 
 
@@ -7716,7 +7714,7 @@ bombing enemy coastal positions.
 
 
 
-         Ant-perium Romanum Unique {Ranged Cavalry}, the Cenozoic Rise #ICON34 - lightly armored vehicles that can fire while moving; particularly effective against vehicles.
+         Ant-perium Romanum Unique {Ranged Runners}, the Cenozoic Rise #ICON34 - lightly armored beasts that can fire while moving; particularly effective against armored beasts.
 
 
 
@@ -7731,7 +7729,7 @@ bombing enemy coastal positions.
 
 
 
-         {Machine Guns}, the Jurassic Heights #ICON32 - moves slowly; devastating against enemy foot troops.
+         {Rapid Spitters}, the Jurassic Heights #ICON32 - moves slowly; devastating against enemy ground creatures.
 
 
 
@@ -7746,7 +7744,7 @@ bombing enemy coastal positions.
 
 
 
-         {Machine Guns}, the Cretaceous Bloom #ICON33 - moves slowly; devastating against enemy foot troops.
+         {Rapid Spitters}, the Cretaceous Bloom #ICON33 - moves slowly; devastating against enemy ground creatures.
 
 
 
@@ -7761,7 +7759,7 @@ bombing enemy coastal positions.
 
 
 
-         {Machine Guns}, the Cenozoic Rise #ICON34 - moves slowly; devastating against enemy foot troops.
+         {Rapid Spitters}, the Cenozoic Rise #ICON34 - moves slowly; devastating against enemy ground creatures.
 
 
 
@@ -7776,7 +7774,7 @@ bombing enemy coastal positions.
 
 
 
-         Beetle Confederation Unique {Machine Guns}, the Cretaceous Bloom #ICON33 - moves slowly; devastating against enemy foot troops.
+         Beetle Confederation Unique {Rapid Spitters}, the Cretaceous Bloom #ICON33 - moves slowly; devastating against enemy ground creatures.
 
 
 
@@ -7791,8 +7789,8 @@ bombing enemy coastal positions.
 
 
 
-         In-claw Empire Unique {Artillery Weapons}, the Triassic Dawn #ICON31 - expensive and slow-moving; particularly effective at long range against enemy buildings and
-foot troops.
+         In-claw Empire Unique {Siege Beasts}, the Triassic Dawn #ICON31 - expensive and slow-moving; particularly effective at long range against enemy buildings and
+ground creatures.
 
 
 
@@ -7809,7 +7807,7 @@ foot troops.
 
 
 
-         In-claw Empire Unique {Artillery Weapons},  the Jurassic Heights #ICON32 - expensive and slow-moving; particularly effective at long range against enemy buildings and foot troops.
+         In-claw Empire Unique {Siege Beasts},  the Jurassic Heights #ICON32 - expensive and slow-moving; particularly effective at long range against enemy buildings and ground creatures.
 
 
 
@@ -7824,7 +7822,7 @@ foot troops.
 
 
 
-         Mam-moth-erland Unique {Tanks}, the Cenozoic Rise #ICON34 - heavily armored, extremely powerful; hard to destroy except with heavy weapons. Cheaper than normal Glypto-tank.
+         Mam-moth-erland Unique {Armorbacks}, the Cenozoic Rise #ICON34 - heavily armored, extremely powerful; hard to destroy except with heavy hitters. Cheaper than normal Glypto-tank.
 
 
 
@@ -7839,7 +7837,7 @@ foot troops.
 
 
 
-         Beetle Confederation Unique {Modern Infantry}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-firing foot troops; slightly tougher and faster than normal Infantry.
+         Beetle Confederation Unique {Modern Shooters}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-striking ground creatures; slightly tougher and faster than normal Duck-fantry.
 
 
 
@@ -7854,7 +7852,7 @@ foot troops.
 
 
 
-         Mam-moth-erland Unique {Modern Infantry}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-firing foot troops; slightly cheaper than normal Infantry.
+         Mam-moth-erland Unique {Modern Shooters}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-striking ground creatures; slightly cheaper than normal Duck-fantry.
 
 
 
@@ -7869,7 +7867,7 @@ foot troops.
 
 
 
-         Mam-moth-erland Unique {Modern Infantry}, the Cenozoic Rise #ICON34 - fast, powerful, rapid-firing foot troops; cheaper and stronger than normal Assault Hog-fantry.
+         Mam-moth-erland Unique {Modern Shooters}, the Cenozoic Rise #ICON34 - fast, powerful, rapid-striking ground creatures; cheaper and stronger than normal Assault Hog-fantry.
 
 
 
@@ -7883,7 +7881,7 @@ foot troops.
             
 
 
-         Scorpi-Ottoman Empire Unique {Artillery Weapons}, the Coal Forest Age #ICON30 - expensive and slow-moving; extremely effective at long range against enemy buildings and foot troops.
+         Scorpi-Ottoman Empire Unique {Siege Beasts}, the Coal Forest Age #ICON30 - expensive and slow-moving; extremely effective at long range against enemy buildings and ground creatures.
 
 
          
@@ -7896,7 +7894,7 @@ foot troops.
             
 
 
-         Scorpi-Ottoman Empire Unique {Artillery Weapons}, the Triassic Dawn #ICON31 - expensive and slow-moving; particularly effective at long range against enemy buildings and foot troops.
+         Scorpi-Ottoman Empire Unique {Siege Beasts}, the Triassic Dawn #ICON31 - expensive and slow-moving; particularly effective at long range against enemy buildings and ground creatures.
 
 
          
@@ -7909,7 +7907,7 @@ foot troops.
             
 
 
-          Mam-moth-erland Unique {Artillery Weapons}, the Cretaceous Bloom #ICON33 - powerful, long-range rocket; its wide explosive effect makes it very effective against enemy ground troops.
+          Mam-moth-erland Unique {Siege Beasts}, the Cretaceous Bloom #ICON33 - powerful, long-range rock barrage; its wide explosive effect makes it very effective against enemy ground creatures.
 
 
          
@@ -7922,7 +7920,7 @@ foot troops.
             
 
 
-         Turtle-ship Kingdom Unique {Artillery Weapons},  the Cambrian Explosion #ICON28 - expensive and slow; more effective against enemy buildings than Catapult.
+         Turtle-ship Kingdom Unique {Siege Beasts},  the Cambrian Explosion #ICON28 - expensive and slow; more effective against enemy buildings than Catapods.
 
 
          
@@ -7935,7 +7933,7 @@ foot troops.
             
 
 
-         Turtle-ship Kingdom Unique {Artillery Weapons}, the Age of Fins #ICON29 - expensive and slow; more effective against enemy buildings than normal Trebu-pede.
+         Turtle-ship Kingdom Unique {Siege Beasts}, the Age of Fins #ICON29 - expensive and slow; more effective against enemy buildings than normal Trebu-pede.
 
 
          
@@ -7947,7 +7945,7 @@ foot troops.
 				<BULLET/>
             
 
-         Wing-tu Kingdom Unique {Fighter Aircraft}, the Cretaceous Bloom #ICON33 - more powerful against enemy aircraft and ground troops than normal Fighter.
+         Wing-tu Kingdom Unique {Fighter Flyers}, the Cretaceous Bloom #ICON33 - more powerful against enemy flyers and ground creatures than normal Fight-anodon.
 
          
             <!--Hawk Fighter-->
@@ -7958,7 +7956,7 @@ foot troops.
 				<BULLET/>
             
 
-         Wing-tu Kingdom Unique {Fighter Aircraft}, the Cenozoic Rise #ICON34 - more powerful against enemy aircraft and ground troops than normal Haast Jet.
+         Wing-tu Kingdom Unique {Fighter Flyers}, the Cenozoic Rise #ICON34 - more powerful against enemy flyers and ground creatures than normal Haast Jet.
 
          
             <!--Eagle Fighter-->
@@ -7969,7 +7967,7 @@ foot troops.
 				<BULLET/>
             
 
-         United King-frog Unique {Bomber Aircraft}, the Cretaceous Bloom #ICON33 - more powerful against enemy cities and buildings than normal Bomber; somewhat inaccurate.
+         United King-frog Unique {Bomber Flyers}, the Cretaceous Bloom #ICON33 - more powerful against enemy cities and buildings than normal Bomb-coatlus; somewhat inaccurate.
 
          
             <!--Lancaster Bomber-->
@@ -7980,7 +7978,7 @@ foot troops.
 				<BULLET/>
             
 
-         {Heavy Bombardment Ships}, the Cenozoic Rise #ICON34 - extremely powerful armored naval vessels useful for both naval supremacy and shore bombardment.
+         {Heavy Bombard Swimmers}, the Cenozoic Rise #ICON34 - extremely powerful armored naval vessels useful for both naval supremacy and shore bombardment.
 
          
             <!--Advanced Battleship-->
@@ -8021,20 +8019,20 @@ foot troops.
 		</ENTRY>
 		<ENTRY name="ALEXANDER">
 			<STRING>
-				<BULLET/>+1 attack to all units in his radius.            <BULLET/>Extra +2 attack to all Heavy Infantry in his radius.<BULLET/>Has double craft.<BULLET/>Units in Alexander's Forced March move 50% faster than with a normal General.<!--Alexander-->
+				<BULLET/>+1 attack to all units in his radius.            <BULLET/>Extra +2 attack to all Heavy Brawlers in his radius.<BULLET/>Has double craft.<BULLET/>Units in Alexander's Forced March move 50% faster than with a normal General Tua-tactics.<!--Alexander-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="NAPOLEON">
 			<STRING>
-				<BULLET/>+3 attack and +1 range to all siege units in his radius.<BULLET/>Artillery units near Napoleon move and deploy faster.<BULLET/>Has double craft.<BULLET/>Units in Napoleon's Forced March move 50% faster than with a normal General.</STRING>
+				<BULLET/>+3 attack and +1 range to all siege units in his radius.<BULLET/>Siege Beast units near Napoleon move and deploy faster.<BULLET/>Has double craft.<BULLET/>Units in Napoleon's Forced March move 50% faster than with a normal General Tua-tactics.</STRING>
 		</ENTRY>
 		<ENTRY name="PARMENIO">
 			<STRING>
-				<BULLET/>+1 attack to all Heavy Cavalry in his radius.<BULLET/>Has a 50% larger radius than a normal General.<BULLET/>Ambush lasts 3x longer.<BULLET/>Starts battles with 5 extra Companions.</STRING>
+				<BULLET/>+1 attack to all Heavy Chargers in his radius.<BULLET/>Has a 50% larger radius than a normal General Tua-tactics.<BULLET/>Ambush lasts 3x longer.<BULLET/>Starts battles with 5 extra Claw-panions.</STRING>
 		</ENTRY>
 		<ENTRY name="ANTIPATER">
 			<STRING>
-				<BULLET/>Heals units within his radius.<BULLET/>When garrisoned in a building, the building has +3 attack.<BULLET/>Can Entrench anywhere.<BULLET/>Entrenches 2x faster than a normal General.<BULLET/>Units entrenched by Antipater take 80% normal damage.<!--Alexander-->
+				<BULLET/>Heals units within his radius.<BULLET/>When garrisoned in a building, the building has +3 attack.<BULLET/>Can Entrench anywhere.<BULLET/>Entrenches 2x faster than a normal General Tua-tactics.<BULLET/>Units entrenched by Antipater take 80% normal damage.<!--Alexander-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="PTOLEMY">
@@ -8049,22 +8047,22 @@ foot troops.
 		</ENTRY>
 		<ENTRY name="MEMNON">
 			<STRING>
-				<BULLET/>Always cloaked like a Chamele-spy.<BULLET/>Regenerates craft 2x faster than a normal General.<BULLET/>Gives large bonuses to Greek Mercenaries for attack and armor.<!--Alexander-->
+				<BULLET/>Always cloaked like a Chamele-spy.<BULLET/>Regenerates craft 2x faster than a normal General Tua-tactics.<BULLET/>Gives large bonuses to Greek Mercenaries for attack and armor.<!--Alexander-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="SPITAMENES">
 			<STRING>
-				<BULLET/>+1 attack to all Horse Archers in his radius.            <BULLET/>20% speed bonus to all Cavalry units.<BULLET/>When nearby, increases plunder gained from enemy buildings and gains plunder from enemy units.<!--Alexander-->
+				<BULLET/>+1 attack to all Whip Archers in his radius.            <BULLET/>20% speed bonus to all Runner units.<BULLET/>When nearby, increases plunder gained from enemy buildings and gains plunder from enemy units.<!--Alexander-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="CHANDRAGUPTA">
 			<STRING>
-				<BULLET/>Has 2x more craft than other unique Generals.<BULLET/>Prevents attrition damage to all units in his radius.<!--Alexander-->
+				<BULLET/>Has 2x more craft than other unique leaders.<BULLET/>Prevents attrition damage to all units in his radius.<!--Alexander-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="PORUS">
 			<STRING>
-				<BULLET/>Detects cloaked units as a Trackworm does.<BULLET/>Has 2x more hit points than other unique Generals.<BULLET/>Creates 2x more decoys than a normal General.<BULLET/>Enables creating War Elephants at the Stampede Pen.<BULLET/>20% speed bonus to all War Deinophant troops.<!--Alexander-->
+				<BULLET/>Detects cloaked units as a Trackworm does.<BULLET/>Has 2x more hit points than other unique leaders.<BULLET/>Creates 2x more decoys than a normal General Tua-tactics.<BULLET/>Enables creating War Deinophants at the Stampede Pen.<BULLET/>20% speed bonus to all War Deinophants.<!--Alexander-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="WELLINGTON">
@@ -8090,7 +8088,7 @@ foot troops.
 		</ENTRY>
 		<ENTRY name="BLUCHER">
 			<STRING>
-				<BULLET/>+2 attack, +2 armor, and 20% speed bonus to all Stampede Pen units in his radius.          <BULLET/>Starts with extra Cavalry.</STRING>
+				<BULLET/>+2 attack, +2 armor, and 20% speed bonus to all Stampede Pen units in his radius.          <BULLET/>Starts with extra Runners.</STRING>
 		</ENTRY>
 		<ENTRY name="KUTOSOV">
 			<STRING>
@@ -8102,86 +8100,86 @@ foot troops.
 		</ENTRY>
 		<ENTRY name="DARIUSCHARIOT">
 			<STRING>
-				<BULLET/>General Darius' Unique {Ranged Cavalry}, the Cambrian Explosion #ICON28 - fast, Ranged Cavalry that can fire even while moving; particularly effective against all other Ranged Cavalry.<!--Chariot-->
+				<BULLET/>General Darius' Unique {Ranged Runners}, the Cambrian Explosion #ICON28 - fast, Ranged Runners that can fire even while moving; particularly effective against all other Ranged Runners.<!--Chariot-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="THEDESPOT">
 			<STRING>
-				<BULLET/>Has all normal General powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Acts like a Horseshoe Supply Wagon.<BULLET/>Extra large Line-of-Sight.<BULLET/>Doubles plunder from enemy buildings destroyed in his radius, and gives plunder from enemy units.</STRING>
+				<BULLET/>Has all normal General Tua-tactics powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Acts like a Horseshoe Supply Wagon.<BULLET/>Extra large Line-of-Sight.<BULLET/>Doubles plunder from enemy buildings destroyed in his radius, and gives plunder from enemy units.</STRING>
 		</ENTRY>
 		<ENTRY name="THESENATOR">
 			<STRING>
-				<BULLET/>Has all normal General powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Buildings in his radius get +5 armor.<BULLET/>Can bribe enemy units as though he were a Chamele-spy.<BULLET/>Buildings and troops in his radius heal while in friendly territory.</STRING>
+				<BULLET/>Has all normal General Tua-tactics powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Buildings in his radius get +5 armor.<BULLET/>Can bribe enemy units as though he were a Chamele-spy.<BULLET/>Buildings and creatures in his radius heal while in friendly territory.</STRING>
 		</ENTRY>
 		<ENTRY name="THEMONARCH">
 			<STRING>
-				<BULLET/>Has all normal General powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Acts like a Horseshoe Supply Wagon.<BULLET/>Siege units in his radius move and deploy at 2x speed.<BULLET/>Mounted units in his radius have an extra +2 attack, +2 armor.</STRING>
+				<BULLET/>Has all normal General Tua-tactics powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Acts like a Horseshoe Supply Wagon.<BULLET/>Siege units in his radius move and deploy at 2x speed.<BULLET/>Runner units in his radius have an extra +2 attack, +2 armor.</STRING>
 		</ENTRY>
 		<ENTRY name="THEPRESIDENT">
 			<STRING>
-				<BULLET/>Has all normal General powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Unit-producing buildings in his radius produce at 2x speed.<BULLET/>Buildings under construction in his radius build 33% faster.<BULLET/>Buildings and troops in his radius heal while in friendly or neutral territory.</STRING>
+				<BULLET/>Has all normal General Tua-tactics powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Unit-producing buildings in his radius produce at 2x speed.<BULLET/>Buildings under construction in his radius build 33% faster.<BULLET/>Buildings and creatures in his radius heal while in friendly or neutral territory.</STRING>
 		</ENTRY>
 		<ENTRY name="THECITIZEN">
 			<STRING>
-				<BULLET/>Has all normal General powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Acts like a Horseshoe Supply Wagon.<BULLET/>All friendly units in his radius have +2 attack, +2 armor.<BULLET/>Enemy cities in his radius assimilate at 4x speed.</STRING>
+				<BULLET/>Has all normal General Tua-tactics powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Acts like a Horseshoe Supply Wagon.<BULLET/>All friendly units in his radius have +2 attack, +2 armor.<BULLET/>Enemy cities in his radius assimilate at 4x speed.</STRING>
 		</ENTRY>
 		<ENTRY name="THECEO">
 			<STRING>
-				<BULLET/>Has all normal General powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Buildings and troops in his radius heal as long as they are not taking attrition damage.<BULLET/>Friendly units in his radius are immune to bribery and sniping.<BULLET/>All friendly units in his radius have +4 range and Line-of-Sight (except siege units).</STRING>
+				<BULLET/>Has all normal General Tua-tactics powers (armor increase, special abilities) but is immune to sniping and bribery.<BULLET/>Buildings and creatures in his radius heal as long as they are not taking attrition damage.<BULLET/>Friendly units in his radius are immune to bribery and sniping.<BULLET/>All friendly units in his radius have +4 range and Line-of-Sight (except siege units).</STRING>
 		</ENTRY>
 		<ENTRY name="IMMORTAL">
 			<STRING>
-				<BULLET/>Im-mammal Empire unique {Heavy Infantry}, the Primordial Age #ICON45 - powerful, slow units. Slightly weaker than normal Worm-lites, but can fire at range.<!--Immortal-->
+				<BULLET/>Im-mammal Empire unique {Heavy Brawlers}, the Primordial Age #ICON45 - powerful, slow units. Slightly weaker than normal Worm-lites, but can fire at range.<!--Immortal-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="ANUSIYA">
 			<STRING>
-				<BULLET/>Im-mammal Empire unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow, units. Slightly weaker than normal Spine-alanx, but can fire at range.<!--Anusiya-->
+				<BULLET/>Im-mammal Empire unique {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow, units. Slightly weaker than normal Spine-alanx, but can fire at range.<!--Anusiya-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="ATHANATOI">
 			<STRING>
-				<BULLET/>Im-mammal Empire unique {Heavy Infantry}, the Cambrian Explosion #ICON29 - powerful, slow, units. Slightly weaker than normal Venta-pikes, but can fire at range.<!--Athanatoi-->
+				<BULLET/>Im-mammal Empire unique {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow, units. Slightly weaker than normal Venta-pikes, but can fire at range.<!--Athanatoi-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="ARQIMMORTAL">
 			<STRING>
-				<BULLET/>Im-mammal Empire unique {Heavy Infantry}, the Cambrian Explosion #ICON30 - powerful, slow, units. Slightly weaker than normal Elite Pike-erpetons, but can fire at range.<!--Arquebus Immortal-->
+				<BULLET/>Im-mammal Empire unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - powerful, slow, units. Slightly weaker than normal Elite Pike-erpetons, but can fire at range.<!--Arquebus Immortal-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="MARINES">
 			<STRING>
-				<BULLET/>United Bee-states Unique {Gunpowder Infantry}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Marines-->
+				<BULLET/>United Bee-states Unique {Spine-shooters}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Marines-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="MARINERIFLEMEN">
 			<STRING>
-				<BULLET/>United Bee-states Unique {Gunpowder Infantry}, the Jurassic Heights #ICON32 - powerful and accurate foot troops. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Marine Riflemen-->
+				<BULLET/>United Bee-states Unique {Spine-shooters}, the Jurassic Heights #ICON32 - powerful and accurate ground creatures. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Marine Riflemen-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="MARINEINFANTRY">
 			<STRING>
-				<BULLET/>United Bee-states Unique {Modern Infantry}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-firing, foot troops accurate even at long range. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Marine Infantry-->
+				<BULLET/>United Bee-states Unique {Modern Shooters}, the Cretaceous Bloom #ICON33 - fast, powerful, rapid-striking, ground creatures accurate even at long range. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Marine Infantry-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="ASSAULTMARINES">
 			<STRING>
-				<BULLET/>United Bee-states Unique {Modern Infantry}, the Cenozoic Rise #ICON34 - fast, powerful, rapid-firing foot troops. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Assault Marines-->
+				<BULLET/>United Bee-states Unique {Modern Shooters}, the Cenozoic Rise #ICON34 - fast, powerful, rapid-striking ground creatures. Marine Transports are faster and tougher than normal, and Marine units automatically Entrench after 5 seconds of being idle.<!--Assault Marines-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="BRIG">
 			<STRING>
-				<BULLET/>Nether-snaps Unique {Light Ship}, Medieval #ICON29 - fast and lightly armed; useful for scouting and intercepting enemy Transports. Stronger, faster, and tougher than normal Caravels.<!--Brig-->
+				<BULLET/>Nether-snaps Unique {Light Ship}, the Age of Fins #ICON29 - fast and lightly armed; useful for scouting and intercepting enemy Transports. Stronger, faster, and tougher than normal Caravels.<!--Brig-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="FLUYT">
 			<STRING>
-				<BULLET/>Nether-snaps Unique {Light Ships}, the Coal Forest Age #ICON30 - swift and armed with light cannon; excellent for scouting and intercepting enemy Transports. Stronger, faster, and tougher than normal Corvettes.<!--Fluyt-->
+				<BULLET/>Nether-snaps Unique {Light Swimmers}, the Coal Forest Age #ICON30 - swift and armed with sharp teeth; excellent for scouting and intercepting enemy Transports. Stronger, faster, and tougher than normal Anvil Corvettes.<!--Fluyt-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="CLIPPER">
 			<STRING>
-				<BULLET/>Nether-snaps Unique {Light Ships}, the Triassic Dawn #ICON31 - swift and armed with light cannon; excellent for scouting and intercepting enemy Transports. Stronger, faster, and tougher than normal Mixo-sloops.<!--Clipper-->
+				<BULLET/>Nether-snaps Unique {Light Swimmers}, the Triassic Dawn #ICON31 - swift and armed with sharp teeth; excellent for scouting and intercepting enemy Transports. Stronger, faster, and tougher than normal Mixo-sloops.<!--Clipper-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="MERCHANTDUTCH">
@@ -8202,7 +8200,7 @@ foot troops.
 
 
 
-         Deploy an Armed Wormchant next to a rare resource to claim it. Armed Wormchants have limited firepower for protection against raiding, and improve with each Age.
+         Deploy an Armed Wormchant next to a rare resource to claim it. Armed Wormchants have limited bite for protection against raiding, and improve with each Age.
 
 
 
@@ -8217,7 +8215,7 @@ foot troops.
 
 
 
-        Nether-snaps Unique civilian unit. Generate #ICON3 {Shells} by making trade routes between pairs of your Cities. Armed Crawl-avans have limited firepower for protection against raiding, and improve with each Age.
+        Nether-snaps Unique civilian unit. Generate #ICON3 {Shells} by making trade routes between pairs of your Cities. Armed Crawl-avans have limited bite for protection against raiding, and improve with each Age.
 
 
 
@@ -8293,18 +8291,18 @@ foot troops.
 		</ENTRY>
 		<ENTRY name="CONQUISTADOR">
 			<STRING>
-				<BULLET/> Frog-quistadors Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - fast, gunpowder-armed raiders able to fire even while moving; greater attack than other Ranged Cavalry.</STRING>
+				<BULLET/> Frog-quistadors Unique {Ranged Runners}, the Coal Forest Age #ICON30 - fast, spine-shooting raiders able to fire even while moving; greater attack than other Ranged Runners.</STRING>
 		</ENTRY>
 		<ENTRY name="ECONQUISTADOR">
 			<STRING>
-				<BULLET/> Frog-quistadors Unique {Ranged Cavalry}, the Triassic Dawn #ICON31 - fast, gunpowder-armed raiders able to fire even while moving; greater attack than other Ranged Cavalry.</STRING>
+				<BULLET/> Frog-quistadors Unique {Ranged Runners}, the Triassic Dawn #ICON31 - fast, spine-shooting raiders able to fire even while moving; greater attack than other Ranged Runners.</STRING>
 		</ENTRY>
 		<ENTRY name="SUNKAWAKAN">
 			<STRING>
 				<BULLET/>     
 
 
-Terror-tory Unique {Ranged Cavalry}, the Cambrian Explosion #ICON28 - fast raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering (e.g., Spore-ary, Fern-tile Field).
+Terror-tory Unique {Ranged Runners}, the Cambrian Explosion #ICON28 - fast raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering (e.g., Spore-ary, Fern-tile Field).
 
      
             <!--Sunka Wakan-->
@@ -8316,7 +8314,7 @@ Terror-tory Unique {Ranged Cavalry}, the Cambrian Explosion #ICON28 - fast raide
 
 
 
-Terror-tory Unique {Ranged Cavalry}, the Age of Fins #ICON29 - fast raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering (e.g., Spore-ary, Fern-tile Field).
+Terror-tory Unique {Ranged Runners}, the Age of Fins #ICON29 - fast raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering (e.g., Spore-ary, Fern-tile Field).
 
         
             <!--Eagle Feather Horse-->
@@ -8460,7 +8458,7 @@ Use {Sniper} ability to destroy enemy units.
 
 
 
-Terror-tory Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - fast, gunpowder-armed raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering (e.g., Spore-ary, Fern-tile Field).
+Terror-tory Unique {Ranged Runners}, the Coal Forest Age #ICON30 - fast, spine-shooting raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering (e.g., Spore-ary, Fern-tile Field).
 
 
      
@@ -8469,7 +8467,7 @@ Terror-tory Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - fast, gunpowd
 		</ENTRY>
 		<ENTRY name="RIFLEHORSE">
 			<STRING>
-				<BULLET/>Terror-tory Unique {Ranged Cavalry}, the Triassic Dawn #ICON31 - fast, gunpowder-armed raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering.        
+				<BULLET/>Terror-tory Unique {Ranged Runners}, the Triassic Dawn #ICON31 - fast, spine-shooting raiders able to fire even while moving. Receive plunder each time they damage an enemy building used for gathering.        
             <!--Repeating Rifle Horse-->
 			</STRING>
 		</ENTRY>
@@ -8480,7 +8478,7 @@ Terror-tory Unique {Ranged Cavalry}, the Coal Forest Age #ICON30 - fast, gunpowd
 
 
 
-Hiss-roquois League Unique {Heavy Infantry}, the Primordial Age #ICON45 - powerful, slow, units. Faster than normal Worm-lites while in friendly territory.
+Hiss-roquois League Unique {Heavy Brawlers}, the Primordial Age #ICON45 - powerful, slow, units. Faster than normal Worm-lites while in friendly territory.
 
 
 
@@ -8498,7 +8496,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Primordial Age #ICON45 - powerf
 
 
 
-Hiss-roquois League Unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - powerful, slow, units. Faster than normal Spine-alanx while in friendly territory.
+Hiss-roquois League Unique {Heavy Brawlers}, the Cambrian Explosion #ICON28 - powerful, slow, units. Faster than normal Spine-alanx while in friendly territory.
 
 
 
@@ -8516,7 +8514,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Cambrian Explosion #ICON28 - po
 
 
 
-Hiss-roquois League Unique {Heavy Infantry}, the Age of Fins #ICON29 - powerful, slow, units. Faster than normal Venta-pikes while in friendly territory.
+Hiss-roquois League Unique {Heavy Brawlers}, the Age of Fins #ICON29 - powerful, slow, units. Faster than normal Venta-pikes while in friendly territory.
 
 
 
@@ -8534,7 +8532,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Age of Fins #ICON29 - powerful,
 
 
 
-Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - powerful, slow, units. Faster than normal Elite Pike-erpetons while in friendly territory.
+Hiss-roquois League Unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - powerful, slow, units. Faster than normal Elite Pike-erpetons while in friendly territory.
 
 
 
@@ -8546,23 +8544,23 @@ Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - power
 		</ENTRY>
 		<ENTRY name="JUNKERS">
 			<STRING>
-				<BULLET/>         Prussian Unique {Gunpowder Infantry}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing; greater attack than other Gunpowder Infantry.</STRING>
+				<BULLET/>         Scenario Unique {Spine-shooters}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing; greater attack than other Spine-shooters.</STRING>
 		</ENTRY>
 		<ENTRY name="BANDEIRANTES">
 			<STRING>
-				<BULLET/>            Portuguese Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - slow, cloaked, powerful, short-ranged gunpowder units; extremely effective against mounted troops.</STRING>
+				<BULLET/>            Scenario Unique {Heavy Brawlers}, the Coal Forest Age #ICON30 - slow, cloaked, powerful, short-ranged spine-shooters; extremely effective against runners.</STRING>
 		</ENTRY>
 		<ENTRY name="BANDEIRANTESELITE">
 			<STRING>
-				<BULLET/>          Portuguese Unique {Heavy Infantry}, the Triassic Dawn #ICON31 - slow, cloaked, powerful, short-ranged gunpowder units; extremely effective against mounted troops.</STRING>
+				<BULLET/>          Scenario Unique {Heavy Brawlers}, the Triassic Dawn #ICON31 - slow, cloaked, powerful, short-ranged spine-shooters; extremely effective against runners.</STRING>
 		</ENTRY>
 		<ENTRY name="PTBOAT">
 			<STRING>
-				<BULLET/>         {Light Ships}, the Cretaceous Bloom #ICON33 - cheap, swift and able to detect and destroy enemy {Submarines} and transports; also armed with powerful {anti-aircraft} weapons.</STRING>
+				<BULLET/>         {Light Swimmers}, the Cretaceous Bloom #ICON33 - cheap, swift and able to detect and destroy enemy {Submarines} and transports; also armed with powerful {anti-air} weapons.</STRING>
 		</ENTRY>
 		<ENTRY name="HUMVEE">
 			<STRING>
-				<BULLET/>         {Ranged Cavalry}, the Cenozoic Rise #ICON34 - fast, moderately armored vehicles that can fire while moving; better defense than other Ranged Cavalry.</STRING>
+				<BULLET/>         {Ranged Runners}, the Cenozoic Rise #ICON34 - fast, moderately armored beasts that can fire while moving; better defense than other Ranged Runners.</STRING>
 		</ENTRY>
 		<ENTRY name="BARBARIANARCHER">
 			<STRING>
@@ -8571,7 +8569,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - power
 
 
 
-         Barbarian Unique {Foot Archers} - medium-ranged foot Infantry with little armor.
+         Feral Unique {Foot Spitters} - medium-ranged foot creatures with little armor.
 
 
 
@@ -8581,7 +8579,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - power
 		</ENTRY>
 		<ENTRY name="BARBARIANJAVELINEERS">
 			<STRING>
-				<BULLET/>         Barbarian Unique {Light Infantry} - fast, cheap, and short-ranged.</STRING>
+				<BULLET/>         Feral Unique {Light Biters} - fast, cheap, and short-ranged.</STRING>
 		</ENTRY>
 		<ENTRY name="BARBARIANPHALANX">
 			<STRING>
@@ -8590,7 +8588,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - power
 
 
 
-         Barbarian Unique {Heavy Infantry} - powerful, slow, melee units.
+         Feral Unique {Heavy Brawlers} - powerful, slow, melee units.
 
 
 
@@ -8600,15 +8598,15 @@ Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - power
 		</ENTRY>
 		<ENTRY name="ROYALGUARD">
 			<STRING>
-				<BULLET/>         Web-public of France Unique {Gunpowder Infantry}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing; more health and defense than other Gunpowder Infantry.</STRING>
+				<BULLET/>         Web-public of France Unique {Spine-shooters}, the Triassic Dawn #ICON31 - powerful in quantity but somewhat slow-firing; more health and defense than other Spine-shooters.</STRING>
 		</ENTRY>
 		<ENTRY name="GREEKMERCS">
 			<STRING>
-				<BULLET/>         {Heavy Infantry}, the Cambrian Explosion #ICON28 - cheap, slow, melee units.</STRING>
+				<BULLET/>         {Heavy Brawlers}, the Cambrian Explosion #ICON28 - cheap, slow, melee units.</STRING>
 		</ENTRY>
 		<ENTRY name="IRONCLAD">
 			<STRING>
-				<BULLET/>         {Light Ships}, the Triassic Dawn #ICON31 - powerful, swift and armed with light cannon; excellent for scouting and intercepting enemy transports.</STRING>
+				<BULLET/>         {Light Swimmers}, the Triassic Dawn #ICON31 - powerful, swift and armed with sharp teeth; excellent for scouting and intercepting enemy transports.</STRING>
 		</ENTRY>
 		<ENTRY name="TYPHOON">
 			<STRING>
@@ -8618,7 +8616,7 @@ Hiss-roquois League Unique {Heavy Infantry}, the Coal Forest Age #ICON30 - power
 		<ENTRY name="HIND">
 			<STRING>
 				<BULLET/>  
-         {Helicopters}, the Cenozoic Rise #ICON34 - versatile aircraft that can hover in place. Useful for raiding and to hunt subs and tanks.</STRING>
+         {Hoverers}, the Cenozoic Rise #ICON34 - versatile flyers that can hover in place. Useful for raiding and to hunt divers and armorbacks.</STRING>
 		</ENTRY>
 	</UNITS>
 	<SPELLS>
@@ -9249,7 +9247,7 @@ An enemy Informer has infiltrated this unit or building. The enemy can see what 
 		</ENTRY>
 		<ENTRY name="ARMAGEDDONCLOCK">
 			<STRING>
-				<BULLET/>Whenever a nuclear weapon detonates, the Armageddon Clock is lowered.<BULLET/>If the Armageddon Clock reaches zero, the game ends in {Armageddon} with all players defeated.</STRING>
+				<BULLET/>Whenever an Extinction Event strikes, the Armageddon Clock is lowered.<BULLET/>If the Armageddon Clock reaches zero, the game ends in {Armageddon} with all players defeated.</STRING>
 		</ENTRY>
 	</STATS>
 	<CYCLES>
@@ -10096,7 +10094,7 @@ second number (e.g., "+$STRING0") shows how fast you are gathering it.
 
 
 
-         Grub is required to build citizens and cities, for Age advances, #ICON25 Civic research, and many types of unit.
+         Grub is required to build Citi-snails and cities, for Age advances, #ICON25 Civic research, and many types of unit.
 
 
 
@@ -10499,57 +10497,57 @@ You can move the selected units by left-clicking {Move} and then left-clicking a
 		</ENTRY>
 		<ENTRY name="T2">
 			<STRING>
-To gather the #ICON1 {Food} resource, Citizens must build {Farms} near your cities.
-One Citizen can work on each Farm. Since each city can have only five farms, you may need to
-build additional cities to increase your food production.
+To gather the #ICON1 {Grub} resource, Citi-snails must build {Fern-tile Fields} near your cities.
+One Citi-snail can work on each Fern-tile Field. Since each city can have only five Fern-tile Fields, you may need to
+build additional cities to increase your grub production.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T3">
 			<STRING>
-Your {Library} is where your nation conducts research. Select your {Library} to research different technologies--{Military} #ICON24,
+Your {Fossil Record} is where your nation conducts research. Select your {Fossil Record} to research different technologies--{Military} #ICON24,
 {Civics} #ICON25, {Commerce} #ICON26, and {Science} #ICON27. Each technology you research will
 open up new opportunities for your nation. Once you have completed enough research the {Age} #ICON23 button
-will light up, and you will be able to advance to a new Age of history.
+will light up, and you will be able to advance to a new Age of Earth.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T4">
 			<STRING>
-Create additional {Citizens} by selecting your City and clicking the {Create Citizen} button. You can queue up several citizens to be created one at a time. If you
-change your mind, you can cancel unit creation by clicking on the Citizen icon in the queue
+Create additional {Citi-snails} by selecting your City and clicking the {Create Citi-snail} button. You can queue up several Citi-snails to be created one at a time. If you
+change your mind, you can cancel unit creation by clicking on the Citi-snail icon in the queue
 on the right side of the screen.</STRING>
 		</ENTRY>
 		<ENTRY name="T5">
 			<STRING>
-Move your {Scout} into the unexplored (dark) areas of the map to reveal hidden territory. Your scout
-can also explore {Ruins} to gain resource bonuses and discover rare resources such as Silk,
-Wine, and Horses, which Merchants from your Market can claim.
+Move your {Trackworm} into the unexplored (dark) areas of the map to reveal hidden territory. Your Trackworm
+can also explore {Ruins} to gain resource bonuses and discover rare resources such as Spider Silk,
+Fermented Fruit, and Wild Herds, which Milli-peddlers from your Shell Exchange can claim.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T6">
 			<STRING>
-To gather the #ICON2 {Timber} resource, build {Woodcutter's Camps} near forests. The more
-trees near a Woodcutter's Camp, the more citizens will be able to work there (and the faster you will gather Timber). Gathering Timber will never "exhaust" the trees in your forests, but once
-a Woodcutter's Camp is "full" of citizens you will need to build additional Woodcutter's Camps near
-other forests in order to gather Timber faster.
+To gather the #ICON2 {Fernwood} resource, build {Wood-chewer's Camps} near forests. The more
+trees near a Wood-chewer's Camp, the more Citi-snails will be able to work there (and the faster you will gather Fernwood). Gathering Fernwood will never "exhaust" the trees in your forests, but once
+a Wood-chewer's Camp is "full" of Citi-snails you will need to build additional Wood-chewer's Camps near
+other forests in order to gather Fernwood faster.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T7">
 			<STRING>
 Your {Capital} city is the political center of your nation and you must defend it at all costs.
 You can eliminate an enemy nation by conquering and holding its Capital. To increase
-the defenses of your Capital, consider building a Temple, Towers, and Forts. City defense also increases slightly with each additional building constructed.
+the defenses of your Capital, consider building an Amber Shrine, Stroma-towers, and Reef Forts. City defense also increases slightly with each additional building constructed.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T8">
 			<STRING>Your {National Borders} extend out from your cities based on the political strength of your nation.
 You can normally construct new buildings only within your national territory. To increase your national
-territory you must build new {Cities}, {Forts}, and {Temples}. Or, upgrade your nation's political strength
+territory you must build new {Cities}, {Reef Forts}, and {Amber Shrines}. Or, upgrade your nation's political strength
 by researching #ICON25 Civics.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T9">
 			<STRING>
-#ICON25 {Civic} research at the Library allows you to build additional cities; this strengthens your economy and extends your national borders.</STRING>
+#ICON25 {Civic} research at the Fossil Record allows you to build additional cities; this strengthens your economy and extends your national borders.</STRING>
 		</ENTRY>
 		<ENTRY name="T10">
 			<STRING>
@@ -10565,12 +10563,12 @@ concentrating on revealing the unexplored areas of the map and finding Ruins.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T12">
-			<STRING>The #ICON3 {Wealth} resource is gathered by {Caravans} trading between your cities. To trade, you will need to build at least two cities, and
-then create Caravans at the {Market}. Wealth is also gathered by increasing the percentage of the world's territory you control; the more territory you have, the more taxes you receive. {Taxation} can be researched at the {Temple}.</STRING>
+			<STRING>The #ICON3 {Shells} resource is gathered by {Roly-Poly Caravans} trading between your cities. To trade, you will need to build at least two cities, and
+then create Roly-Poly Caravans at the {Shell Exchange}. Shells is also gathered by increasing the percentage of the world's territory you control; the more territory you have, the more taxes you receive. {Tax-onomy} can be researched at the {Amber Shrine}.</STRING>
 		</ENTRY>
 		<ENTRY name="T13">
 			<STRING>
-The level of #ICON24 {Military} technology you research at the Library determines your #ICON20 {Population Limit}, the maximum number of units your nation is allowed to control. If you reach your population limit, perform additional Military research at the Library. Military research also provides access to powerful Siege and Artillery units as well as better defensive fortifications. If you research more Military technology than you actually need for a particular unit or unit upgrade, the cost of the unit or upgrade is significantly reduced.
+The level of #ICON24 {Military} technology you research at the Fossil Record determines your #ICON20 {Population Limit}, the maximum number of units your nation is allowed to control. If you reach your population limit, perform additional Military research at the Fossil Record. Military research also provides access to powerful Siege and Siege Beast units as well as better defensive fortifications. If you research more Military technology than you actually need for a particular unit or unit upgrade, the cost of the unit or upgrade is significantly reduced.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T14">
@@ -10579,8 +10577,8 @@ The level of #ICON24 {Military} technology you research at the Library determine
 		</ENTRY>
 		<ENTRY name="T15">
 			<STRING>
-Create military units to defend your nation against enemies. Your citizens must first build a Barracks. Select a Citizen, click the {Military Buildings}
-button, click {Barracks}, and then click where you want the Barracks to be built.
+Create military units to defend your nation against enemies. Your Citi-snails must first build Burrow-acks. Select a Citi-snail, click the {Military Buildings}
+button, click {Burrow-acks}, and then click where you want the Burrow-acks to be built.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T16">
@@ -10590,15 +10588,15 @@ To see the Objectives and Victory Conditions for the current game at any time, c
 		</ENTRY>
 		<ENTRY name="T17">
 			<STRING>
-Different military units have different strengths and weaknesses. For instance, Heavy Infantry units
-such as Hoplites and Phalanxes are very strong against cavalry and are useful when attacking enemy
-buildings, but are highly vulnerable to attack by Bowmen and Archers. Try to use your units in ways
+Different military units have different strengths and weaknesses. For instance, Heavy Brawlers units
+such as Worm-lites and Spine-alanx are very strong against runners and are useful when attacking enemy
+buildings, but are highly vulnerable to attack by Bow-slugs and Halluci-archers. Try to use your units in ways
 that take advantage of their strengths and minimize their weaknesses.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T18">
 			<STRING>
-To see the combat range of an Archer, a Tower, or another ranged unit or building, select the unit
+To see the combat range of a Halluci-archer, a Stroma-tower, or another ranged unit or building, select the unit
 or building and then position your mouse over the {Range} icon in the lower right area of the screen.
 The combat range will be drawn on the main map.
 </STRING>
@@ -10612,12 +10610,12 @@ To take advantage of different levels of detail, roll your mouse wheel to zoom t
 			<STRING>
 There's a maximum speed you can accumulate any resource no matter how many resource gathering buildings you construct. If one of your resources
 is blinking yellow, it means you are at your #ICON21 {Commerce Limit}. To increase your limit, research
-#ICON26 Commerce technologies at your Library.
+#ICON26 Commerce technologies at your Fossil Record.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T21">
 			<STRING>
-To lower the cost of research and make it faster, research #ICON27 {Science} technology at the Library. Science technology also allows your scouts to see farther and increases the
+To lower the cost of research and make it faster, research #ICON27 {Science} technology at the Fossil Record. Science technology also allows your Trackworms to see farther and increases the
 value of the resource bonuses you gain from Ruins. Most economic upgrades require Science research.
 </STRING>
 		</ENTRY>
@@ -10630,41 +10628,41 @@ attack from the flank than from the rear--the disruption caused to the enemy is 
 		</ENTRY>
 		<ENTRY name="T23">
 			<STRING>
-Once you have researched four Library technologies (in a normal game) you can advance to the next {Age} by
-clicking the #ICON23 {Age Advance} button at the Library. Advancing in Age will allow you to access additional
+Once you have researched four Fossil Record technologies (in a normal game) you can advance to the next {Age} by
+clicking the #ICON23 {Age Advance} button at the Fossil Record. Advancing in Age will allow you to access additional
 units, buildings, and technologies.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T24">
 			<STRING>
-When you have reached at least the #ICON28 Classical Age, you can begin gathering #ICON5 {Metal}, a resource useful
-for building military units. To gather metal, build a {Mine} near a mountain or cliff and assign Citizens to
-work there. The bigger the mountain or cliff, the more Citizens you will be able to assign. To increase your
-Metal gathering, build Mines near additional mountains or cliffs.
+When you have reached at least the #ICON28 Cambrian Explosion, you can begin gathering #ICON5 {Minerals}, a resource useful
+for building military units. To gather Minerals, build a {Geo-dig} near a mountain or cliff and assign Citi-snails to
+work there. The bigger the mountain or cliff, the more Citi-snails you will be able to assign. To increase your
+Minerals gathering, build Geo-digs near additional mountains or cliffs.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T25">
 			<STRING>
-Horsemen, Knights, and other mounted units are built at the {Stable}. To build a {Stable} you must reach the #ICON28 Classical Age and research at least one #ICON24 Military technology at the Library.
+Light Horse-shrimp, Ichthy-knights, and other runners are built at the {Stampede Pen}. To build a {Stampede Pen} you must reach the #ICON28 Cambrian Explosion and research at least one #ICON24 Military technology at the Fossil Record.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T26">
 			<STRING>
-Build a {Granary} in a City to increase the #ICON1 {Food} output of all {Farms} in that city.
+Build a {Spore-ary} in a City to increase the #ICON1 {Grub} output of all {Fern-tile Fields} in that city.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T27">
-			<STRING>Build a {Lumber Mill} in a City to increase the #ICON2 {Timber} output of all {Woodcutter's Camps} in that city.
+			<STRING>Build a {Timber Gnaw-mill} in a City to increase the #ICON2 {Fernwood} output of all {Wood-chewer's Camps} in that city.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T28">
 			<STRING>
-Build a {Smelter} in a City to increase the #ICON5 {Metal} output of all {Mines} in that city.
+Build a {Lava-smelter} in a City to increase the #ICON5 {Minerals} output of all {Geo-digs} in that city.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T29">
 			<STRING>
-To attack enemy buildings such as Towers and Cities, build {Siege} and {Artillery} units at a {Siege Factory}. In order to build a Siege Factory, you must reach the #ICON28 Classical Age and research two #ICON24 Military technologies.
+To attack enemy buildings such as Towers and Cities, build {Siege Beasts} at the {Rockfall Works}. In order to build a Rockfall Works, you must reach the #ICON28 Cambrian Explosion and research two #ICON24 Military technologies.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T30">
@@ -10674,30 +10672,30 @@ Press the SPACEBAR when you receive messages of significant events to center the
 		</ENTRY>
 		<ENTRY name="T31">
 			<STRING>
-Clicking the {Idle Citizen} button (or pressing ".") will check to see if any of your Citizens are idle, and if so will select one of them. Citizens left idle for more than 10 seconds will also look for useful assignments on their own.</STRING>
+Clicking the {Idle Citi-snail} button (or pressing ".") will check to see if any of your Citi-snails are idle, and if so will select one of them. Citi-snails left idle for more than 10 seconds will also look for useful assignments on their own.</STRING>
 		</ENTRY>
 		<ENTRY name="T32">
-			<STRING>Press SHIFT while dragging a box around units to add them to your current selection. Press CTRL while dragging a box around units to select Civilian as well as Military units. Press ALT while dragging to select only non-siege military units. Press CTRL + ALT to select only siege units. Press ALT + SHIFT to select only aircraft. Press CTRL + SHIFT to select only Citizens and Scholars. Press CTRL + ALT + SHIFT to select only Transports.
+			<STRING>Press SHIFT while dragging a box around units to add them to your current selection. Press CTRL while dragging a box around units to select Civilian as well as Military units. Press ALT while dragging to select only non-siege military units. Press CTRL + ALT to select only siege units. Press ALT + SHIFT to select only flyers. Press CTRL + SHIFT to select only Citi-snails and Bookworms. Press CTRL + ALT + SHIFT to select only Transports.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T33">
-			<STRING>Once you have researched two #ICON26 {Commerce} technologies, you can sell excess resources at your Market, or buy needed resources. Prices will fluctuate up and down over the course of the game, so pay attention to the trends and you can maximize the efficiency of your trading.
+			<STRING>Once you have researched two #ICON26 {Commerce} technologies, you can sell excess resources at your Shell Exchange, or buy needed resources. Prices will fluctuate up and down over the course of the game, so pay attention to the trends and you can maximize the efficiency of your trading.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T34">
 			<STRING>To queue several consecutive move orders, press SHIFT while clicking the destinations.
-To tell a Citizen to build a series of buildings, press SHIFT while giving
-build orders. Units will execute each order, one at a time, in the sequence the orders were given. Press ALT instead of SHIFT if you want the Citizen to execute the new order before any previously given orders.
+To tell a Citi-snail to build a series of buildings, press SHIFT while giving
+build orders. Units will execute each order, one at a time, in the sequence the orders were given. Press ALT instead of SHIFT if you want the Citi-snail to execute the new order before any previously given orders.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T35">
-			<STRING>Build a {University} to help you accumulate the #ICON4 {Knowledge} resource, which is useful for purchasing
-research at the Library. Create {Scholars} at your University to increase Knowledge collection.
-The more Scholars you have at your University, the faster you will accumulate Knowledge. Unlike other resources Knowledge can never be bought, sold, or exchanged.</STRING>
+			<STRING>Build a {Paleo-versity} to help you accumulate the #ICON4 {Instinct} resource, which is useful for purchasing
+research at the Fossil Record. Create {Bookworms} at your Paleo-versity to increase Instinct collection.
+The more Bookworms you have at your Paleo-versity, the faster you will accumulate Instinct. Unlike other resources Instinct can never be bought, sold, or exchanged.</STRING>
 		</ENTRY>
 		<ENTRY name="T36">
 			<STRING>
-Logistics, bureaucracy, and food supply have presented significant challenges to nations throughout history.
+Feeding, sheltering, and moving a growing swarm has challenged every lineage through deep time.
 The more you build of a particular type of unit, the more each additional unit will cost and the longer it
 will take to be created.
 </STRING>
@@ -10710,22 +10708,22 @@ the behavior of your units.
 		</ENTRY>
 		<ENTRY name="T38">
 			<STRING>
-Use an {Attack Move} to have your troops move to a location while fighting any enemies they encounter along the way. With your troops selected, click the Attack button (or press A), and then click on a target map location. You can also simply CTRL + right-click on a map location to order an Attack Move.
+Use an {Attack Move} to have your creatures move to a location while fighting any enemies they encounter along the way. With your creatures selected, click the Attack button (or press A), and then click on a target map location. You can also simply CTRL + right-click on a map location to order an Attack Move.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T39">
 			<STRING>
-To take control of the seas, your nation will need a {Dock}. Once you have a Dock and one #ICON27 Science technology, you can transport your ground units overseas--simply order them to move into the ocean,
-and transport ships will automatically appear to pick them up. To land your troops simply move them back
+To take control of the seas, your nation will need a {Tide-dock}. Once you have a Tide-dock and one #ICON27 Science technology, you can transport your ground units overseas--simply order them to move into the ocean,
+and transport ships will automatically appear to pick them up. To land your creatures simply move them back
 onto land. When you have two #ICON26 Commerce
-technologies, you can build Cities and Forts on other continents.
+technologies, you can build Cities and Reef Forts on other continents.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T40">
 			<STRING>
-Heavy ships such as Triremes are useful for achieving naval supremacy and destroying enemy shipping.
-Light ships, such as Dromons, can move quickly to find and destroy enemy transports. In later ages you can build
-Bombardment ships to attack land areas and Fire Ships and Submarines to counterattack against superior enemy
+Heavy swimmers such as Disc Triremes are useful for achieving naval supremacy and destroying enemy shipping.
+Light swimmers, such as Fin-dromons, can move quickly to find and destroy enemy transports. In later ages you can build
+Bombard swimmers to attack land areas and Fireships and Plesio-marines to counterattack against superior enemy
 navies.</STRING>
 		</ENTRY>
 		<ENTRY name="T41">
@@ -10733,16 +10731,16 @@ navies.</STRING>
 		</ENTRY>
 		<ENTRY name="T42">
 			<STRING>
-To overcome an enemy City, you need not raze it to the ground. Instead you may {capture} it by reducing its hit points to zero, eliminating any enemy Towers and Forts nearby, and achieving military superiority (i.e., having the most units, especially infantry units, in the vicinity). Once you have captured a city, a brief period is required to {assimilate} the new City into your nation.
+To overcome an enemy City, you need not raze it to the ground. Instead you may {capture} it by reducing its hit points to zero, eliminating any enemy Stroma-towers and Reef Forts nearby, and achieving military superiority (i.e., having the most units, especially foot units, in the vicinity). Once you have captured a city, a brief period is required to {assimilate} the new City into your nation.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T43">
-			<STRING>Building a {Temple} will increase the defensive strength of your City and will extend your National Borders. Upgrading the power of your religion at the Temple will increase these effects.
+			<STRING>Building a {Amber Shrine} will increase the defensive strength of your City and will extend your National Borders. Upgrading the power of your religion at the Amber Shrine will increase these effects.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T44">
 			<STRING>
-Supply Wagons support your troops, especially when they are in enemy territory. In enemy territory, Artillery and Siege Units reload much more quickly if they are near one of your Supply Wagons. Supply Wagons also protect your nearby troops from most forms of Attrition.
+Horseshoe Supply Wagons support your creatures, especially when they are in enemy territory. In enemy territory, Siege Beasts reload much more quickly if they are near one of your Horseshoe Supply Wagons. Horseshoe Supply Wagons also protect your nearby creatures from most forms of Attrition.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T45">
@@ -10752,29 +10750,29 @@ Position your forces on high ground to gain a combat advantage.
 		</ENTRY>
 		<ENTRY name="T46">
 			<STRING>
-Razing enemy buildings allows you to "plunder" resources. Attacking enemy caravans allows you to steal #ICON3 Wealth.
+Razing enemy buildings allows you to "plunder" resources. Attacking enemy Roly-Poly Caravans allows you to steal #ICON3 Shells.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T47">
 			<STRING>
-{Forts} and {Castles} are strong defensive positions, which also influence National Borders. They can also garrison military units, and can create Generals and Spies.
+{Reef Forts} and {Coral Castles} are strong defensive positions, which also influence National Borders. They can also garrison military units, and can create General Tua-tactics and Chamele-spies.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T48">
 			<STRING>
-Garrisoning military units inside Forts, Castles, Towers, and Cities protects the units from damage and increases the attack value of the building. To garrison military units in a building, select the military units, left-click the {Garrison} button, then left-click the building. Units can also garrison inside of the kind of building that produced them (e.g., Barracks, Dock, Siege Factory). Units garrisoned in buildings are gradually healed or repaired.
+Garrisoning military units inside Reef Forts, Coral Castles, Stroma-towers, and Cities protects the units from damage and increases the attack value of the building. To garrison military units in a building, select the military units, left-click the {Garrison} button, then left-click the building. Units can also garrison inside of the kind of building that produced them (e.g., Burrow-acks, Tide-dock, Rockfall Works). Units garrisoned in buildings are gradually healed or repaired.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T49">
 			<STRING>
-Spies can be used to {Bribe} enemy units to convert to your side. They can also recruit {Informers} among enemy buildings and troops, and employ {Counterintelligence} to destroy enemy Spies and remove enemy Informers.
+Chamele-spies can be used to {Bribe} enemy units to convert to your side. They can also recruit {Informers} among enemy buildings and creatures, and employ {Counterintelligence} to destroy enemy Chamele-spies and remove enemy Informers.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T50">
 			<STRING>
-Generals can enhance the value of their troops in combat. Positioning them near their troops provides an increased combat value. Generals can order a {Forced March} temporarily increasing the speed of all of their
-troops. They can place their forces in {Ambush} hiding their forces from enemy units for a period
-of time. They can {Entrench} infantry to protect them from much enemy fire, and they can create {Decoy} units
+General Tua-tactics can enhance the value of their creatures in combat. Positioning them near their creatures provides an increased combat value. General Tua-tactics can order a {Forced March} temporarily increasing the speed of all of their
+creatures. They can place their forces in {Ambush} hiding their forces from enemy units for a period
+of time. They can {Entrench} ground creatures to protect them from much enemy fire, and they can create {Decoy} units
 to distract and confuse the enemy.
 </STRING>
 		</ENTRY>
@@ -10791,7 +10789,7 @@ To select a previously selected unit and its group, hold down ALT while left-cli
 			<STRING>To remember a camera view, press CTRL+ F1 with no units or buildings selected. Return to that screen view at any time by pressing F1. Different views can be saved by pressing CTRL+F1-F8, and with 0-9.</STRING>
 		</ENTRY>
 		<ENTRY name="T54">
-			<STRING>Press the default hotkey {L} to select one of your Libraries. A quick double-tap will center on the Library, and a triple-tap will zoom. Repeatedly pressing {L} without double-tapping will cycle you through all of your libraries. Other building types have similar keys, such as {U} for University, {N} for Market, and {C} for City.
+			<STRING>Press the default hotkey {L} to select one of your Fossil Records. A quick double-tap will center on the Fossil Record, and a triple-tap will zoom. Repeatedly pressing {L} without double-tapping will cycle you through all of your Fossil Records. Other building types have similar keys, such as {U} for Paleo-versity, {N} for Shell Exchange, and {C} for City.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T55">
@@ -10804,14 +10802,14 @@ To select a previously selected unit and its group, hold down ALT while left-cli
 		</ENTRY>
 		<ENTRY name="T57">
 			<STRING>
-To control the formation of your selected troops, right-click and hold where you want them to go, and then while
+To control the formation of your selected creatures, right-click and hold where you want them to go, and then while
 still holding down the right mouse button left-click to choose a formation. You can also drag while holding down
 the right mouse button to change the facing. Roll the mouse wheel during the process to stretch/compress the
 formation; use the arrow keys to fine tune the position of the formation.
        </STRING>
 		</ENTRY>
 		<ENTRY name="T58">
-			<STRING>You can use the Rally Point button to control where new units from your buildings (e.g., City, Barracks, Stable) go. With the building selected, click the Rally Point button (or press R), then click where you want new troops to go. You can hold down the SHIFT key while placing rally points to place multiple rally points for a single building (units will traverse them in the order you lay them).</STRING>
+			<STRING>You can use the Rally Point button to control where new units from your buildings (e.g., City, Burrow-acks, Stampede Pen) go. With the building selected, click the Rally Point button (or press R), then click where you want new creatures to go. You can hold down the SHIFT key while placing rally points to place multiple rally points for a single building (units will traverse them in the order you lay them).</STRING>
 		</ENTRY>
 		<ENTRY name="T59">
 			<STRING>Set a building's rally point inside a building to have new units garrison inside the building.</STRING>
@@ -10821,22 +10819,22 @@ formation; use the arrow keys to fine tune the position of the formation.
 		</ENTRY>
 		<ENTRY name="T61">
 			<STRING>
-The easiest way to launch planes from an Airbase is to select the base and then {right-click} where you want the planes to go. One plane (if available) will launch each time you right-click. You can also {SHIFT + right-click} to launch all available planes at the same time. With either method, planes will look for appropriate enemy targets to attack near the target location. Other options include {CTRL + right-click} to launch specifically a Bomber and {ALT + right-click} to launch specifically a Fighter; either can be combined with {SHIFT} to launch all of that type of aircraft.
+The easiest way to launch flyers from a Cliff Roost is to select the base and then {right-click} where you want the flyers to go. One flyer (if available) will launch each time you right-click. You can also {SHIFT + right-click} to launch all available flyers at the same time. With either method, flyers will look for appropriate enemy targets to attack near the target location. Other options include {CTRL + right-click} to launch specifically a Bomb-coatlus and {ALT + right-click} to launch specifically a Fight-anodon; either can be combined with {SHIFT} to launch all of that type of flyers.
 
 </STRING>
 		</ENTRY>
 		<ENTRY name="T62">
-			<STRING>Build a missile at a Silo, then launch the missile by selecting the Silo and {right-clicking} the target.
+			<STRING>Build a meteor at an Impact Silo, then launch the meteor by selecting the Impact Silo and {right-clicking} the target.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T63">
 			<STRING>
-If your nation has reached the #ICON34 Information Age and you have researched {all} technologies at the Library,
+If your nation has reached the #ICON34 Cenozoic Rise and you have researched {all} technologies at the Fossil Record,
 you will be able to research powerful {Future Technology}.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T64">
-			<STRING>To build a Wonder of the World, select a Citizen and click the {Wonders} button. Two additional Wonders become available for each Age your nation advances. Once one nation builds a particular Wonder, such as the Pyramids, no other nations may construct that Wonder. Wonders provide special unique powers to your nation, and in some
+			<STRING>To build a Wonder of the World, select a Citi-snail and click the {Wonders} button. Two additional Wonders become available for each Age your nation advances. Once one nation builds a particular Wonder, such as the Great Stroma-mids, no other nations may construct that Wonder. Wonders provide special unique powers to your nation, and in some
 games, help you achieve a {Wonder Victory}.
 </STRING>
 		</ENTRY>
@@ -10849,23 +10847,23 @@ with other nations.
 		</ENTRY>
 		<ENTRY name="T66">
 			<STRING>
-When an unfinished building (or a building under repair) is attacked by ground units, any Citizens working
+When an unfinished building (or a building under repair) is attacked by ground units, any Citi-snails working
 on that building are damaged as well and will flee from the building.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T67">
 			<STRING>
-Some buildings provide a special bonus when constructed. For instance, building a new Market provides a one-time #ICON3 Wealth bonus. Similarly, when the Mongols build a new Stable they gain free Ranged Cavalry units. However, these bonuses accrue only when the new building increases the nation's all time high total of that building--so if the Market (or Stable, etc) replaces one which was destroyed or voluntarily razed, no bonus applies.</STRING>
+Some buildings provide a special bonus when constructed. For instance, building a new Shell Exchange provides a one-time #ICON3 Shells bonus. Similarly, when the Veloci-Horde builds a new Stampede Pen they gain free Ranged Runners units. However, these bonuses accrue only when the new building increases the nation's all time high total of that building--so if the Shell Exchange (or Stampede Pen, etc) replaces one which was destroyed or voluntarily razed, no bonus applies.</STRING>
 		</ENTRY>
 		<ENTRY name="T68">
 			<STRING>
-You cannot see #ICON6 {Oil} fields until your nation reaches the #ICON32 Industrial Age. Once you find Oil fields, you can
-build {Oil Wells} either on land or at sea. Build {Refineries} to increase Oil Well output throughout your
+You cannot see #ICON6 {Oil} fields until your nation reaches the #ICON32 Jurassic Heights. Once you find Oil fields, you can
+build {Tar Pits} either on land or at sea. Build {Bog-fineries} to increase Tar Pit output throughout your
 nation.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T69">
-			<STRING>To select all units (or buildings) anywhere on the map that match the type currently selected, press HOME. For example, if you have selected a Citizen, pressing HOME will select all Citizens anywhere in the game.
+			<STRING>To select all units (or buildings) anywhere on the map that match the type currently selected, press HOME. For example, if you have selected a Citi-snail, pressing HOME will select all Citi-snails anywhere in the game.
 </STRING>
 		</ENTRY>
 		<ENTRY name="T70">
@@ -10882,17 +10880,17 @@ To cycle through all of your buildings that have new research available, press {
 </STRING>
 		</ENTRY>
 		<ENTRY name="T73">
-			<STRING>[Thrones and Patriots] Senates are new buildings in Rise of Nations: Thrones and Patriots. They can be constructed after you reach the Classical Age. Senates perform three major functions:  <BULLET/> The City where you build your Senate becomes your Capital. <BULLET/> At the Senate you can research Governments that provide additional benefits to your nation. <BULLET/> When you research a Government, you receive a Patriot unit to assist you in battle.</STRING>
+			<STRING>[Thrones and Patriots] Herd Senates can be built once you reach the Cambrian Explosion. Herd Senates perform three major functions:  <BULLET/> The City where you build your Herd Senate becomes your Capital. <BULLET/> At the Herd Senate you can research Governments that provide additional benefits to your nation. <BULLET/> When you research a Government, you receive a Patriot unit to assist you in battle.</STRING>
 		</ENTRY>
 		<ENTRY name="T74">
-			<STRING>[Thrones and Patriots] Patriots are special Generals that are automatically created at the Senate when you have researched a Government. Each new Government you research will generate a different Patriot, each with specific powers. Some of the powers include healing nearby units, decreasing the time needed to assimilate an enemy City, decreasing the build time of your buildings nearby, and other effects.</STRING>
+			<STRING>[Thrones and Patriots] Patriots are special leaders that are automatically created at the Herd Senate when you have researched a Government. Each new Government you research will generate a different Patriot, each with specific powers. Some of the powers include healing nearby units, decreasing the time needed to assimilate an enemy City, decreasing the build time of your buildings nearby, and other effects.</STRING>
 		</ENTRY>
 		<ENTRY name="T75">
-			<STRING>[Thrones and Patriots] If your Patriot is killed in battle, another Patriot will come to your aid from the Senate. If your Capital is captured when your Patriot dies, he will reappear in a nearby city.</STRING>
+			<STRING>[Thrones and Patriots] If your Patriot is killed in battle, another Patriot will come to your aid from the Herd Senate. If your Capital is captured when your Patriot dies, he will reappear in a nearby city.</STRING>
 		</ENTRY>
 		<ENTRY name="T76">
 			<STRING>[Thrones and Patriots] Can't find your Patriot? There's a new "Find Patriot" button below the "Find Military" button to the left of the minimap. Pressing
-it once will find your Patriot; each subsequent press will find other Generals under your control.</STRING>
+it once will find your Patriot; each subsequent press will find other leaders under your control.</STRING>
 		</ENTRY>
 	</TIPS>
 	<TOPMENU>
@@ -13100,31 +13098,31 @@ Any players you've set to receive "chat" will receive the signal (e.g., in a tea
 	<ACHIEVECHART>
 		<SPOT>
 			<ENTRY name="CLASSICAL_AGE">
-				<STRING>The game time at which a nation reached the Classical Age.</STRING>
+				<STRING>The game time at which a nation reached the Cambrian Explosion.</STRING>
 			</ENTRY>
 			<ENTRY name="MEDIEVAL_AGE">
-				<STRING>The game time at which a nation reached the Medieval Age.</STRING>
+				<STRING>The game time at which a nation reached the Age of Fins.</STRING>
 			</ENTRY>
 			<ENTRY name="GUNPOWDER_AGE">
-				<STRING>The game time at which a nation reached the Gunpowder Age.</STRING>
+				<STRING>The game time at which a nation reached the Coal Forest Age.</STRING>
 			</ENTRY>
 			<ENTRY name="ENLIGHTENMENT_AGE">
-				<STRING>The game time at which a nation reached the Enlightenment Age.</STRING>
+				<STRING>The game time at which a nation reached the Triassic Dawn.</STRING>
 			</ENTRY>
 			<ENTRY name="INDUSTRIAL_AGE">
-				<STRING>The game time at which a nation reached the Industrial Age.</STRING>
+				<STRING>The game time at which a nation reached the Jurassic Heights.</STRING>
 			</ENTRY>
 			<ENTRY name="MODERN_AGE">
-				<STRING>The game time at which a nation reached the Modern Age.</STRING>
+				<STRING>The game time at which a nation reached the Cretaceous Bloom.</STRING>
 			</ENTRY>
 			<ENTRY name="INFORMATION_AGE">
-				<STRING>The game time at which a nation reached the Information Age.</STRING>
+				<STRING>The game time at which a nation reached the Cenozoic Rise.</STRING>
 			</ENTRY>
 			<ENTRY name="LIBRARY_RESEARCH">
-				<STRING>The total amount of Library research other than age advances conducted by a nation.</STRING>
+				<STRING>The total amount of Fossil Record research other than age advances conducted by a nation.</STRING>
 			</ENTRY>
 			<ENTRY name="MISC_RESEARCH">
-				<STRING>The total amount of non-Library research conducted by a nation.</STRING>
+				<STRING>The total amount of non-Fossil Record research conducted by a nation.</STRING>
 			</ENTRY>
 			<ENTRY name="UNIT_UPGRADES">
 				<STRING>The total number of unit upgrades researched by a nation.</STRING>
@@ -14064,10 +14062,10 @@ Any players you've set to receive "chat" will receive the signal (e.g., in a tea
 					<STRING>{Military Standard}: Select this option to play with Military game rules. You win by conquering your opponents or controlling 80% of the world's territory. No Wonder victory is permitted.</STRING>
 				</ENTRY>
 				<ENTRY name="GAME_RULES3">
-					<STRING>{Deathmatch}: Select this option to play in a Deathmatch. Players begin in the Ancient Age with a massive supply of each resource.</STRING>
+					<STRING>{Deathmatch}: Select this option to play in a Deathmatch. Players begin in the Primordial Age with a massive supply of each resource.</STRING>
 				</ENTRY>
 				<ENTRY name="GAME_RULES4">
-					<STRING>{Info Age Deathmatch}: Select this option to play in an Information Age Deathmatch. Players begin with all standard technologies researched and a massive supply of each resource. No nuclear weapons or future technologies are allowed.</STRING>
+					<STRING>{Info Age Deathmatch}: Select this option to play in a Cenozoic Rise Deathmatch. Players begin with all standard technologies researched and a massive supply of each resource. No Extinction Events or future technologies are allowed.</STRING>
 				</ENTRY>
 				<ENTRY name="GAME_RULES5">
 					<STRING>{No Rush}: Select this option to play in a No Rush game. Standard rules are used but players begin at peace and cannot attack one another until someone reaches the Gunpowder Age.</STRING>

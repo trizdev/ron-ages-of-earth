@@ -1,0 +1,12 @@
+# Keep game files byte-exact (CRLF XML, binary art). No line-ending conversion.
+*.xml -text
+*.9 -text
+*.csv -text
+*.[bB][hH]3 binary
+*.[bB][hH][aA] binary
+*.tga binary
+*.TGA binary
+*.png binary
+*.jpg binary
+*.glb binary
+*.blend binary
